@@ -13,4 +13,4 @@ The main characteristic of Airflow workflows is that all workflows are defined i
     
 - **Flexible**: Workflow parameterization is built-in leveraging the [Jinja](https://jinja.palletsprojects.com/) templating engine.
 
-![[content/Big Data/01 Data Integration/airfolw.png]]
+![[Apache Airflow.png]]

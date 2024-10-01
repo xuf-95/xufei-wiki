@@ -21,4 +21,5 @@ tags:
 - Guaranteed message delivery with [persistent message storage](https://pulsar.apache.org/docs/3.3.x/concepts-architecture-overview/#persistent-storage) provided by [Apache BookKeeper](http://bookkeeper.apache.org/). A serverless lightweight computing framework [Pulsar Functions](https://pulsar.apache.org/docs/3.3.x/functions-overview/) offers the capability for stream-native data processing.
 - A serverless connector framework [Pulsar IO](https://pulsar.apache.org/docs/3.3.x/io-overview/), which is built on Pulsar Functions, makes it easier to move data in and out of Apache Pulsar.
 - [Tiered Storage](https://pulsar.apache.org/docs/3.3.x/tiered-storage-overview/) offloads data from hot/warm storage to cold/long-term storage (such as S3 and GCS) when the data is aging out.
+
 ![[Apache Pulsar Architecture.png]]

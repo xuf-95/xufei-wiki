@@ -6,11 +6,10 @@ tags:
 ---
 
 
-# Welcome to My Second Brain
-
-This is the home page for my second brain, powered by Quartz.
+# Welcome to My Bigdata Wiki
 
 My Bigdata Valut: [[001 Big Data Wiki]]  
+
 
 ### Bigdata Map Of Content 
 
@@ -42,4 +41,8 @@ My Bigdata Valut: [[001 Big Data Wiki]]
 ### Projects
 
 - [[Bigdata OpenSource Projects]]
-- 
+
+
+---------
+
+This is the home page for my bigdata wiki, Powered By **Quartz**.
