@@ -76,5 +76,6 @@ ABC Corporation implemented a data warehouse to centralize its sales and custome
 A: A data warehouse stores structured, processed data optimized for querying and reporting, while a data lake stores raw, unprocessed data in a variety of formats.
 
 **Q: What is ETL in the context of data warehousing?**  
-A: ETL stands for Extract, Transform, Load – the process used to extract data from various sources, transform it into a usable format, and​⬤
+A: ETL stands for Extract, Transform, Load – the process used to extract data from various sources, transform it into a usable format, and​
+
 

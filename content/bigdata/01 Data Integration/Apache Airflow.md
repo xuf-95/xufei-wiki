@@ -1,6 +1,18 @@
+---
+title: Apache Airflow
+tags:
+  - data-integration
+  - apache
+date: 2023-07-06
+---
+
+
 
 #### What is Airflow?
-Airflow is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. Airflow’s extensible Python framework enables you to build workflows connecting with virtually any technology. A web interface helps manage the state of your workflows. Airflow is deployable in many ways, varying from a single process on your laptop to a distributed setup to support even the biggest workflows.
+
+
+
+> Airflow is an open-source platform for **developing**, **scheduling**, and **monitoring batch-oriented workflows**. Airflow’s extensible Python framework enables you to build workflows connecting with virtually any technology. A web interface helps manage the state of your workflows. Airflow is deployable in many ways, varying from a single process on your laptop to a distributed setup to support even the biggest workflows.
 
 
 #### Workflows as code?
@@ -14,3 +26,11 @@ The main characteristic of Airflow workflows is that all workflows are defined i
 - **Flexible**: Workflow parameterization is built-in leveraging the [Jinja](https://jinja.palletsprojects.com/) templating engine.
 
 ![[Apache Airflow.png]]
+
+
+
+### Refer 
+
+- [quick start](https://airflow.apache.org/docs/apache-airflow/stable/start.html) documents
+- 
+- 
