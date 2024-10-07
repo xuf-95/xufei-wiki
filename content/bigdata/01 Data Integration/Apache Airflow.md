@@ -3,9 +3,10 @@ title: Apache Airflow
 tags:
   - data-integration
   - apache
+  - pipeline
+  - etl
 date: 2023-07-06
 ---
-
 
 
 #### What is Airflow?
@@ -29,8 +30,6 @@ The main characteristic of Airflow workflows is that all workflows are defined i
 
 
 
-### Refer 
+### Resource
 
 - [quick start](https://airflow.apache.org/docs/apache-airflow/stable/start.html) documents
-- 
-- 
