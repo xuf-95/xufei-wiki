@@ -20,4 +20,4 @@ Apache InLong 服务于数据采集到落地的整个生命周期，按数据的
 - **inlong-dashboard**，用于管理数据集成任务的前端页面，简化整个 InLong 管控平台的使用。
 - **inlong-audit**，对 InLong 系统的 Agent、DataProxy、Sort 模块的入流量、出流量进行实时审计对账。
 
-![Airflow](content/Big%20Data/01%20Data%20Integration/airfolw.png)
+

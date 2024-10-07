@@ -11,7 +11,6 @@ date: 2022-06-18
 - [[Data Governance]] 数据治理、数据资产管理
 - [[Data Visual]] 数据可视化、BI分析
 - [[Data Lifecycle]] 数据生存周期
-- 
 
 
 ### Resource 
@@ -23,6 +22,7 @@ date: 2022-06-18
 - [[Bigdata Engineer]] 大数据生态重要人员、CDO、领导者、开发者等等
 - [[Bigdata Product & Tools]] 大数据产品、组件、云服务等等
 - [[Data Market]] 数据服务交易市场、数据资产交易等等
+
 ### Projects
 
 - [[Bigdata OpenSource Projects]]
