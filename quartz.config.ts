@@ -39,15 +39,20 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "##FF4500",
-          tertiary: "#84a59d",
-          highlight: "rgba(255, 140, 0, 0.15)",
-          textHighlight: "#f26522"
+          background: "#0D0D0D",       // 深黑色背景，确保整体风格沉稳
+          light: "#1C1C1C",            // 较浅的黑色，用于局部卡片或面板背景
+          lightgray: "#2E2E2E",         // 深灰色，适合边框或分隔线
+          gray: "#5C5C5C",              // 灰色，用于次要文本或说明信息
+          darkgray: "#CCCCCC",          // 浅灰色，作为次要文本或标题颜色
+          primaryText: "#F5F5F5",       // 接近白色的浅色，确保主文本清晰可读
+          secondaryText: "#FFD700",     // 金黄色，用于强调文字或链接高亮
+          accent: "#FF8C00",            // 深橙色，作为主要强调色，用于按钮、CTA
+          highlight: "rgba(255, 165, 0, 0.2)",  // 带透明度的橙色，用于背景高亮或选中状态
+          highlightText: "#FFA500",     // 亮橙色，用于文字高亮或特别重要的信息
+          warning: "#FFCC00",           // 明黄色，用于警告或提示信息
+          success: "#32CD32",           // 亮绿色，代表成功操作
+          error: "#FF4500",             // 红橙色，用于错误提示信息
+          link: "#FFA07A",              // 浅橙色，用作链接颜色，轻松吸引眼球
         },
         // darkMode: {
         //   light: "#161618",
