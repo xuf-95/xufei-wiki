@@ -28,32 +28,38 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f9f9f9",          // 柔和的白色，作为主背景色，保持简洁大气
+          lightgray: "#e0e0e0",      // 浅灰色，用于卡片、面板或边界区域的背景
+          gray: "#a5a5a5",           // 中灰色，适合作为次要文本、图标或边框
+          darkgray: "#5f5f5f",       // 深灰色，用于次要文本或图标的颜色，增强可读性
+          dark: "#1e1e1e",           // 深黑灰色，适合作为主文本颜色，提供强烈对比度
+          secondary: "#FF7F50",      // 珊瑚橙，作为次要高亮色，与黑色模式中的橙色调和谐
+          tertiary: "#FFD700",       // 金黄色，保持与黑色模式一致，用于次要按钮或装饰元素
+          highlight: "rgba(255, 165, 0, 0.15)",  // 透明橙黄色高亮，与深色模式一致，用于背景或高亮提示框
+          textHighlight: "#FFA500",  // 明亮橙黄色高亮文本颜色，与黑色背景中的文本高亮相协调
         },
         darkMode: {
-          background: "#0D0D0D",       // 深黑色背景，确保整体风格沉稳
-          light: "#1C1C1C",            // 较浅的黑色，用于局部卡片或面板背景
-          lightgray: "#2E2E2E",         // 深灰色，适合边框或分隔线
-          gray: "#5C5C5C",              // 灰色，用于次要文本或说明信息
-          darkgray: "#CCCCCC",          // 浅灰色，作为次要文本或标题颜色
-          primaryText: "#F5F5F5",       // 接近白色的浅色，确保主文本清晰可读
-          secondaryText: "#FFD700",     // 金黄色，用于强调文字或链接高亮
-          accent: "#FF8C00",            // 深橙色，作为主要强调色，用于按钮、CTA
-          highlight: "rgba(255, 165, 0, 0.2)",  // 带透明度的橙色，用于背景高亮或选中状态
-          highlightText: "#FFA500",     // 亮橙色，用于文字高亮或特别重要的信息
-          warning: "#FFCC00",           // 明黄色，用于警告或提示信息
-          success: "#32CD32",           // 亮绿色，代表成功操作
-          error: "#FF4500",             // 红橙色，用于错误提示信息
-          link: "#FFA07A",              // 浅橙色，用作链接颜色，轻松吸引眼球
+          light: "#0f0f10",          // 比较深的黑色，减少纯黑的硬度，适合作为主背景色
+          lightgray: "#2c2c2e",      // 深灰色，适合卡片背景或分割区域
+          gray: "#5a5a5c",           // 中灰色，适合边框、次要文本或图标
+          darkgray: "#c8c8ca",       // 亮灰色，适合作为次要文本、提示信息
+          dark: "#f0f0f1",           // 非常浅的灰色接近白色，作为主要文本颜色，提高可读性
+          secondary: "#FFA500",      // 橙黄色，作为高亮色，用于CTA按钮、链接或重要提示信息
+          tertiary: "#FFD700",       // 金黄色，作为次级强调色，用于装饰元素或高优先级提示
+          highlight: "rgba(255, 165, 0, 0.15)", // 透明橙黄色，用于背景高亮，突出某些选中状态
+          textHighlight: "#FFB347"   // 柔和的黄橙色，用于文本高亮，增强视觉引导效果
         },
+        // lightMode: {
+        //   light: "#faf8f8",
+        //   lightgray: "#e5e5e5",
+        //   gray: "#b8b8b8",
+        //   darkgray: "#4e4e4e",
+        //   dark: "#2b2b2b",
+        //   secondary: "#284b63",
+        //   tertiary: "#84a59d",
+        //   highlight: "rgba(143, 159, 169, 0.15)",
+        //   textHighlight: "#fff23688",
+        // },
         // darkMode: {
         //   light: "#161618",
         //   lightgray: "#393639",
