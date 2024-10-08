@@ -1,5 +1,5 @@
 ---
-title: Welcome to XuFei Wiki
+title: Welcome to My Wiki
 tags:
   - home
   - Wiki
