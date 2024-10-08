@@ -4,7 +4,8 @@ title: Bigdata Paper
 ### 2015 - 2016
 
 - [One Trillion Edges: Graph Processing at Facebook-Scale](http://www.vldb.org/pvldb/vol8/p1804-ching.pdf) By **Facebook** 2015 
-	- ![[Pasted image 20240918151355.png]]
+- [Drizzle: Fast and Adaptable Stream Processing at Scale](http://shivaram.org/drafts/drizzle.pdf)
+- [Realtime Data Processing at Facebook](https://research.fb.com/wp-content/uploads/2016/11/realtime_data_processing_at_facebook.pdf) (SIGMOD): Facebook 明确自己实时的使用场景是 seconds of latency, not milliseconds
 
 ### 2013 - 2014
 
@@ -53,3 +54,9 @@ title: Bigdata Paper
 - [2006](http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en//archive/bigtable-osdi06.pdf) - **Google** - Bigtable: A Distributed Storage System for Structured Data.
 - [2004](http://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf) - **Google** - MapReduce: Simplied Data Processing on Large Clusters.
 - [2003](http://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf) - **Google** - The Google File System.
+
+
+## Resource
+
+- https://github.com/lw-lin/streaming-readings?tab=readme-ov-file
+- 
