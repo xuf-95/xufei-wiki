@@ -156,3 +156,11 @@ SparkStreaming是以某一时间间隔的批量处理，它的实时性就比较
 ##### 输出（Output Operation）
 
 它会触发任务的真正运行，类似于RDD中action操作
+
+
+
+
+### Resource 
+
+- [erryLead/SparkInternals](https://github.com/JerryLead/SparkInternals/tree/master)
+- 

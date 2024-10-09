@@ -5,6 +5,11 @@ tags:
   - test
 ---
 
+
+```ad-tip title: This is a tip This is the content of the admonition tip. ```
+
+
+
 # Description
 Want to see what Quartz can do? Here are some cool community gardens:
 
