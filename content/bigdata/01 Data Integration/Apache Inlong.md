@@ -2,13 +2,23 @@
 title: Apache InLong
 tags:
   - data-integration
+  - apache
+draft: 
+date: 2023-08-18
+aliases:
+  - TubeMQ
 ---
+## Apache Inlong 概述
 
-[Apache InLong（应龙）](https://inlong.apache.org/)是一站式、全场景的海量数据集成框架，同时支持数据接入、数据同步和数据订阅，提供自动、安全、可靠和高性能的数据传输能力，方便业务构建基于流式的数据分析、建模和应用。 InLong 项目原名 TubeMQ ，专注于高性能、低成本的消息队列服务。为了进一步释放 TubeMQ 周边的生态能力，我们将项目升级为 InLong，专注打造一站式、全场景海量数据集成框架。 Apache InLong 依托 10 万亿级别的数据接入和处理能力，整合了数据采集、汇聚、存储、分拣数据处理全流程，拥有简单易用、灵活扩展、稳定可靠等特性。 该项目最初于 2019 年 11 月由腾讯大数据团队捐献到 Apache 孵化器，2022 年 6 月正式毕业成为 Apache 顶级项目。目前 InLong 正广泛应用于广告、支付、社交、游戏、人工智能等各个行业领域，为多领域客户提供高效化便捷化服务。
+> [Apache InLong（应龙）](https://inlong.apache.org/)是一站式、全场景的海量数据集成框架，同时支持数据接入、数据同步和数据订阅，提供自动、安全、可靠和高性能的数据传输能力，方便业务构建基于流式的数据分析、建模和应用
+
+InLong 项目原名 TubeMQ ，专注于高性能、低成本的消息队列服务。为了进一步释放 TubeMQ 周边的生态能力，我们将项目升级为 InLong，专注打造一站式、全场景海量数据集成框架。 Apache InLong 依托 10 万亿级别的数据接入和处理能力，整合了数据采集、汇聚、存储、分拣数据处理全流程，拥有简单易用、灵活扩展、稳定可靠等特性。 
+
+- 2019 年 11 月由腾讯大数据团队捐献到 Apache 孵化器
+- 2022 年 6 月正式毕业成为 Apache 顶级项目
+- 目前 InLong 正广泛应用于广告、支付、社交、游戏、人工智能等各个行业领域，为多领域客户提供高效化便捷化服务。
 
 ### Architecture
-
-## 模块[​](https://inlong.apache.org/zh-CN/docs/introduction/#%E6%A8%A1%E5%9D%97 "Direct link to heading")
 
 Apache InLong 服务于数据采集到落地的整个生命周期，按数据的不同阶段提供不同的处理模块，主要包括：
 
@@ -21,3 +31,13 @@ Apache InLong 服务于数据采集到落地的整个生命周期，按数据的
 - **inlong-audit**，对 InLong 系统的 Agent、DataProxy、Sort 模块的入流量、出流量进行实时审计对账。
 
 
+
+
+---
+## Referance
+
+- [简介 | Apache InLong](https://inlong.apache.org/zh-CN/docs/introduction/#%E6%A8%A1%E5%9D%97)
+- [Blog | Apache InLong](https://inlong.apache.org/zh-CN/blog)
+- [Downloads | Apache InLong](https://inlong.apache.org/zh-CN/downloads)
+- [GitHub - apache/inlong: Apache InLong - a one-stop, full-scenario integration framework for massive data](https://github.com/apache/inlong)
+- 

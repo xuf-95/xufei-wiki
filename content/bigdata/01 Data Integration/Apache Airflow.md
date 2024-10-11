@@ -6,7 +6,8 @@ tags:
   - pipeline
   - etl
 date: 2023-07-06
-aliases:
+aliases: 
+draft:
 ---
 
 ##  Airflow 概述
@@ -50,6 +51,7 @@ with DAG(dag_id="demo", start_date=datetime(2022, 1, 1), schedule="0 0 * * *") a
 
 ![[Apache Airflow.png]]
 
+---
 ## 架构概述
 
 #### 必须组件
@@ -80,7 +82,7 @@ with DAG(dag_id="demo", start_date=datetime(2022, 1, 1), schedule="0 0 * * *") a
 ![[airflow 独立DAG.png]]
 
 
-## DAGs 有向无环图
+### DAGs 有向无环图
 
 _DAG_ （有向无环图）是 Airflow 的核心概念，它将[任务](https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/tasks.html)收集在一起，通过依赖关系和关系进行组织来说明它们应该如何运行。
 
@@ -101,7 +103,8 @@ _DAG_ （有向无环图）是 Airflow 的核心概念，它将[任务](https:/
  ):
      EmptyOperator(task_id="task")
 ```
-### Resource
+---
+## Referance
 
 - [Documents & quick start](https://airflow.apache.org/docs/apache-airflow/stable/start.html) documents
 - [Blogs](https://airflow.apache.org/blog/)

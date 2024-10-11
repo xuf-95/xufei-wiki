@@ -3,6 +3,9 @@ title: Apache Flume
 tags:
   - data-integration
   - flume
+  - apache
+date: 2023-09-15
+draft: true
 ---
 ## Flume 概述
 

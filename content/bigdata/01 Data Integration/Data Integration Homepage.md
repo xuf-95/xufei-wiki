@@ -1,11 +1,14 @@
 ---
-title: Data Integration Homepage
+title: 01 Data Integration Homepage
 tags:
   - bigdata
   - Sync
   - home
 draft: 
-date:
+date: 2022-01-11
+aliases:
+  - 数据集成
+  - 数据同步
 ---
 
 ### 数据集成概述

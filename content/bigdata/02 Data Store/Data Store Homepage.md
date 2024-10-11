@@ -1,9 +1,15 @@
 ---
-title: Data Store Homepage
+title: 01 Data Store Homepage
 tags:
   - store
   - database
   - home
+draft: 
+date: 2023-02-11
+aliases:
+  - 数据存储
+  - 数据库
+  - DB
 ---
 ## 数据存储分类
 
