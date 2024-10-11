@@ -2,11 +2,14 @@ import { link } from "node:fs"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    TagContent(),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/xuf-95",
@@ -22,7 +25,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    // Component.DesktopOnly(Component.TableOfContents()), 
   ],
   left: [
     Component.PageTitle(),
@@ -50,3 +52,5 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [],
 }
+
+

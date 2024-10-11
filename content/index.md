@@ -16,7 +16,7 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 - [[Data Store Homepage]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
 - [[Data Center]] 数据中台、数据一站式平台、IDE
 - [[Data Compute Homepage]] 数据计算引擎、数据计算架构、数据开发、数据清洗
-- [[Data Governance]] 数据治理、数据资产管理
+- [[content/resource/Concepts/Data Governance]] 数据治理、数据资产管理
 - [[Data Visual]] 数据可视化、BI分析
 - [[Data Lifecycle]] 数据生存周期
 
