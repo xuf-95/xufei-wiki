@@ -1,5 +1,10 @@
 ---
 title: PostgreSQL
+tags:
+  - bigdata
+  - Databases
+draft: true
+date: 2023-07-11
 ---
 
 - PostgreSQL是一个功能强大的开源数据库系统

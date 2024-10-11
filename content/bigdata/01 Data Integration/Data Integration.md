@@ -1,8 +1,11 @@
 ---
-title: Data Integration
+title: Data Integration Homepage
 tags:
   - bigdata
   - Sync
+  - home
+draft: 
+date:
 ---
 
 ### 数据集成概述

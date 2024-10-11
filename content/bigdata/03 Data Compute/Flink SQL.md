@@ -6,6 +6,8 @@ tags:
   - flink
   - sql
   - demo
+date: 2024-02-11
+draft: true
 ---
 # Flink Table API & SQL
 

@@ -2,6 +2,7 @@
 title: Apache Nifi
 tags:
   - data-integration
+draft: true
 ---
 
 

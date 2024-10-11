@@ -4,7 +4,9 @@ tags:
   - bigdata
   - datastore
   - flink
+  - apache
 date: 2023-06-07
+draft:
 ---
 
 ## 简介
@@ -402,3 +404,9 @@ Pattern API # 处理事件的规则，被叫做“模式” Pattern
 ![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406173023769.png)
 ![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406202605911.png)
 
+
+
+## Refer
+
+- [本地模式安装 | Apache Flink](https://nightlies.apache.org/flink/flink-docs-master/zh/docs/try-flink/local_installation/)
+- [Apache Flink Documentation | Apache Flink](https://flink.apache.org/zh/)
