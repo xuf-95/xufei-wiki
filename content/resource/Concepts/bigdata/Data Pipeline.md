@@ -25,7 +25,7 @@ Business logic is a general term that encompasses the type of transformations th
 
 ### Data Destination or Data Target
 
-Typically, the target where you send your data is another database. Common data targets are databases or data storage areas that are made for analytics. For example, a [[content/resource/Concepts/Data Warehouse|data warehouse]] or [[content/resource/Concepts/Data Lake|data lake]].
+Typically, the target where you send your data is another database. Common data targets are databases or data storage areas that are made for analytics. For example, a [[content/resource/Concepts/bigdata/Data Warehouse|data warehouse]] or [[content/resource/Concepts/bigdata/Data Lake|data lake]].
 
 ### Scheduler or Orchestration Tool
 
@@ -39,7 +39,7 @@ If a business sold software as a service, a Data Engineer might create a data pi
 
 ### Change Data Capture (CDC) Pipeline Example
 
-This is a very commonly created type of data pipeline. You can use a [[Change Data Capture|CDC]] pipeline to replicate changes (inserted, updated, and deleted data) from a source database (typically a db backing an application) and into a destination for analytics such as a data warehouse or data lake.
+This is a very commonly created type of data pipeline. You can use a [[CDC - Change Data Capture|CDC]] pipeline to replicate changes (inserted, updated, and deleted data) from a source database (typically a db backing an application) and into a destination for analytics such as a data warehouse or data lake.
 
 ```mermaid
 %%{init: { "flowchart": { "useMaxWidth": true } } }%%

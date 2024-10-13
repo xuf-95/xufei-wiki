@@ -23,7 +23,7 @@ draft:
 > 
 >
 >- [[Data Architecture]]
->- [[content/resource/Concepts/Data Lake]]
+>- [[content/resource/Concepts/bigdata/Data Lake]]
 
 
 > [!info]- ## Database Concepts
@@ -45,7 +45,7 @@ draft:
 > [!info]- ## Data Pipeline Concepts
 >
 >- [[Batch Data Processing]]
->- [[Change Data Capture]]
+>- [[CDC - Change Data Capture]]
 >- [[Data Pipeline]]
 >- [[Data Unit Test]]
 >- [[Delta Load]]
@@ -57,8 +57,8 @@ draft:
 > [!info]- ## Data Architecture Concepts
 >
 >- [[Data Architecture]]
->- [[content/resource/Concepts/Data Lake]]
->- [[content/resource/Concepts/Data Warehouse]]
+>- [[content/resource/Concepts/bigdata/Data Lake]]
+>- [[content/resource/Concepts/bigdata/Data Warehouse]]
 >- [[Fan-out]]
 >- [[Horizontal Scaling]]
 >- [[Lambda Architecture]]

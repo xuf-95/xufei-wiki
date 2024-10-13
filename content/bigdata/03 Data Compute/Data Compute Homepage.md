@@ -11,3 +11,14 @@ date:
 
 ## Data Compute  Include
 
+[[Apache Hadoop]] 
+
+[[HDFS]]
+
+[[MapReduce]]
+
+[[Apache Spark]]
+
+[[Apache Flink]]
+
+

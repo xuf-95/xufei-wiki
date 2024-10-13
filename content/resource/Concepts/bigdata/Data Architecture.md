@@ -8,10 +8,10 @@ publish: true
 
 ## Popular Data Architecture Patterns
 
-- [[content/resource/Concepts/Data Lake]]
+- [[content/resource/Concepts/bigdata/Data Lake]]
 - [[Data Mart]]
 - [[Data Mesh]]
-- [[content/resource/Concepts/Data Warehouse]]
+- [[content/resource/Concepts/bigdata/Data Warehouse]]
 - [[Lambda Architecture]]
 - [[Kappa Architecture]]
 

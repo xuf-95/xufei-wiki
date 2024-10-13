@@ -4,7 +4,7 @@ Tags: [incubating]
 publish: true
 ---
 
-The semantic layer is a term used to describe the [[Data Modeling|data model]] that takes multiple enterprise data source models and combines them into one unified model for the business. It traditionally is built in the [[content/resource/Concepts/Data Warehouse|data warehouse]] and used by reporting tools. Companies have been using semantic layers to manage data since the early 1990s.
+The semantic layer is a term used to describe the [[Data Modeling|data model]] that takes multiple enterprise data source models and combines them into one unified model for the business. It traditionally is built in the [[content/resource/Concepts/bigdata/Data Warehouse|data warehouse]] and used by reporting tools. Companies have been using semantic layers to manage data since the early 1990s.
 
 ## Semantic Layer Advantages
 

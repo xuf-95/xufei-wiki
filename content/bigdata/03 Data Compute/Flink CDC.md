@@ -15,7 +15,7 @@ date: 2024-09-18
 	
 Flink-CDC ： 可以直接从 MySQL. PostgreSQL 等数据库直接"读取全量数据"和"增量变更数据"的 source 组件。 基于"Binlog"
 
-CDC技术应用场景:
+#### CDC技术应用场景
 	1. 数据同步，用于备份，容灾
 	2. 数据分发，一个数据源发送到多个下游
 	3. 数据采集(E)，面向数据仓库/数据湖的ETL数据集成
@@ -24,17 +24,14 @@ CDC技术应用场景:
 ![[Pasted image 20241007224505.png]]
 
 - CDC 分类
-
 ![[Pasted image 20241007224544.png]]
 
 - 传统 CDC ETL 分析 
 ![[Pasted image 20241007224555.png]]
-
 ![[Pasted image 20241007224604.png]]
 
 - 基于Flink CDC 的ETL 分析
 ![[Pasted image 20241007224615.png]]
-
 ![[Pasted image 20241007224623.png]]
 
 - 基于Flink CDC 的数据打宽
@@ -43,7 +40,7 @@ CDC技术应用场景:
 - 基于Flink CDC 的聚合分析
 ![[Pasted image 20241007224641.png]]
 
-- 基础环境
+### 基础环境
 
 ```shell
 #################################################
@@ -78,7 +75,7 @@ bin/start-cluster.sh #  开启flink
 bin/flink run -m hadoop102:8081  -c com.atguigu.FlinkCDC /home/zhj/atguigu-flink-cdc-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
-- 案例 api
+### 案例 api
 
 ```java
 package com.atguigu;
@@ -131,7 +128,7 @@ public class FlinkCDC {
 }
 ```
 
-- 案例2  flinksql
+### 案例2  
 
 ```java
 package com.atguigu;
@@ -184,7 +181,7 @@ public class FlinkSQLCDC {
 }
 ```
 
-pom.xml
+#### pom.xml
 
 ```xml
 <dependencies>

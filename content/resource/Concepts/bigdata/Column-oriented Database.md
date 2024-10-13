@@ -6,7 +6,7 @@ publish: true
 
 ![[Assets/row_oriented_vs_column_oriented_database.jpeg|500]]
 
-In a column-oriented or columnar database, the data for each column in a datatable is stored together. Because of their characteristics, they are a popular option for building a [[content/resource/Concepts/Data Warehouse|data warehouse]].
+In a column-oriented or columnar database, the data for each column in a datatable is stored together. Because of their characteristics, they are a popular option for building a [[content/resource/Concepts/bigdata/Data Warehouse|data warehouse]].
 
 ## Column-oriented Database Example
 In a datatable like this:
