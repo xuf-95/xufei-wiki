@@ -7,6 +7,52 @@ tags:
 date: 2023-03-11
 publish: true
 ---
+```mermaid
+mindmap
+  root((Numpy Knowledge Base))
+    Basics
+      Array Creation
+        Numpy Array
+        Zeros and Ones
+        Empty Array
+        From List
+      Array Properties
+        Shape
+        Size
+        ndim
+        dtype
+    Operations
+      Arithmetic Operations
+        Addition
+        Subtraction
+        Multiplication
+        Division
+      Array Manipulation
+        Reshape
+        Flatten
+        Transpose
+        Concatenate
+    Indexing
+      Basic Indexing
+      Slicing
+      Boolean Indexing
+      Fancy Indexing
+    Linear Algebra
+      Matrix Multiplication
+      Determinants
+      Eigenvalues
+      Inverse
+    Random Module
+      Random Numbers
+      Random Seed
+      Distributions
+    Statistics
+      Mean
+      Median
+      Standard Deviation
+      Variance
+```
+
 ## 概述
 
 ### NumPy 定义

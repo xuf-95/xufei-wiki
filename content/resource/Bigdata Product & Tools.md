@@ -16,6 +16,7 @@ date: 2023-08-06
 	- > has a long history of being the preferred database tool for the world’s leading data professionals. #product 
 	- 数据库工具，支持多种数据源，使用IDE的方式可在线编辑代码
 - [Hex](https://hex.tech/?_gl=1*mkxxa0*_gcl_au*MjAyNjgxNjY5Mi4xNzI1OTgyOTE4) Go end-to-end from quick queries to deep-dive analyses to beautiful interactive data apps – all in one collaborative, AI-powered workspace.
+- [Estuary Flow | Real-time Data Pipeline & Integration Platform](https://estuary.dev/product/)
 
 #### ### Bigdata With AI
 
@@ -29,11 +30,18 @@ date: 2023-08-06
 - [Databricks](https://www.databricks.com/) The Databricks  Data Intelligence Platform
 - 
 
-#### Bigdata IDE 
+#### Big data Platform
+
 - [Dinky]()
 - [DataWorks](https://help.aliyun.com/zh/dataworks/)基于MaxCompute/EMR/MC-Hologres等大数据计算引擎，为客户提供专业高效、安全可靠的一站式大数据开发与治理平台，自带阿里巴巴数据中台与数据治理最佳实践，赋能各行业数字化转型。
 - [DataArt Studio](https://www.huaweicloud.com/product/dayu.html) 一站式数据全生命周期管理工具平台，库仓湖智全流程治理，释放数据价值
 - [DTSphere DataStudio](https://www.dtdream.com/#/coreProduct?id=de092665ff60437e9a79a975e787e808)是数梦工场推出的为满足用户在大数据环境下开发、测试、生产运维需求的大数据集成开发进行数据作业程序
+- [Striim Platform - Striim](https://www.striim.com/striim-platform/)
+- 
+
+### Big data Cloud
+
+- [Striim Cloud](https://www.striim.com/striim-cloud/) Build real-time data streaming pipelines in minutes
 
 ### Open Server
 

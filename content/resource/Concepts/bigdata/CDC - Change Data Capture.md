@@ -1,22 +1,29 @@
 ---
+title: CDC - Change Data Capture
 aliases:
   - CDC
 tags:
-  - incubating
+  - csc
 publish: true
 ---
+## 概述
 
-Change data capture describes the process of recording the change of data in a database. Typically, this means tracking when records are inserted, updated, and deleted along with the data itself.
+### 定义
 
-## Change Data Capture Advantages
-- Better use of bandwidth
-- Can keep historical data changes
+> Change data capture describes the process of recording the change of data in a database. Typically, this means tracking when records are inserted, updated, and deleted along with the data itself.
 
-## Change Data Capture Disadvantages
-- More complex to set up than [[Full Load|full loads]] or [[Delta Load|delta loads]]
-- Usually requires higher permissions to access the database transaction log.
+捕获追踪数据库中数据的变化（CRUD操作），一般是分析数据库日志中的数据。
+ ![[cdc.png]]
+> [Image Source](https://www.striim.com/blog/change-data-capture-cdc-what-it-is-and-how-it-works/)
+
+
+## 案例
+
+- 在[[Apache Kafka]] 中的项目案例 [How To Implement Change Data Capture With Apache Kafka  | Estuary](https://estuary.dev/change-data-capture-kafka/)
+- 
 
 ## When to use change data capture
+
 Change data capture is typically used to replicate data that is overwritten to another database. For example, replicating data from an operational database to a data warehouse. While the operational database may not need to store historical changes, it might be useful for analysis.
 
 A few situations where you might use change data capture:
@@ -34,12 +41,10 @@ A few situations where you might use change data capture:
 - Qlik
 - Striim
 - Matillion Data Loader
+- [Estuary | Real-Time Data Integration, CDC & ETL Platform](https://estuary.dev/)
 
-%% wiki footer: Please don't edit anything below this line %%
 
-## This note in GitHub
+## Resourc
 
-<span class="git-footer">[Edit In GitHub](https://github.dev/data-engineering-community/data-engineering-wiki/blob/main/Concepts/Change%20Data%20Capture.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/data-engineering-community/data-engineering-wiki/main/Concepts/Change%20Data%20Capture.md "git-hub-copy-note")</span>
-
-<span class="git-footer">Was this page helpful?
-[👍](https://tally.so/r/mOaxjk?rating=Yes&url=https://dataengineering.wiki/Concepts/Change%20Data%20Capture) or [👎](https://tally.so/r/mOaxjk?rating=No&url=https://dataengineering.wiki/Concepts/Change%20Data%20Capture)</span>
+- [Change Data Capture (CDC): What it is and How it Works - Striim](https://www.striim.com/blog/change-data-capture-cdc-what-it-is-and-how-it-works/)
+- [How To Implement Change Data Capture With Apache Kafka  | Estuary](https://estuary.dev/change-data-capture-kafka/)

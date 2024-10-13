@@ -135,10 +135,11 @@ Kafka拥有三个非常重要的角色特性：
 #### Presentation
 
 [Keynote Session | Kafka Summit London 2024](https://www.confluent.io/events/kafka-summit-london-2024/keynote-session/)
-## Refer
+## Reference
 
 - [Apache Kafka](https://kafka.apache.org/)
 - [1. 入门 - 【布客】kafka 中文翻译](https://kafka.apachecn.org/1/)
 - [Kafka入门实战教程（1）基础概念与术语 - EdisonZhou - 博客园](https://www.cnblogs.com/edisonchou/p/kafka_study_notes_part1.html)
 - [Kafka 快速入门 | BIGDATA-TUTORIAL](https://dunwu.github.io/bigdata-tutorial/kafka/Kafka%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html#_1-1-kafka-%E7%9A%84%E5%8A%9F%E8%83%BD)
 - [Apache Kafka](https://kafka.apache.org/books-and-papers)  Books and Papers
+- [What is Apache Kafka](https://bell-sw.com/blog/a-guide-to-event-streaming-with-apache-kafka/)
