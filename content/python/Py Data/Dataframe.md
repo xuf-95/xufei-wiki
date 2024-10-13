@@ -12,17 +12,17 @@ draft:
 
 ##  Pandas DataFrame 底层原理
 
-[[Pandas]] 是 [[Python]] 中广泛使用的库，主要用于数据分析。其核心数据结构是 **DataFrame**，底层依赖于 **[[Numpy]]** 实现
+[[Pandas]] 是 [[Python]] 中广泛使用的库，主要用于数据分析。其核心数据结构是 **DataFrame**，底层依赖于 **[[NumPy]]** 实现
 
 ### 底层原理
-- **[[Numpy]] Array**：Pandas DataFrame 的数据以高效的 [[Numpy]] 数组形式存储，具有快速的计算能力。
+- **[[NumPy]] Array**：Pandas DataFrame 的数据以高效的 [[NumPy]] 数组形式存储，具有快速的计算能力。
 - **内存布局**：数据按列存储，这样可以高效地进行按列操作，比如求和、均值等。
 - **索引与标签**：Pandas 提供了丰富的索引和标签功能，支持对数据行列的灵活操作。
 - **矢量化操作**：Pandas 底层通过矢量化的方式处理数据，大部分操作直接在 C/C++ 级别执行，避免了 Python 循环，提高性能。
 
 ### 系统架构
 - **索引、列名、实际数据**：Pandas DataFrame 由 `Index` 对象、`Series` 对象组成，它们共同构成了 DataFrame 的行和列结构。
-- **计算模型**：Pandas 提供多种高效的数据处理操作，如 `groupby`、`apply` 等，这些操作直接基于底层的 [[Numpy]] 数组进行。
+- **计算模型**：Pandas 提供多种高效的数据处理操作，如 `groupby`、`apply` 等，这些操作直接基于底层的 [[NumPy]] 数组进行。
 
 ## Spark DataFrame 底层原理
 
@@ -44,7 +44,7 @@ draft:
 - **批处理执行**：通过矢量化执行，减少逐一处理行或列的开销，提升性能。
 
 ## 综上
-- **Pandas DataFrame**：适用于小规模、基于内存的数据处理，底层依赖 [[Numpy]] 提供高效的数组操作。
+- **Pandas DataFrame**：适用于小规模、基于内存的数据处理，底层依赖 [[NumPy]] 提供高效的数组操作。
 - **Spark DataFrame**：适合大规模数据处理，结合 RDD 实现分布式计算，并通过 Catalyst 和 Tungsten 提供优化。
 
 DataFrame 在不同系统中的设计各有侧重，均为提高数据处理的效率和灵活性而设计。
