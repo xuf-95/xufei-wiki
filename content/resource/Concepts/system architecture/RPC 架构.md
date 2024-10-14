@@ -1,8 +1,11 @@
 ---
 title: 
+aliases:
+  - RPA
 tags:
   - concepts
   - system
+  - architecture
 publish: false
 draft: false
 ---

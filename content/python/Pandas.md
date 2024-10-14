@@ -1,8 +1,10 @@
 ---
-title: pandas
+title: Pandas
+aliases: 
+date: 2023-11-14
+tags:
+  - python-lib
 ---
- pandas test
-
 ## 概述
 
 ### 定义

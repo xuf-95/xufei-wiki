@@ -45,7 +45,7 @@ draft:
 > [!info]- ## Data Pipeline Concepts
 >
 >- [[Batch Data Processing]]
->- [[CDC - Change Data Capture]]
+>- [[CDC（Change Data Capture）]]
 >- [[Data Pipeline]]
 >- [[Data Unit Test]]
 >- [[Delta Load]]

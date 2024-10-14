@@ -1,9 +1,12 @@
 ---
-aliases: 
+aliases:
+  - 交换机
+  - switch
 tags:
   - concepts
   - system
-  - todo
+  - device
+  - network
 date: 
 publish: false
 ---

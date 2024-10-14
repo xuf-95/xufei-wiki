@@ -1,7 +1,10 @@
 ---
-Aliases: []
-Tags: [seedling]
+aliases:
+  - Data Governance
+tags:
+  - seedling
 publish: true
+title: 数据治理（Data Governance）
 ---
 
 [Data Governance](https://en.wikipedia.org/wiki/Data_governance#Micro_level) is a term used to describe the set of policies and procedures that ensure the data used in an organization is of high quality throughout its lifecycle (input, storage, transformation, access, and deletion).

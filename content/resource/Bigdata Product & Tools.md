@@ -18,7 +18,7 @@ date: 2023-08-06
 - [Hex](https://hex.tech/?_gl=1*mkxxa0*_gcl_au*MjAyNjgxNjY5Mi4xNzI1OTgyOTE4) Go end-to-end from quick queries to deep-dive analyses to beautiful interactive data apps – all in one collaborative, AI-powered workspace.
 - [Estuary Flow | Real-time Data Pipeline & Integration Platform](https://estuary.dev/product/)
 
-#### ### Bigdata With AI
+### Big data With AI 
 
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
 	- > A repository that contains models, datasets, and fine-tuning techniques for DB-GPT, with the purpose of enhancing model performance in Text-to-SQL
@@ -30,7 +30,7 @@ date: 2023-08-06
 - [Databricks](https://www.databricks.com/) The Databricks  Data Intelligence Platform
 - 
 
-#### Big data Platform
+### Big data Platform
 
 - [Dinky]()
 - [DataWorks](https://help.aliyun.com/zh/dataworks/)基于MaxCompute/EMR/MC-Hologres等大数据计算引擎，为客户提供专业高效、安全可靠的一站式大数据开发与治理平台，自带阿里巴巴数据中台与数据治理最佳实践，赋能各行业数字化转型。
@@ -56,3 +56,8 @@ date: 2023-08-06
 ### Message Queue
 
 - [Kafka]()
+
+### big data Guide
+
+- [BigData Guide Website](https://hao.199it.com/) All type of data tools
+- 

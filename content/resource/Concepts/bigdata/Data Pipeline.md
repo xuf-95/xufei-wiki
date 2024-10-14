@@ -39,7 +39,7 @@ If a business sold software as a service, a Data Engineer might create a data pi
 
 ### Change Data Capture (CDC) Pipeline Example
 
-This is a very commonly created type of data pipeline. You can use a [[CDC - Change Data Capture|CDC]] pipeline to replicate changes (inserted, updated, and deleted data) from a source database (typically a db backing an application) and into a destination for analytics such as a data warehouse or data lake.
+This is a very commonly created type of data pipeline. You can use a [[CDC（Change Data Capture）|CDC]] pipeline to replicate changes (inserted, updated, and deleted data) from a source database (typically a db backing an application) and into a destination for analytics such as a data warehouse or data lake.
 
 ```mermaid
 %%{init: { "flowchart": { "useMaxWidth": true } } }%%

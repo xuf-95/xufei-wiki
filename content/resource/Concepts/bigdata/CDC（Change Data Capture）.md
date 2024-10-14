@@ -1,9 +1,13 @@
 ---
-title: CDC - Change Data Capture
+title: CDC（Change Data Capture）
 aliases:
   - CDC
+  - Change Data Capture
+  - 数据捕获
 tags:
-  - csc
+  - CDC
+  - database
+  - concepts
 publish: true
 ---
 ## 概述

@@ -1,5 +1,7 @@
 ---
 title: CAP 定理
+aliases:
+  - CAP
 tags:
   - concepts
   - system
