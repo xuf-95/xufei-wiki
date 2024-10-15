@@ -6,9 +6,9 @@ aliases:
 tags:
   - concepts
   - system
-  - todo
+  - theory
 date: 
-publish: false
+publish: true
 ---
 
 ## 概述

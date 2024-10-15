@@ -1,9 +1,12 @@
 ---
-title: Distributed Computing
+aliases:
+  - 分布式计算
+  - DC
+  - Distributed Computing
 tags:
   - concepts
   - system
-publish: false
+publish: true
 draft: false
 date:
 ---

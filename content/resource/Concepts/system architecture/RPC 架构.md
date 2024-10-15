@@ -1,7 +1,6 @@
 ---
-title: 
 aliases:
-  - RPA
+  - RPC
 tags:
   - concepts
   - system

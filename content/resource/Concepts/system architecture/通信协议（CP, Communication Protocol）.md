@@ -6,7 +6,7 @@ aliases:
 tags:
   - concepts
   - system
-  - todo
+  - theory
 date: 
 publish: false
 ---

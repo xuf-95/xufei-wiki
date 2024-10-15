@@ -1,11 +1,10 @@
 ---
-title: CAP 定理
 aliases:
   - CAP
 tags:
   - concepts
   - system
-  - cpa
+  - theory
 publish: true
 draft: false
 date: 2021-02-13

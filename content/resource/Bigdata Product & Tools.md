@@ -55,7 +55,7 @@ date: 2023-08-06
 
 ### Message Queue
 
-- [Kafka]()
+- 
 
 ### big data Guide
 

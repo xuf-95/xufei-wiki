@@ -59,6 +59,7 @@ stateDiagram
     Done --> [*]
 ```
 
+**组件图（Component Diagram）**
 
 ```mermaid
 %% Component diagram demo
@@ -70,11 +71,18 @@ graph LR
 ```
 
 
+#### UML中事物的分类
+
+- 结构事物：是UML模型中的名词。它们通常是模型的静态部分,描述概念或物理元素
+- 行为事物：是UML模型的动态部分。它们是模型中的动词,描述了跨越时间和空间的行为
+- 分组事物：是UML模型的组仅部分。它们是—些由模型分解成的盒子
+- 注释事物：是UML模型的解释部分。这些注释事物用来描述、说明和标注模型的任何元素
 ## UML相关产品或者工具
 
 - [Visual Paradigm - UML, Agile, PMBOK, TOGAF, BPMN and More!](https://www.visual-paradigm.com/features/)
 - [亿图图视软件 【Windows】](https://cc-download.edrawsoft.cn/edraw-max_cn_full8635.exe?_gl=1*knowmn*_gcl_au*MTUxMTMyNDQ1Mi4xNzI4ODg0OTE1*_ga*NTI5ODg3NjI1LjE3Mjg4ODQ5MTU.*_ga_24WTSJBD5B*MTcyODg4NDkxNC4xLjEuMTcyODg4NTQ5MC42MC4wLjE1MTUyNTE3OTA.)
 
+***
 ## Reference
 
 - [统一建模语言 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/%E7%BB%9F%E4%B8%80%E5%BB%BA%E6%A8%A1%E8%AF%AD%E8%A8%80)

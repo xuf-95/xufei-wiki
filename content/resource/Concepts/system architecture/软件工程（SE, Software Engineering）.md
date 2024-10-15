@@ -1,8 +1,5 @@
 ---
-aliases:
-  - 面向对象
-  - OOP
-  - Object-oriented programming
+aliases: 
 tags:
   - concepts
   - system
@@ -13,12 +10,16 @@ publish: false
 
 ## 概述
 
-
 ### 定义
+
+### 核心概念
 
 ### 原理 & 功能
 
+### 应用场景
 
+
+***
 ## Reference
 
 
