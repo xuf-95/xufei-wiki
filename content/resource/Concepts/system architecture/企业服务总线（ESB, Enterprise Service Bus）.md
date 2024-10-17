@@ -35,7 +35,7 @@ publish: true
 
 ### 常见的 ESB 产品
 
-1. **Apache ServiceMix**：开源的 ESB 平台，基于 Java 和 OSGi 技术。
+1. **Apache ServiceMix**：开源的 ESB 平台，基于 Jaxva 和 OSGi 技术。
 
 2. **Mule ESB**：轻量级的集成平台，提供强大的路由和消息处理功能。
 

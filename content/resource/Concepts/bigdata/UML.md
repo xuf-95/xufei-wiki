@@ -88,5 +88,7 @@ graph LR
 - [统一建模语言 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/%E7%BB%9F%E4%B8%80%E5%BB%BA%E6%A8%A1%E8%AF%AD%E8%A8%80)
 - [什么是统一建模语言（UML）？](https://www.visual-paradigm.com/cn/guide/uml-unified-modeling-language/what-is-uml/)
 - [什么是UML图?常见的UML图有哪些？](https://www.edrawsoft.cn/uml-diagram-introduction/)
+- [Examples of UML diagrams - use case, class, component, package, activity, sequence diagrams, etc.](https://www.uml-diagrams.org/index-examples.html)
+- 
 
 
