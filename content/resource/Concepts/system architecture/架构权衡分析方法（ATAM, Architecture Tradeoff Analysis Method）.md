@@ -16,7 +16,7 @@ publish: true
 
 ### 定义
 
-> ATAM是在[[SAAM (Software Architecture Analysis Method)|SAAM]]的基础上发展起来的，是一种系统架构评估方法
+> ATAM是在[[软件架构分析方法 ( SAAM, Software Architecture Analysis Method)|SAAM]]的基础上发展起来的，是一种系统架构评估方法
 
 架构权衡分析方法（Architecture Tradeoff Analysis Method,ATAM)是一种系统架构评估方法，主要在系统开发之前，针对`性能`、`可用性`、`安全性`和`可修改性`等质量属性进行评价和折中。
 

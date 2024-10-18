@@ -146,24 +146,28 @@
 table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #f7f7f7; /* Light gray for background */
-  border: 1px solid #ddd; /* Subtle border color */
+  background-color: #263147; /* Dark background */
+  border: 1px solid #424d68; /* Subtle dark border */
 }
 
 th, td {
-  border: 1px solid #ddd;
+  border: 1px solid #424d68;
   padding: 10px;
-  color: #333; /* Dark text for contrast */
+  color: #cfcfcf; /* Light gray text for contrast */
 }
 
 th {
-  background-color: #f2f2f2; /* Slightly darker background for headers */
+  background-color: #32425a; /* Darker blue-gray background for headers */
   text-align: left;
   font-weight: bold;
 }
 
 tr:nth-child(even) {
-  background-color: #fafafa; /* Light background for alternating rows */
+  background-color: #2b384d; /* Slightly lighter background for alternating rows */
+}
+
+tr:nth-child(odd) {
+  background-color: #263147; /* Same as table background for consistency */
 }
 
 /* For Dark Mode */

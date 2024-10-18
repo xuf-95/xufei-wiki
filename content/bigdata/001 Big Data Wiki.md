@@ -7,7 +7,7 @@ tags:
 ---
 ### Big Data Map Of Content 
 
-- [[Data Integration Homepage]] 数据集成与数据预处理技术 
+- [[Data Integration Homepage|Data Integration]] 数据集成与数据预处理技术 
 - [[Data Store Homepage]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
 - [[Data Center]] 数据中台、数据一站式平台、IDE
 - [[Data Compute Homepage]] 数据计算引擎、数据计算架构、数据开发、数据清洗

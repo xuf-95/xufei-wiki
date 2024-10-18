@@ -2,6 +2,7 @@
 aliases:
   - SAAM
   - Software Architecture Analysis Method
+  - 软件架构分析方法
 tags:
   - concepts
   - system
