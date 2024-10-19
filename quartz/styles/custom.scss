@@ -215,3 +215,17 @@ h5 {
 h6 {
   color: #8B0000; /* 深红色 */
 }
+
+/* add two columns */
+.text-right-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-right-img img {
+  max-width: 30%; /* 根据需要调整图片宽度 */
+}
+
+.text-right-img div {
+  max-width: 60%; /* 根据需要调整文本宽度 */
+}

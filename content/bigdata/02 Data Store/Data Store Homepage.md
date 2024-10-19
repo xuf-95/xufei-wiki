@@ -10,6 +10,7 @@ aliases:
   - 数据存储
   - 数据库
   - DB
+  - Data Store
 ---
 ## 数据存储分类
 

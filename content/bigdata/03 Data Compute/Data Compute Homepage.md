@@ -5,7 +5,11 @@ tags:
   - comput
   - home
 draft: 
-date:
+date: 
+aliases:
+  - Data Compute
+  - 数据计算
+  - 数据开发
 ---
 ### What is Data Compute？
 

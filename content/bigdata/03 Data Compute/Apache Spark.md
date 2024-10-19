@@ -163,4 +163,22 @@ SparkStreaming是以某一时间间隔的批量处理，它的实时性就比较
 ### Resource 
 
 - [erryLead/SparkInternals](https://github.com/JerryLead/SparkInternals/tree/master)
-- 
+
+## [Apache Spark MLlib](https://spark.apache.org/mllib/)
+
+[](https://github.com/connected-bsamadi/awesome-wiki/blob/master/awesome-artificial-intelligence.md#apache-spark-mllib)
+
+- [Databricks courses](https://academy.databricks.com/)
+- [PySpark Uploader](https://github.com/scottcode/pyspark-uploader)
+- [Analytics for Apache Spark](https://console.bluemix.net/docs/services/AnalyticsforApacheSpark)
+- [Real time sentiment analysis of twitter hashtags with Spark](https://medium.com/ibm-watson-data-lab/real-time-sentiment-analysis-of-twitter-hashtags-with-spark-7ee6ca5c1585)
+- [Productionizing Spark ML pipelines with the portable format for analytics](https://www.youtube.com/watch?v=h-B0VCkoRkE)
+- [Spark Bench](https://codait.github.io/spark-bench/)
+- [Sentiment Analysis of Twitter Hashtags With Spark](https://medium.com/ibm-watson-data-lab/real-time-sentiment-analysis-of-twitter-hashtags-with-spark-7ee6ca5c1585)
+- [Building A Linear Regression with PySpark and MLlib](https://towardsdatascience.com/building-a-linear-regression-with-pyspark-and-mllib-d065c3ba246a)
+- [Spark TensorFlow Example](https://github.com/GoogleCloudPlatform/cloud-dataproc/tree/master/spark-tensorflow)
+- [spark-tensorflow-connector](https://github.com/tensorflow/ecosystem/tree/master/spark/spark-tensorflow-connector)
+- [Pandas vs Spark](https://towardsdatascience.com/python-pandas-vs-scala-how-to-handle-dataframes-part-ii-d3e5efe8287d)
+- [Get Started with PySpark and Jupyter Notebook in 3 Minutes](https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f)
+- [Dataproc cluster with Datalab and the Google Python Client API](https://codelabs.developers.google.com/codelabs/cpb102-dataproc-with-gcp)
+- [Spark Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_Cheat_Sheet_Python.pdf)

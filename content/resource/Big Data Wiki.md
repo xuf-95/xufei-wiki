@@ -1,5 +1,5 @@
 ---
-title: Bigdata Wiki
+title: Big Data Wiki
 tags:
   - bigdata
 ---
