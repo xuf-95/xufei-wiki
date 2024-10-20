@@ -5,7 +5,6 @@ tags:
   - Wiki
 ---
 
-
 # Welcome to My Bigdata Wiki
 
 I’m a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. My journey began with a passion for understanding how massive datasets can drive business value, leading me to specialize in data processing, analysis, and optimization using tools like Apache Spark, Hadoop, and Kafka. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects
@@ -48,6 +47,42 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 >
 >- [[Concepts]]
 
-***
+>[!multi-column]
+>
+>> [!blank]  
+>> this is a note
+>> ### heading 3
+>> ![xx](animal-1296921_1280.png)
+>> #apache #API 
+>> 
+>> New
+>
+>> [!example] 
+>> tu
+>> as
+>> asd
+>> asd
+>> a
+>> 
+>
+>> [!seealso] 
+>> d
+>> s
+>> 
 
+
+
+>
+
+
+***
+```avatar
+image: public/static/icon.png
+description: |
+  ## 二级标题
+
+  ### 三级标题
+
+  [avatar](https://github.com/maradotwebp/obsidian-avatar)
+```
 

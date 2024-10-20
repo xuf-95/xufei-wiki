@@ -25,3 +25,9 @@ date: 2024-08-16
 - [Tiered Storage](https://pulsar.apache.org/docs/3.3.x/tiered-storage-overview/) offloads data from hot/warm storage to cold/long-term storage (such as S3 and GCS) when the data is aging out.
 
 ![[Apache Pulsar Architecture.png]]
+
+
+***
+## Reference
+
+
