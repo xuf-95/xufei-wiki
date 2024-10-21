@@ -142,34 +142,62 @@
       display: block;
   }
 
+// /* For Light Mode */
+// table {
+//   width: 100%;
+//   border-collapse: collapse;
+//   background-color: #263147; /* Dark background */
+//   border: 1px solid #424d68; /* Subtle dark border */
+// }
+
+// th, td {
+//   border: 1px solid #424d68;
+//   padding: 10px;
+//   color: #cfcfcf; /* Light gray text for contrast */
+// }
+
+// th {
+//   background-color: #32425a; /* Darker blue-gray background for headers */
+//   text-align: left;
+//   font-weight: bold;
+// }
+
+// tr:nth-child(even) {
+//   background-color: #2b384d; /* Slightly lighter background for alternating rows */
+// }
+
+// tr:nth-child(odd) {
+//   background-color: #263147; /* Same as table background for consistency */
+// }
+
 /* For Light Mode */
 table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #263147; /* Dark background */
-  border: 1px solid #424d68; /* Subtle dark border */
+  background-color: #f5f5fa; /* Light background */
+  border: 1px solid #ddd; /* Light border for a clean look */
 }
 
 th, td {
-  border: 1px solid #424d68;
+  border: 1px solid #ddd;
   padding: 10px;
-  color: #cfcfcf; /* Light gray text for contrast */
+  color: #2b2b2b; /* Darker text for better readability */
 }
 
 th {
-  background-color: #32425a; /* Darker blue-gray background for headers */
+  background-color: #f05454; /* Bold red header background */
   text-align: left;
   font-weight: bold;
+  color: white; /* White text for header */
 }
 
 tr:nth-child(even) {
-  background-color: #2b384d; /* Slightly lighter background for alternating rows */
+  background-color: #ffecec; /* Light pink for even rows */
 }
 
 tr:nth-child(odd) {
-  background-color: #263147; /* Same as table background for consistency */
+  background-color: #fdfdfd; /* White for odd rows */
 }
-
 
 
 /* For Dark Mode */
@@ -243,7 +271,38 @@ h6 {
 
 
 
-
+.markdown-source-view hr,
+.markdown-preview-view hr {
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+  border: none;
+  height: 1px;;
+  background-image: linear-gradient(to right, var(--background-primary), DarkOliveGreen, green, yellowgreen, yellowgreen, green, DarkOliveGreen,var(--background-primary));
+}
+.markdown-source-view hr::after, 
+.markdown-preview-view hr::after {
+  content: '🏶' ;/*'' */
+  color: Tomato; /*lightcoral*/
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  transform-origin: 50% 50%;
+  padding: none;
+  background-color: var(--background-primary);
+}
+.markdown-source-view hr::before, 
+.markdown-preview-view hr::before {
+  content: '🙘🙤\00a0🙦🙚'; /* '🙦 🙤 🙐🙖 🙚 🙘' */
+  color: DarkSeaGreen; 
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  transform-origin: 50% 50%;
+  padding: none;
+  background-color: var(--background-primary);
+}
 
 
 

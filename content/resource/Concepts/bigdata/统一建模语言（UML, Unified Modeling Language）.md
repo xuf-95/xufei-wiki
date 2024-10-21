@@ -1,11 +1,10 @@
 ---
-title: 
 tags:
   - concepts
   - system
   - draw
 publish: false
-draft: true
+draft: false
 date: 
 aliases:
   - 统一建模语言
@@ -73,13 +72,22 @@ graph LR
 
 #### UML中事物的分类
 
-- 结构事物：是UML模型中的名词。它们通常是模型的静态部分,描述概念或物理元素
-- 行为事物：是UML模型的动态部分。它们是模型中的动词,描述了跨越时间和空间的行为
+- 结构事物：是UML模型中的名词。它们通常是模型的静态部分，描述概念或物理元素
+- 行为事物：是UML模型的动态部分。它们是模型中的动词，描述了跨越时间和空间的行为
 - 分组事物：是UML模型的组仅部分。它们是—些由模型分解成的盒子
 - 注释事物：是UML模型的解释部分。这些注释事物用来描述、说明和标注模型的任何元素
+
+#### UML中的4种关系
+
+- 依赖：是两个事物间的语义关系，其中一个事物(独立事物)发生变化会影响另一个事物（依赖事物)的语义
+- 关联：是一种结构关系，描述了一组链，链式对象之间的连接，聚集是一种特殊类型的关联，描述整体与部分间的结构关系
+- 泛化：是一种特殊一般关系，特殊元素的对象可替代一般元素的对象
+- 实现：是类元之间的语义关系，其中一个类元指定了由另一个类元保证执行的契约
+
+***
 ## UML相关产品或者工具
 
-- [Visual Paradigm - UML, Agile, PMBOK, TOGAF, BPMN and More!](https://www.visual-paradigm.com/features/)
+- [Visual Paradigm - UML， Agile， PMBOK， TOGAF， BPMN and More!](https://www.visual-paradigm.com/features/)
 - [亿图图视软件 【Windows】](https://cc-download.edrawsoft.cn/edraw-max_cn_full8635.exe?_gl=1*knowmn*_gcl_au*MTUxMTMyNDQ1Mi4xNzI4ODg0OTE1*_ga*NTI5ODg3NjI1LjE3Mjg4ODQ5MTU.*_ga_24WTSJBD5B*MTcyODg4NDkxNC4xLjEuMTcyODg4NTQ5MC42MC4wLjE1MTUyNTE3OTA.)
 
 ***
@@ -88,7 +96,7 @@ graph LR
 - [统一建模语言 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/%E7%BB%9F%E4%B8%80%E5%BB%BA%E6%A8%A1%E8%AF%AD%E8%A8%80)
 - [什么是统一建模语言（UML）？](https://www.visual-paradigm.com/cn/guide/uml-unified-modeling-language/what-is-uml/)
 - [什么是UML图?常见的UML图有哪些？](https://www.edrawsoft.cn/uml-diagram-introduction/)
-- [Examples of UML diagrams - use case, class, component, package, activity, sequence diagrams, etc.](https://www.uml-diagrams.org/index-examples.html)
+- [Examples of UML diagrams - use case， class， component， package， activity， sequence diagrams， etc.](https://www.uml-diagrams.org/index-examples.html)
 - 
 
 
