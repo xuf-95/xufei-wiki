@@ -23,6 +23,12 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 > - [[Data Visual]] 数据可视化、BI分析
 > - [[Data Lifecycle]] 数据生存周期
 
+>[!done] ## System Architecture
+>
+> - [[系统架构设计]]
+> - [[软件架构的演化和维护]]
+> - [[系统质量属性与架构评估]]
+> - [[软件可靠性]]
 
 >[!summary] ## Python
 >
@@ -34,7 +40,7 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 > - [[Multilab]] 
 > - [[Spider]]
 
->[!info]- ## Resources
+>[!info] ## Resources
 >
 > 
 > - [[Bigdata DataSet]] 数据集合、开源数据集、权威数据源、机器学习算法数据集等等
@@ -45,44 +51,8 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 > - [[Bigdata Product & Tools]] 大数据产品、组件、云服务等等
 > - [[Data Market]] 数据服务交易市场、数据资产交易等等
 >
->- [[Concepts]]
-
->[!multi-column]
->
->> [!blank]  
->> this is a note
->> ### heading 3
->> ![xx](animal-1296921_1280.png)
->> #apache #API 
->> 
->> New
->
->> [!example] 
->> tu
->> as
->> asd
->> asd
->> a
->> 
->
->> [!seealso] 
->> d
->> s
->> 
-
-
-
->
-
+>> [[Concepts]]
 
 ***
-```avatar
-image: public/static/icon.png
-description: |
-  ## 二级标题
 
-  ### 三级标题
-
-  [avatar](https://github.com/maradotwebp/obsidian-avatar)
-```
 

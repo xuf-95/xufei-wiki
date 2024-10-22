@@ -11,6 +11,17 @@ aliases:
   - 数据同步
   - Data Integration
 ---
+# MindMap
+
+```mermaid
+mindmap
+  root((系统集成))
+    系统集成概述
+    DCMM 系统集成
+       系统集成产品和工具
+    系统集成开发
+```
+
 
 ### 数据集成概述
 
