@@ -1,12 +1,16 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import TwoColumnLayout  from "./quartz/components/TwoColumnLayout"
 
 /**
  * Quartz 4.0 Configuration
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+
+
 const config: QuartzConfig = {
+
   configuration: {
     pageTitle: "🏜️ XuFei Wiki",
     enableSPA: true,
@@ -40,7 +44,7 @@ const config: QuartzConfig = {
         },
         darkMode: {
           light: "#083358",          // 比较深的黑色，减少纯黑的硬度，适合作为主背景色
-          lightgray: "#f05941",      // 搜索框；代码框线；文本分割线；graph 图框； -》 深灰色，适合卡片背景或分割区域
+          lightgray: "#88304e",      // 搜索框；代码框线（``）；文本分割线；graph 图框； -》 深灰色，适合卡片背景或分割区域
           // gray: "#5a5a5c",           // 中灰色，适合边框、次要文本或图标
           gray: "#ff5722",           // 文本中，标题下标签的颜色；
           darkgray: "#c8c8ca",       // 亮灰色，适合作为次要文本（文本内容）、提示信息
@@ -89,7 +93,7 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
@@ -112,6 +116,7 @@ const config: QuartzConfig = {
       Plugin.NotFoundPage(),
     ],
   },
+
 }
 
 export default config

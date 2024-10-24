@@ -7,6 +7,12 @@ tags:
 
 # Welcome to My Bigdata Wiki
 
+<two-column-layout imageSrc="/content/images/avatar.png" imageAlt="描述性的图片替代文本">
+
+我是一名拥有三年以上实践经验的大数据开发者，专注于不断发展的数据世界。我的职业生涯始于对如何利用海量数据集推动业务价值的热情，这使我专攻于使用 Apache Spark、Hadoop 和 Kafka 等工具进行数据处理、分析和优化。我在协作环境中表现出色，喜欢解决复杂问题以提供高质量的解决方案。在编码之外，我喜欢保持活跃、探索新技术，并为开源项目做出贡献。
+
+</two-column-layout>
+
 I’m a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. My journey began with a passion for understanding how massive datasets can drive business value, leading me to specialize in data processing, analysis, and optimization using tools like Apache Spark, Hadoop, and Kafka. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects
 
 ## Wiki Content
@@ -23,10 +29,13 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 > - [[Data Visual]] 数据可视化、BI分析
 > - [[Data Lifecycle]] 数据生存周期
 
->[!done] ## System Architecture
+
+
+> [!summary] ## System Architecture
+>
 >
 > - [[系统架构设计]]
-> - [[软件架构的演化和维护]]
+> - [[软件架构的演化和维护]] 
 > - [[系统质量属性与架构评估]]
 > - [[软件可靠性]]
 
@@ -40,7 +49,7 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 > - [[Multilab]] 
 > - [[Spider]]
 
->[!info] ## Resources
+>[!info]- ## Resources
 >
 > 
 > - [[Bigdata DataSet]] 数据集合、开源数据集、权威数据源、机器学习算法数据集等等
@@ -52,7 +61,4 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 > - [[Data Market]] 数据服务交易市场、数据资产交易等等
 >
 >> [[Concepts]]
-
-***
-
 

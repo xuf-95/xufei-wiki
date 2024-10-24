@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"3d85d1898e42dea5","x":-280,"y":-240,"width":360,"height":420,"type":"file","file":"content/bigdata/02 Data Store/MySQL.md"},
+		{"id":"b16c2b88d298daa9","x":120,"y":-240,"width":400,"height":420,"type":"file","file":"content/bigdata/02 Data Store/Data Lake.md"},
+		{"id":"80d6178e55aee0ad","x":-5,"y":-460,"width":250,"height":160,"type":"text","text":" ## data store"}
+	],
+	"edges":[]
+}

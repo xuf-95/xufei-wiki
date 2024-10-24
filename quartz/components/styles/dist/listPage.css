@@ -1,0 +1,32 @@
+ul.section-ul {
+  list-style: none;
+  margin-top: 2em;
+  padding-left: 0;
+}
+
+li.section-li {
+  margin-bottom: 1em;
+}
+li.section-li > .section {
+  display: grid;
+  grid-template-columns: fit-content(8em) 3fr 1fr;
+}
+@media all and (max-width: 600px) {
+  li.section-li > .section > .tags {
+    display: none;
+  }
+}
+li.section-li > .section > .desc > h3 > a {
+  background-color: transparent;
+}
+li.section-li > .section .meta {
+  margin: 0 1em 0 0;
+  opacity: 0.6;
+}
+
+.popover .section {
+  grid-template-columns: fit-content(8em) 1fr !important;
+}
+.popover .section > .tags {
+  display: none;
+}

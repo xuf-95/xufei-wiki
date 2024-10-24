@@ -17,6 +17,7 @@ header h1 {
   margin: 0;
   flex: auto;
 }
+
 `
 
 export default (() => Header) satisfies QuartzComponentConstructor

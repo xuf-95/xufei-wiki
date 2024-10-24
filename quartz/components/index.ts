@@ -20,6 +20,9 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import HeaderItems from "./HeaderItems"
+import TwoColumnLayout  from "./TwoColumnLayout"
+
 
 export {
   ArticleTitle,
@@ -44,4 +47,6 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  TwoColumnLayout
 }
+

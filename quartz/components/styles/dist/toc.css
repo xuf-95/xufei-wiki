@@ -1,0 +1,73 @@
+button#toc {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 0;
+  color: var(--dark);
+  display: flex;
+  align-items: center;
+}
+button#toc h3 {
+  font-size: 1rem;
+  display: inline-block;
+  margin: 0;
+}
+button#toc .fold {
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+  opacity: 0.8;
+}
+button#toc.collapsed .fold {
+  transform: rotateZ(-90deg);
+}
+
+#toc-content {
+  list-style: none;
+  overflow: hidden;
+  max-height: none;
+  transition: max-height 0.5s ease, visibility 0s linear 0s;
+  position: relative;
+  visibility: visible;
+}
+#toc-content.collapsed {
+  transition: max-height 0.5s ease, visibility 0s linear 0.5s;
+  visibility: hidden;
+}
+#toc-content.collapsed > .overflow::after {
+  opacity: 0;
+}
+#toc-content ul {
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0;
+}
+#toc-content ul > li > a {
+  color: var(--dark);
+  opacity: 0.35;
+  transition: 0.5s ease opacity, 0.3s ease color;
+}
+#toc-content ul > li > a.in-view {
+  opacity: 0.75;
+}
+#toc-content .depth-0 {
+  padding-left: calc(1rem * 0);
+}
+#toc-content .depth-1 {
+  padding-left: calc(1rem * 1);
+}
+#toc-content .depth-2 {
+  padding-left: calc(1rem * 2);
+}
+#toc-content .depth-3 {
+  padding-left: calc(1rem * 3);
+}
+#toc-content .depth-4 {
+  padding-left: calc(1rem * 4);
+}
+#toc-content .depth-5 {
+  padding-left: calc(1rem * 5);
+}
+#toc-content .depth-6 {
+  padding-left: calc(1rem * 6);
+}

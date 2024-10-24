@@ -33,7 +33,7 @@ TagList.css = `
   gap: 0.4rem;
   margin: 1rem 0;
   flex-wrap: wrap;
-  justify-self: end;
+  justify-self: start;
 }
 
 .section-li > .section > .tags {

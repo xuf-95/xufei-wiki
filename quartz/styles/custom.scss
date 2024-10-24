@@ -87,61 +87,62 @@ h6 {
   color: #8B0000; /* 深红色 */
 }
 
-/* add two columns */
-.text-right-img {
-  display: flex;
-  justify-content: space-between;
-}
-
-.text-right-img img {
-  max-width: 30%; /* 根据需要调整图片宽度 */
-}
-
-.text-right-img div {
-  max-width: 60%; /* 根据需要调整文本宽度 */
-}
-
-
-
-
 /* Style to add a light yellow border around Mermaid diagrams */
 .mermaid {
-  border: 2px solid #a96767; /* Light yellow border */
+  border: 2px solid #3d84a8; /* Light yellow border */
   padding: 10px; /* Optional: adds space between the border and diagram */
   border-radius: 5px; /* Optional: rounds the edges of the border */
   // background-color: #fffdf0; /* Optional: light yellow background */
 }
 
-// .markdown-source-view hr,
-// .markdown-preview-view hr {
-//   margin-block-start: 2em;
-//   margin-block-end: 2em;
-//   border: none;
-//   height: 1px;;
-//   background-image: linear-gradient(to right, var(--background-primary), DarkOliveGreen, green, yellowgreen, yellowgreen, green, DarkOliveGreen,var(--background-primary));
-// }
-// .markdown-source-view hr::after, 
-// .markdown-preview-view hr::after {
-//   content: '🏶' ;/*'' */
-//   color: Tomato; /*lightcoral*/
-//   display: inline-block;
-//   position: absolute;
-//   left: 50%;
-//   transform: translate(-50%, -50%); 
-//   transform-origin: 50% 50%;
-//   padding: none;
-//   background-color: var(--background-primary);
-// }
-// .markdown-source-view hr::before, 
-// .markdown-preview-view hr::before {
-//   content: '🙘🙤\00a0🙦🙚'; /* '🙦 🙤 🙐🙖 🙚 🙘' */
-//   color: DarkSeaGreen; 
-//   display: inline-block;
-//   position: absolute;
-//   left: 50%;
-//   transform: translate(-50%, -55%);
-//   transform-origin: 50% 50%;
-//   padding: none;
-//   background-color: var(--background-primary);
-// }
 
+hr {
+  border: none; /* 移除默认边框 */
+  height: 2px; /* 设置分割线的高度 */
+  background-color: #3f72af; /* 设置分割线的颜色 */
+  margin: 2rem 0; /* 设置分割线的上下间距 */
+  width: 50%; /* 设置分割线的长度为容器宽度的50% */
+  margin-left: auto; /* 居中分割线 */
+  margin-right: auto; /* 居中分割线 */
+  position: relative; /* 相对定位以便使用伪元素 */
+}
+
+
+// 为主要布局元素添加框线
+.page {
+  border: 2px solid hwb(25 13% 13% / 0.899); // 红色边框
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.left-sidebar {
+  border: 2px solid #00ff00; // 绿色边框
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.right-sidebar {
+  border: 2px solid #0000ff; // 蓝色边框
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+// 为 beforeBody 部分添加框线
+.page > .center > div:first-child {
+  border: 2px dashed hsla(225, 97%, 27%, 0.718); // 粉色虚线边框
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+// 为内容区域添加框线
+.popover-hint {
+  border: 2px solid #1971a7; // 黄色边框
+  padding: 10px;
+}
+
+// 为每个组件添加轻微的边框
+.left-sidebar > *, .right-sidebar > *, .page > .center > div:first-child > * {
+  border: 1px dotted #cccccc; // 灰色点线边框
+  padding: 5px;
+  margin-bottom: 5px;
+}

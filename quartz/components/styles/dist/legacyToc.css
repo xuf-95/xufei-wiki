@@ -1,0 +1,34 @@
+details#toc summary {
+  cursor: pointer;
+}
+details#toc summary::marker {
+  color: var(--dark);
+}
+details#toc summary > * {
+  padding-left: 0.25rem;
+  display: inline-block;
+  margin: 0;
+}
+details#toc ul {
+  list-style: none;
+  margin: 0.5rem 1.25rem;
+  padding: 0;
+}
+details#toc .depth-1 {
+  padding-left: calc(1rem * 1);
+}
+details#toc .depth-2 {
+  padding-left: calc(1rem * 2);
+}
+details#toc .depth-3 {
+  padding-left: calc(1rem * 3);
+}
+details#toc .depth-4 {
+  padding-left: calc(1rem * 4);
+}
+details#toc .depth-5 {
+  padding-left: calc(1rem * 5);
+}
+details#toc .depth-6 {
+  padding-left: calc(1rem * 6);
+}
