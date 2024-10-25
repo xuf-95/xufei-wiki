@@ -21,3 +21,4 @@ draft:
 ***
 ## Reference
 
+- [Full Stack Python](https://www.fullstackpython.com/)

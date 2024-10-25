@@ -10,6 +10,17 @@
     }
   }
 
+  .callout-container {
+    display: flex;
+    gap: 20px; // 调整列间距
+  }
+  
+  .callout {
+    flex: 1; // 每个 callout 占据相同的宽度
+    padding: 20px;
+    border-radius: 8px;
+  }
+
 
 /* For Light Mode */
 table {
@@ -107,42 +118,3 @@ hr {
   position: relative; /* 相对定位以便使用伪元素 */
 }
 
-
-// 为主要布局元素添加框线
-.page {
-  border: 2px solid hwb(25 13% 13% / 0.899); // 红色边框
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.left-sidebar {
-  border: 2px solid #00ff00; // 绿色边框
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-.right-sidebar {
-  border: 2px solid #0000ff; // 蓝色边框
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-// 为 beforeBody 部分添加框线
-.page > .center > div:first-child {
-  border: 2px dashed hsla(225, 97%, 27%, 0.718); // 粉色虚线边框
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
-// 为内容区域添加框线
-.popover-hint {
-  border: 2px solid #1971a7; // 黄色边框
-  padding: 10px;
-}
-
-// 为每个组件添加轻微的边框
-.left-sidebar > *, .right-sidebar > *, .page > .center > div:first-child > * {
-  border: 1px dotted #cccccc; // 灰色点线边框
-  padding: 5px;
-  margin-bottom: 5px;
-}
