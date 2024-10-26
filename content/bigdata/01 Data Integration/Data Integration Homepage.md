@@ -143,3 +143,8 @@ graph LR
 - 离线数据开发与调度
 - 元数据、数据资产管理与治理
 
+***
+## Reference
+
+- [Top 5 reasons to modernize your data integration](https://www.ibm.com/downloads/cas/QAZGP2PA) By IBM
+- 

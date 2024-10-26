@@ -17,7 +17,7 @@ publish: true
 > Change data capture describes the process of recording the change of data in a database. Typically, this means tracking when records are inserted, updated, and deleted along with the data itself.
 
 捕获追踪数据库中数据的变化（CRUD操作），一般是分析数据库日志中的数据。
- ![[cdc.png]]
+ ![[content/concepts/bigdata/img/cdc.png]]
 > [Image Source](https://www.striim.com/blog/change-data-capture-cdc-what-it-is-and-how-it-works/)
 
 
@@ -32,7 +32,7 @@ Change data capture is typically used to replicate data that is overwritten to a
 
 A few situations where you might use change data capture:
 
-- Replicate changes into a [[content/resource/Concepts/bigdata/Data Warehouse|data warehouse]] or [[content/resource/Concepts/bigdata/Data Lake|data lake]]
+- Replicate changes into a [[content/concepts/bigdata/Data Warehouse|data warehouse]] or [[content/concepts/bigdata/Data Lake|data lake]]
 - Replicate changes into [[Apache Kafka|Kafka]] (or other streaming tool) in a microservices architecture
 - Upgrade a database to a higher version with minimal downtime
 - Migrate data from database X to database Y with minimal downtime

@@ -25,7 +25,7 @@ Business logic is a general term that encompasses the type of transformations th
 
 ### Data Destination or Data Target
 
-Typically, the target where you send your data is another database. Common data targets are databases or data storage areas that are made for analytics. For example, a [[content/resource/Concepts/bigdata/Data Warehouse|data warehouse]] or [[content/resource/Concepts/bigdata/Data Lake|data lake]].
+Typically, the target where you send your data is another database. Common data targets are databases or data storage areas that are made for analytics. For example, a [[content/concepts/bigdata/Data Warehouse|data warehouse]] or [[content/concepts/bigdata/Data Lake|data lake]].
 
 ### Scheduler or Orchestration Tool
 

@@ -2,7 +2,7 @@
 title: Welcome to My Wiki
 tags:
   - home
-  - Wiki
+  - wiki
 ---
 
 # Welcome to My Bigdata Wiki

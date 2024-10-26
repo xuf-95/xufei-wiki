@@ -336,3 +336,7 @@ SQL进程占整个服务器资源的60%-90%。
 ### 物理结构设计
 
 **物理设计：** 根据生成的表等概念，生成物理数据库。工作步骤包括确定数据分布、存储结构和访问方式。
+
+## Reference
+
+- [Ideal Modeling & Diagramming Tool for Agile Team Collaboration](https://www.visual-paradigm.com/)

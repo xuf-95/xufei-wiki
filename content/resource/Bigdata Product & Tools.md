@@ -17,6 +17,7 @@ date: 2023-08-06
 	- 数据库工具，支持多种数据源，使用IDE的方式可在线编辑代码
 - [Hex](https://hex.tech/?_gl=1*mkxxa0*_gcl_au*MjAyNjgxNjY5Mi4xNzI1OTgyOTE4) Go end-to-end from quick queries to deep-dive analyses to beautiful interactive data apps – all in one collaborative, AI-powered workspace.
 - [Estuary Flow | Real-time Data Pipeline & Integration Platform](https://estuary.dev/product/)
+- [Ideal Modeling & Diagramming Tool for Agile Team Collaboration](https://www.visual-paradigm.com/)
 
 ### Big data With AI 
 

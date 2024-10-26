@@ -9,7 +9,6 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [],
   footer: Component.Footer({
-
     links: {
       GitHub: "https://github.com/xuf-95",
       "Website": "https://xufei.site",

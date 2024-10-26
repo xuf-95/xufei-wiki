@@ -23,7 +23,7 @@ draft:
 > 
 >
 >- [[Data Architecture]]
->- [[content/resource/Concepts/bigdata/Data Lake]]
+>- [[content/concepts/bigdata/Data Lake]]
 
 
 > [!info]- ## Database Concepts
@@ -57,8 +57,8 @@ draft:
 > [!info]- ## Data Architecture Concepts
 >
 >- [[Data Architecture]]
->- [[content/resource/Concepts/bigdata/Data Lake]]
->- [[content/resource/Concepts/bigdata/Data Warehouse]]
+>- [[content/concepts/bigdata/Data Lake]]
+>- [[content/concepts/bigdata/Data Warehouse]]
 >- [[Fan-out]]
 >- [[Horizontal Scaling]]
 >- [[Lambda Architecture]]
