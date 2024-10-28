@@ -1,8 +1,7 @@
 ---
 aliases: 
 tags:
-  - concepts
-  - system
+  - bigdata
 date: 
 draft:
 ---

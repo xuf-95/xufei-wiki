@@ -1,8 +1,11 @@
 ---
-aliases: 
+aliases:
+  - DT
+  - 数据字典
 tags:
   - concepts
   - system
+  - bigdata
 date: 
 draft:
 ---

@@ -6,6 +6,8 @@ aliases:
 tags:
   - concepts
   - system
+  - bigdata
+  - draw
 date: 
 publish: false
 ---

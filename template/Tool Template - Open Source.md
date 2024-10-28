@@ -7,7 +7,6 @@ draft: true
 ---
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/{{title}}/{{title}}?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/{{title}}/{{title}}) ![GitHub](https://img.shields.io/github/license/{{title}}/{{title}})
-
 (optional) Logo
 
 Brief description of the tool.

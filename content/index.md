@@ -5,8 +5,6 @@ tags:
   - wiki
 ---
 
-# Welcome to My Bigdata Wiki
-
 ![bg](images/nishaung.png)
 
 I’m a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. My journey began with a passion for understanding how massive datasets can drive business value, leading me to specialize in data processing, analysis, and optimization using tools like Apache Spark, Hadoop, and Kafka. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects
@@ -16,7 +14,6 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 
 > [!summary] ## Big Data Knowledge
 > 
->
 > - [[Data Integration Homepage]] 数据集成与数据预处理技术 
 > - [[Data Store Homepage]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
 > - [[Data Center]] 数据中台、数据一站式平台、IDE
@@ -25,25 +22,14 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 > - [[Data Visual]] 数据可视化、BI分析
 > - [[Data Lifecycle]] 数据生存周期
 
-
-
-> [!summary] ## System Architecture
+>[!summary] ### Python
 >
->
-> - [[系统架构设计]]
-> - [[软件架构的演化和维护]] 
-> - [[系统质量属性与架构评估]]
-> - [[软件可靠性]]
+>🐼 [[Dataframe]] | 🐨 [[NumPy]]  | 🐻‍❄️ [[Pandas]] |  🦁 [[Faker]]  | 🐻 [[Multilab]]  | 🐍 [[Spider]]
 
->[!summary] ## Python
+> [!summary] ### System Architecture
 >
-> 
-> - [[Dataframe]]
-> - [[NumPy]] 
-> - [[Pandas]]
-> - [[Faker]] 
-> - [[Multilab]] 
-> - [[Spider]]
+> [[01 计算机系统|计算机系统]] | [[02 操作系统|操作系统]] | [[Data Store Homepage|数据存储]] | [[04 嵌入式技术|嵌入式技术]] | [[05 计算机网络|计算机网络]] | [[08 信息系统|信息系统]] | [[09 系统安全|系统安全]] | [[10 软件工程|软件工程]] | [[11 面向对象|面向对象]] | [[12 项目管理|项目管理]] | [[13 系统架构设计|系统架构设计]] | [[14 软件可靠性|软件可靠性]] | [[15 软件架构的演化和维护|软件架构的演化和维护]] |  [[系统质量属性与架构评估]] | [[17 知识产权保护|知识产权保护]]
+
 
 >[!info] ## Resources
 >

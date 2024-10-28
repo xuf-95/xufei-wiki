@@ -147,4 +147,3 @@ graph LR
 ## Reference
 
 - [Top 5 reasons to modernize your data integration](https://www.ibm.com/downloads/cas/QAZGP2PA) By IBM
-- 

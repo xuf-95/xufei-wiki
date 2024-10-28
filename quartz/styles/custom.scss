@@ -22,80 +22,29 @@
   }
 
 
-/* For Light Mode */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: #f5f5fa; /* Light background */
-  border: 1px solid #ddd; /* Light border for a clean look */
-}
-
-th, td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  color: #2b2b2b; /* Darker text for better readability */
-}
-
-th {
-  background-color: #f05454; /* Bold red header background */
-  text-align: left;
-  font-weight: bold;
-  color: white; /* White text for header */
-}
-
-tr:nth-child(even) {
-  background-color: #ffecec; /* Light pink for even rows */
-}
-
-tr:nth-child(odd) {
-  background-color: #fdfdfd; /* White for odd rows */
-}
-
-
-/* For Dark Mode */
-body.dark-mode table {
-  background-color: #1e1e1e; /* Dark background */
-  border: 1px solid #444; /* Subtle border color */
-}
-
-body.dark-mode th, body.dark-mode td {
-  border: 1px solid #444;
-  padding: 10px;
-  color: #ddd; /* Lighter text for better contrast */
-}
-
-body.dark-mode th {
-  background-color: #2b2b2b; /* Slightly darker header for dark mode */
-  font-weight: bold;
-}
-
-body.dark-mode tr:nth-child(even) {
-  background-color: #2a2a2a; /* Lighter background for alternating rows */
-}
-
 
 h1 {
-  color: #FFD700; /* 金黄色 */
+  color: #f5f5fa; /* 金黄色f5f5fa */
 }
 
 h2 {
-  color: #FF8C00; /* 橙色 */
+  color: #fdfdfd; /* 橙色 */
 }
 
 h3 {
-  color: #FF4500; /* 橘红色 */
+  color: #fdfdfd; /* 橘红色 */
 }
 
 h4 {
-  color: #FF6347; /* 番茄色 */
+  color: #fdfdfd; /* 番茄色 */
 }
 
 h5 {
-  color: #DC143C; /* 红色 */
+  color: #fdfdfd; /* 红色 */
 }
 
 h6 {
-  color: #8B0000; /* 深红色 */
+  color: #fdfdfd; /* 深红色 */
 }
 
 /* Style to add a light yellow border around Mermaid diagrams */
@@ -120,3 +69,32 @@ hr {
 
 
 
+
+/* For Light Mode */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f5f5fa; /* Light background */
+  border: 1px solid #ddd; /* Light border for a clean look */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  color: #2b2b2b; /* Darker text for better readability */
+}
+
+th {
+  background-color: #132235; /* Bold red header background */
+  text-align: left;
+  font-weight: bold;
+  color: white; /* White text for header */
+}
+
+tr:nth-child(even) {
+  background-color: #dbe2ef; /* Light pink for even rows */
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f7f7; /* White for odd rows fdfdfd*/
+}
