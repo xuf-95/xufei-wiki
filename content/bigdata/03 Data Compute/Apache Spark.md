@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Spark
 title: Apache Spark
 tags:
   - bigdata

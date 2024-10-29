@@ -22,7 +22,7 @@ draft:
 > [!info]- ## 计算机基础知识
 > 
 >
->- [[Data Architecture]]
+>- [[content/concepts/bigdata/Data Architecture]]
 >- [[content/concepts/bigdata/Data Lake]]
 
 
@@ -56,7 +56,7 @@ draft:
 
 > [!info]- ## Data Architecture Concepts
 >
->- [[Data Architecture]]
+>- [[content/concepts/bigdata/Data Architecture]]
 >- [[content/concepts/bigdata/Data Lake]]
 >- [[content/concepts/bigdata/Data Warehouse]]
 >- [[Fan-out]]

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Hadoop
 title: Apache Hadoop
 tags:
   - bigdata

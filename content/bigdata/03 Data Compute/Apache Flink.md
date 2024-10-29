@@ -1,4 +1,6 @@
 ---
+aliases:
+  - Flink
 title: Apache Flink
 tags:
   - bigdata

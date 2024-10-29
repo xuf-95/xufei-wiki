@@ -5,6 +5,8 @@ tags:
   - nosql
   - apache
 date: 2023-06-08
+aliases:
+  - Hbase
 ---
 ## Apache HBase 概述
 

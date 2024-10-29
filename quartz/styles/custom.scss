@@ -24,12 +24,12 @@
 
 
 h1 {
-  color: #f5f5fa; /* 金黄色f5f5fa */
-}
+   color: #f5f5fa; /* 金黄色f5f5fa */
+ }
 
 h2 {
-  color: #fdfdfd; /* 橙色 */
-}
+   color: #fdfdfd; /* 橙色 */
+ }
 
 h3 {
   color: #fdfdfd; /* 橘红色 */
@@ -49,10 +49,18 @@ h6 {
 
 /* Style to add a light yellow border around Mermaid diagrams */
 .mermaid {
-  border: 2px solid #3d84a8; /* Light yellow border */
+  border: 1px solid #215c7a6a; /* Light yellow border */
   padding: 10px; /* Optional: adds space between the border and diagram */
   border-radius: 5px; /* Optional: rounds the edges of the border */
   // background-color: #fffdf0; /* Optional: light yellow background */
+
+  // 添加居中显示的样式
+  display: flex;
+  justify-content: center;
+  // margin: 2rem auto; // 上下间距 2rem，左右自动居中
+  // width: fit-content; // 宽度适应内容
+  // min-width: 200px; // 最小宽度
+  // max-width: 100%; // 最大不超过容器宽度
 }
 
 

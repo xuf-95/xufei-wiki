@@ -1,8 +1,10 @@
 ---
+aliases:
+  - Kafka
+  - 卡夫卡
 title: Apache Kafka
 tags:
   - data-integration
-  - kafka
   - MQ
 ---
 ## Kafka 概述
