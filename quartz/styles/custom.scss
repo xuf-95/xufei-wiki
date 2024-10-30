@@ -10,16 +10,16 @@
     }
   }
 
-  .callout-container {
-    display: flex;
-    gap: 20px; // 调整列间距
-  }
+  // .callout-container {
+  //   display: flex;
+  //   gap: 20px; // 调整列间距
+  // }
   
-  .callout {
-    flex: 1; // 每个 callout 占据相同的宽度
-    padding: 20px;
-    border-radius: 8px;
-  }
+  // .callout {
+  //   flex: 1; // 每个 callout 占据相同的宽度
+  //   padding: 20px;
+  //   border-radius: 8px;
+  // }
 
 
 
@@ -106,3 +106,4 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #f9f7f7; /* White for odd rows fdfdfd*/
 }
+

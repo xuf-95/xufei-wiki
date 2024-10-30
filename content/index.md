@@ -2,7 +2,6 @@
 title: Welcome to My Wiki
 tags:
   - home
-  - wiki
 ---
 
 ![bg](images/nishaung.png)

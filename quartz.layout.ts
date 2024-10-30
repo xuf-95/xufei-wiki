@@ -7,7 +7,9 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/xuf-95",
@@ -31,7 +33,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     // Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
-    Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
 
     // Component.TagList(),
   ],
