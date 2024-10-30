@@ -1,7 +1,8 @@
 ---
-Aliases: []
-Tags: [seedling]
-publish: true
+aliases: 
+tags:
+  - seedling
+publish: false
 ---
 
 Data Mesh is an analytical data architecture and operating model where data is treated as a product, leveraging a domain-driven and self-serve design.

@@ -1,7 +1,10 @@
 ---
-Aliases: [incremental load, query-based CDC]
-Tags: [seedling]
-publish: true
+aliases:
+  - incremental load
+  - query-based CDC
+tags:
+  - seedling
+publish: false
 ---
 
 A delta load refers to extracting only the data that has changed since the last time the extract process has run. The most commonly used steps to perform a delta load are:

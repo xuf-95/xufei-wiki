@@ -1,7 +1,9 @@
 ---
-Aliases: [Destructive Load]
-Tags: [seedling]
-publish: true
+aliases:
+  - Destructive Load
+tags:
+  - seedling
+publish: false
 ---
 
 With a full load, the entire dataset is dumped, or loaded, and is then completely replaced (i.e., deleted and replaced) with the new, updated dataset. No additional information, such as timestamps, is required.

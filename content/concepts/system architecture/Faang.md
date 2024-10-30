@@ -5,7 +5,7 @@ tags:
   - system
   - todo
 date: 
-publish: false
+publish: true
 ---
 Facebook
 amazon

@@ -1,7 +1,9 @@
 ---
-Aliases: [columnar database]
-Tags: [incubating]
-publish: true
+aliases:
+  - columnar database
+tags:
+  - incubating
+publish: false
 ---
 
 ![[Assets/row_oriented_vs_column_oriented_database.jpeg|500]]

@@ -1,6 +1,6 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+//put your custom CSS here!
 .callout {
     &[data-callout="custom"] {
       --color: #customcolor;
@@ -57,23 +57,19 @@ h6 {
   // 添加居中显示的样式
   display: flex;
   justify-content: center;
-  // margin: 2rem auto; // 上下间距 2rem，左右自动居中
-  // width: fit-content; // 宽度适应内容
-  // min-width: 200px; // 最小宽度
-  // max-width: 100%; // 最大不超过容器宽度
 }
 
 
-hr {
-  border: none; /* 移除默认边框 */
-  height: 2px; /* 设置分割线的高度 */
-  background-color: #3f72af; /* 设置分割线的颜色 */
-  margin: 2rem 0; /* 设置分割线的上下间距 */
-  width: 50%; /* 设置分割线的长度为容器宽度的50% */
-  margin-left: auto; /* 居中分割线 */
-  margin-right: auto; /* 居中分割线 */
-  position: relative; /* 相对定位以便使用伪元素 */
-}
+// hr {
+//   border: none; /* 移除默认边框 */
+//   height: 2px; /* 设置分割线的高度 */
+//   background-color: #3f72af; /* 设置分割线的颜色 */
+//   margin: 2rem 0; /* 设置分割线的上下间距 */
+//   width: 80%; /* 设置分割线的长度为容器宽度的50% */
+//   margin-left: auto; /* 居中分割线 */
+//   margin-right: auto; /* 居中分割线 */
+//   position: relative; /* 相对定位以便使用伪元素 */
+// }
 
 
 
@@ -100,7 +96,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #dbe2ef; /* Light pink for even rows */
+  background-color: #f9f7f7; /* Light pink for even rows */
 }
 
 tr:nth-child(odd) {

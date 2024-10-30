@@ -61,4 +61,11 @@ date: 2023-08-06
 ### big data Guide
 
 - [BigData Guide Website](https://hao.199it.com/) All type of data tools
+
+
+
+
+## Quartz
+
+- [GitHub - Gassandrid/Quartz\_CodeRunner\_Plugin: a python code runner for Quartz static site generator](https://github.com/Gassandrid/Quartz_CodeRunner_Plugin/tree/main)
 - 

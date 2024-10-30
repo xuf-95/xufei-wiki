@@ -1,6 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import TwoColumnLayout  from "./quartz/components/TwoColumnLayout"
 
 /**
  * Quartz 4.0 Configuration
@@ -20,7 +19,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "https://xuf-95.github.io/xufei-wiki/",
-    ignorePatterns: ["private", "templates", ".obsidian", "docs"],
+    ignorePatterns: ["private",  "**/templates/", ".obsidian", "docs"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
@@ -43,16 +42,15 @@ const config: QuartzConfig = {
           textHighlight: "#339af0"   // 明亮的蓝色，用于文本高亮
         },
         darkMode: {
-          light: "#112d4e",          // 比较深的黑色，减少纯黑的硬度，适合作为主背景色 #14141D
-          lightgray: "#3e5073",      // 搜索框；代码框线（``）；文本分割线；graph 图框； -》 深灰色，适合卡片背景或分割区域
+          light: "#10183A",          // 比较深的黑色，减少纯黑的硬度，适合作为主背景色 #14141D #10183A(best VICTOR)
+          lightgray: "#3e5073",      // 搜索框；代码框线（``）；文本分割线；graph 图框；
           // gray: "#5a5a5c",           // 中灰色，适合边框、次要文本或图标
           gray: "#3f72af",           // 时间 阅读时间；
           darkgray: "#c8c8ca",       // 亮灰色，适合作为次要文本（文本内容）、提示信息
-          dark: "c8c8ca",           // 非常浅的灰色接近白色，作为主要文本颜色，提高可读性
-          // secondary: "#FFA500",      // 橙黄色，作为高亮色，用于CTA按钮、链接或重要提示信息
+          dark: "#c8c8ca",              // 文件；目录；加粗文本；链接图标；
           secondary: "#dbe2ef",      // 博客标题；文件夹；  -> 橙黄色，作为高亮色，用于CTA按钮、链接或重要提示信息
-          tertiary: "#00d2d3",       // 金黄色，作为次级强调色（悬浮高亮颜色），用于装饰元素或高优先级提示
-          highlight: "#325b8c", // 标签和Page页路由背景色，透明橙黄色，用于背景高亮，突出某些选中状态
+          tertiary: "#FF0",       // graphy 图中节点颜色；金黄色，作为次级强调色（悬浮高亮颜色），用于装饰元素或高优先级提示
+          highlight: "#325b8c",     // 标签和Page页路由背景色，透明橙黄色，用于背景高亮，突出某些选中状态
           textHighlight: "#ffbe00"   // 柔和的黄橙色，用于文本高亮，增强视觉引导效果#F5C0C0 
         },
         // lightMode: {
@@ -84,7 +82,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
+        priority: ["frontmatter", "filesystem", "git"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {

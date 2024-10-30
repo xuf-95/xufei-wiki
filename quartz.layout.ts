@@ -6,9 +6,9 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [Component.LinksHeader()],
   afterBody: [
-    Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
+    // Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
   ],
   footer: Component.Footer({
     links: {

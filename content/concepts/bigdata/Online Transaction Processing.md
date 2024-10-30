@@ -1,7 +1,9 @@
 ---
-Aliases: [OLTP]
-Tags: [incubating]
-publish: true
+aliases:
+  - OLTP
+tags:
+  - incubating
+publish: false
 ---
 
 The management of transactional data which occurs in the day-to-day operation of an organization. OLTP systems record the transactional data and support the querying of the data.

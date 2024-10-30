@@ -1,7 +1,9 @@
 ---
-Aliases: [scaling up]
-Tags: [seedling]
-publish: true
+aliases:
+  - scaling up
+tags:
+  - seedling
+publish: false
 ---
 
 Vertical scaling is when you increase the capacity of a system by increasing the compute size.

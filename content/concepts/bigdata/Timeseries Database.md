@@ -1,7 +1,9 @@
 ---
-Aliases: [TSDB]
-Tags: [seedling]
-publish: true
+aliases:
+  - TSDB
+tags:
+  - seedling
+publish: false
 ---
 
 A timeseries database (TSDB) is optimized to store, aggregate and analyze large amounts of continuously generated time-stamped data from sources such as IoT devices or sensors. They are used in applications that require monitoring performance changes over time or tracking sequences of events.

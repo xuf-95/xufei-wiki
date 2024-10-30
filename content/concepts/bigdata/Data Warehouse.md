@@ -1,7 +1,12 @@
 ---
-Aliases: [data warehouse, enterprise data warehouse, EDW, DWH]
-Tags: [incubating]
-publish: true
+aliases:
+  - data warehouse
+  - enterprise data warehouse
+  - EDW
+  - DWH
+tags:
+  - incubating
+publish: false
 ---
 
 A data warehouse is a central repository for data which will be used for reporting and analytics. Data comes into the data warehouse from [[Online Transaction Processing|transactional systems]], relational databases, or [[content/concepts/bigdata/Data Lake|other sources]] usually on a regular cadence. Business analysts, data engineers, data scientists, and decision makers then access the data through [[Business Intelligence|business intelligence]] tools, [[SQL]] clients, and other analytics applications. Because the primary use cases for a data warehouse revolve around analytics, they typically use an [[Online Analytical Processing|OLAP]] technology for performance.

@@ -1,7 +1,10 @@
 ---
-Aliases: [Wide Tables, OBT]
-Tags: [seedling]
-publish: true
+aliases:
+  - Wide Tables
+  - OBT
+tags:
+  - seedling
+publish: false
 ---
 
 The main idea behind one big table (OBT) is to join all of the data necessary for analytics into wide [[Denormalization|denormalized]] tables. One big table is a popular approach to serving analytics at larger scales and takes advantage of the benefits of [[Column-oriented Database|columnar databases]]. It's usually combined with/built on top of other techniques such as a [[Dimensional Modeling|Dimensional Model]] or [[Data Vault Modeling|Data Vault]].

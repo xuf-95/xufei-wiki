@@ -1,5 +1,6 @@
 @use "./variables.scss" as *;
 @use "sass:color";
+@use "./custom/image-adjustments.scss";
 
 .callout {
   border: 1px solid var(--border);

@@ -1,7 +1,10 @@
 ---
-Aliases: [database denormalization, data denormalization]
-Tags: [incubating]
-publish: true
+aliases:
+  - database denormalization
+  - data denormalization
+tags:
+  - incubating
+publish: false
 ---
 
 Denormalization is the process of combining data into a "wide" tables that are optimized for read workloads. Denormalized tables are best suited for [[Online Analytical Processing|OLAP]] systems where you need to analyze historical data, as updates are not required and data redundancy is not an issue.
