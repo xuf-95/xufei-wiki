@@ -2,6 +2,16 @@
 @use "./syntax.scss";
 @use "./callouts.scss";
 
+@use "./custom/image-adjustments.scss";
+@use "./custom/callout-adjustments.scss";
+@use "./custom/column-callout.scss";
+@use "./custom/caption-callout.scss";
+@use "./custom/infobox-callout.scss";
+@use "./custom/maintenance-template-callout.scss";
+@use "./custom/transclusion-adjustments.scss";
+@use "./custom/ayembedt-font.scss";
+
+
 html {
   scroll-behavior: smooth;
   text-size-adjust: none;
