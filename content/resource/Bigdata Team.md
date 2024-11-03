@@ -1,5 +1,9 @@
 ---
 title: Bigdata Team
+cssclasses:
+  - three-column-list
+  - two-column-list
+  - two-column-grid-list
 ---
 ## China Team
 
@@ -29,15 +33,16 @@ title: Bigdata Team
 >> #### header
 >> - this callout is 1/6
 
-> [!multicolumn]
+> [!multi-column]
 >> Column 1
 >
 >> Column 2
 >
->> Column 3
+>> Column 4
+>
 
 
-> #### Type of Graphics (Plot)
+> ### Type of Graphics (Plot)
 > - [Bar chart](https://en.wikipedia.org/wiki/Bar_chart "Bar chart")
 > - [Biplot](https://en.wikipedia.org/wiki/Biplot "Biplot")
 > - [Box plot](https://en.wikipedia.org/wiki/Box_plot "Box plot")
@@ -55,6 +60,22 @@ title: Bigdata Team
 > - [Violin plot](https://en.wikipedia.org/wiki/Violin_plot "Violin plot")
 > { .multi-column-list-block }
 
+> [!infobox]
+> # Name
+> ![[aaaa.png|cover hsmall]]
+> ###### Stats
+> | Type | Stat |
+> | ---- | ---- |
+> | Test | Testing |
+> | Test | Testing |
+> 
+> ##### Stats 3
+> | Type | Stat |
+> | ---- | ---- |
+> | Test | Testing |
+> | Test | Testing |
 
-
+> [!caption|right wsmall] Full width caption sizing  
+> ## H2
+> ![[aaaa.png]]
 

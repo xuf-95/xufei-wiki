@@ -1,9 +1,26 @@
+// $pageWidth: 750px;
+// $mobileBreakpoint: 600px;
+// $tabletBreakpoint: 1000px;
+// $sidePanelWidth: 380px;
+// $topSpacing: 6rem;
+// $fullPageWidth: $pageWidth + 2 * $sidePanelWidth;
+// $boldWeight: 700;
+// $semiBoldWeight: 600;
+// $normalWeight: 400;
+
 $pageWidth: 750px;
 $mobileBreakpoint: 600px;
 $tabletBreakpoint: 1000px;
 $sidePanelWidth: 380px;
 $topSpacing: 6rem;
-$fullPageWidth: $pageWidth + 2 * $sidePanelWidth;
+// $fullPageWidth: $pageWidth + 2 * $sidePanelWidth;
+$fullPageWidth: 1510px;
+$coremarg: 1%;
+$extramarg: 1%;
+$defaultwidth: 60%;
+$minwidth: 50px;
+$defaultzoomwidth: 100%;
+$defaultscale: 1.5;
 $boldWeight: 700;
 $semiBoldWeight: 600;
 $normalWeight: 400;

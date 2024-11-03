@@ -1,50 +1,44 @@
 @use "./base.scss";
-@use "./callouts.scss";
 
-@use "./custom/mcl-multi-column.scss";
 
+/* ITS CSS */
+
+@use "./custom/its-callout.scss";
 @use "./custom/image-adjustments.scss";
-@use "./custom/callout-adjustments.scss";
+@use "./custom/its-dataview-card.scss";
+@use "./custom/its-embed-adjustments.scss";
+// @use "./custom/its-encoded-icons.scss";
+@use "./custom/its-external-link-icons.scss";
+
+
+@use "./custom/maintenance-template-callout.scss";
+@use "./custom/transclusion-adjustments.scss";
 @use "./custom/column-callout.scss";
 @use "./custom/caption-callout.scss";
 @use "./custom/infobox-callout.scss";
-@use "./custom/maintenance-template-callout.scss";
-@use "./custom/transclusion-adjustments.scss";
+
+@use "./custom/mcl-multi-column.scss";
 @use "./custom/ayembedt-font.scss";
 
+
+// from owlly-lab https://github.com/Mara-Li/owlly-lab/blob/main/quartz/styles/custom.scss
+@use "./custom/callouts.scss";
+@use "./custom/image_grid_float.scss";
+@use "./custom/grid_callouts.scss";
+
+
+
+
 //put your custom CSS here!
-.callout {
-    &[data-callout="custom"] {
-      --color: #customcolor;
-      --border: #custombordercolor;
-      --bg: #custombg;
-      --callout-icon: url("data:image/svg+xml; utf8, <custom formatted svg>"); //SVG icon code
-    }
-  }
+// .callout {
+//     &[data-callout="custom"] {
+//       --color: #customcolor;
+//       --border: #custombordercolor;
+//       --bg: #custombg;
+//       --callout-icon: url("data:image/svg+xml; utf8, <custom formatted svg>"); //SVG icon code
+//     }
+//   }
 
-h1 {
-   color: #f5f5fa; /* 金黄色f5f5fa */
- }
-
-h2 {
-   color: #fdfdfd; /* 橙色 */
- }
-
-h3 {
-  color: #fdfdfd; /* 橘红色 */
-}
-
-h4 {
-  color: #fdfdfd; /* 番茄色 */
-}
-
-h5 {
-  color: #fdfdfd; /* 红色 */
-}
-
-h6 {
-  color: #fdfdfd; /* 深红色 */
-}
 
 /* Style to add a light yellow border around Mermaid diagrams */
 .mermaid {
@@ -59,196 +53,93 @@ h6 {
 }
 
 
-// hr {
-//   border: none; /* 移除默认边框 */
-//   height: 2px; /* 设置分割线的高度 */
-//   background-color: #3f72af; /* 设置分割线的颜色 */
-//   margin: 2rem 0; /* 设置分割线的上下间距 */
-//   width: 80%; /* 设置分割线的长度为容器宽度的50% */
-//   margin-left: auto; /* 居中分割线 */
-//   margin-right: auto; /* 居中分割线 */
-//   position: relative; /* 相对定位以便使用伪元素 */
+// /* For Light Mode */
+// table {
+//   width: 100%;
+//   border-collapse: collapse;
+//   background-color: #f5f5fa; /* Light background */
+//   border: 1px solid #ddd; /* Light border for a clean look */
+// }
+
+// th, td {
+//   border: 1px solid #ddd;
+//   padding: 10px;
+//   color: #2b2b2b; /* Darker text for better readability */
+// }
+
+// th {
+//   background-color: #132235; /* Bold red header background */
+//   text-align: left;
+//   font-weight: bold;
+//   color: white; /* White text for header */
+// }
+
+// tr:nth-child(even) {
+//   background-color: #f9f7f7; /* Light pink for even rows */
+// }
+
+// tr:nth-child(odd) {
+//   background-color: #f9f7f7; /* White for odd rows fdfdfd*/
 // }
 
 
 
 
-/* For Light Mode */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: #f5f5fa; /* Light background */
-  border: 1px solid #ddd; /* Light border for a clean look */
+// Put your custom CSS here!
+
+
+.page .page-header {
+  padding: 1px 1px 1px 1dvw;
+  width: auto;
+  margin-left: -1dvw;
+  margin-right: -1dvw;
 }
 
-th, td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  color: #2b2b2b; /* Darker text for better readability */
-}
-
-th {
-  background-color: #132235; /* Bold red header background */
-  text-align: left;
-  font-weight: bold;
-  color: white; /* White text for header */
-}
-
-tr:nth-child(even) {
-  background-color: #f9f7f7; /* Light pink for even rows */
-}
-
-tr:nth-child(odd) {
-  background-color: #f9f7f7; /* White for odd rows fdfdfd*/
-}
-
-
-// @media screen and (max-width:$mobileBreakpoint) {
-//   .Logo {
-//     max-height: 185px;
-//     min-height: 150px;
-//     max-width: 200px;
-//     min-width: 150px;
+// @media all and (max-width: $fullPageWidth) {
+//   .page-title.mobile-only {
+//     max-width: fit-content;
+//     a {
+//       font-size: 4dvw;
+//       vertical-align: 0.25em;
+//     }
 //   }
-//   .page-title {
-//     height: 150px;
+// }
+
+// @media all and (max-width: $mobileBreakpoint) {
+//   .page .page-header {
+//     width: auto;
 //   }
-//   #quartz-body .sidebar.left {
-//     margin-top: 0.5rem;
-//   }  
-//   .sidebar.left .spacer.mobile-only {
-//     flex: 0.5 0.5 auto;
+// }
+
+// @media all and (min-width: $tabletBreakpoint) {
+//   .page-title.mobile-only a {
+//     font-size: 2.5vw;
+//     vertical-align: middle;
 //   }
 // }
 
 
-#explorer-ul {
-  max-height: calc(100vh - 400px);
+
+hr {
+  width: auto !important;
+
+  .hr-title & {
+    margin: 0;
+    margin-top: -0.3em;
+  }
 }
 
-img:not(.Logo) {
-cursor:zoom-in;}
-
-img:active:not(.Logo) {
-cursor:zoom-out;
-display:block;
-z-index:100;
-position:fixed;
-max-height:100% !important;
-max-width:100% !important;
-height:100% !important;
-width:100% !important;
-object-fit: contain;
-margin:0 auto !important;
-text-align:center;
-top: 50%;
-transform: translateY(-50%);
-padding:0;
-left:0;
-right:0;
-bottom:0;
-background:var(--background-primary);
+.rside-10 img[alt*="+rside"] {
+  width: 10em;
 }
 
-/* ===================== */
-
-/*---- kbd styling ----*/
-
-kbd {
-font-family: Consolas, "Lucida Console", monospace;
-display: inline-block;
-border-radius: 3px;
-padding: 0px 4px;
-box-shadow: 1px 1px 1px #777;
-margin: 2px;
-font-size: small;
-vertical-align: text-bottom;
-background: #eee;
-font-weight: 500;
-color: #555;
-/*cursor: pointer;*/
-font-variant: small-caps;
-font-weight: 600;
-line-height: 1.1rem;
-
-/* This two work */
-/* letter-spacing: 0.5px; */
-letter-spacing: 1px;
-
-
-/* Prevent selection */
--webkit-touch-callout: none;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
+.wiki-left .callout[data-callout$="wiki"] h1,
+.wiki-left .callout[data-callout$="wiki"] h3 {
+  background-color: var(--lightgray);
 }
 
-kbd:hover, kbd:hover * {
-color: black;
-/* box-shadow: 1px 1px 1px #333; */
-}
-kbd:active, kbd:active * {
-color: black;
-box-shadow: 1px 1px 0px #ddd inset;
+.avatar img[alt="+rside"] {
+  width: auto;
 }
 
-kbd kbd {
-padding: 0px;
-margin: 0 1px;
-box-shadow: 0px 0px 0px black;
-vertical-align: baseline;
-background: none;
-}
 
-kbd kbd:hover {
-box-shadow: 0px 0px 0px black;
-}
-
-kbd:active kbd {
-box-shadow: 0px 0px 0px black;
-background: none;
-}
-
-/* ===================== */
-
-/* --- Download Link --- */
-
-a.mmw-download-link:link, a.mmw-download-link:visited {
-background-color: #8f9fa926; 
-border: none;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 1.2rem;
-width: 100%;
-transition: .4s;
-padding: 6px;
-box-sizing: border-box;
-}
-
-a.mmw-download-link:hover, a.mmw-download-link:active {
-background-color: #8f9fa93d;
-}
-
-a.mmw-download-link::before {
-/* display download icon before link text */
-display: inherit;
-vertical-align: middle;
-padding-right: 5px;
-}
-
-/*change svg stroke='' based on dark/light theme*/
-[saved-theme="light"]a.mmw-download-link::before {
-content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='%232b2b2b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-download'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
-}
-
-[saved-theme="dark"]a.mmw-download-link::before {
-content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='%23ebebec' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-download'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
-}
-
-a.mmw-download-link div.popover {
-display: none;
-/* prevent link popover from appearing */
-}

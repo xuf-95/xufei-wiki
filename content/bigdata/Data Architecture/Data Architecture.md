@@ -101,7 +101,6 @@ flowchart LR
 >  Kappa 架构本质上是通过改进 Lambda 架构中的加速层(删除了 Batch Layer 的架构,将数据通道以消息队列进行替代)，使它既能够进行实时数据处理，同时也有能力在业务逻辑更新的情况下重新处理以前处理过的历史数据
 
 ![[Kappa Architecture.png]]
-
 ### Lambda 架构和 Kappa 架构特性对比 
 
 | 对比内容       | Lambda 架构                                    | Kappa 架构                                  |

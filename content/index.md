@@ -8,8 +8,9 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 
 ## Wiki Content
 
-
-> [!summary] Big Data Knowledge
+> [!obsidian] Big Data Knowledge
+> 
+>  About Big Data Tech 
 > 
 > - [[Data Integration Homepage]] 数据集成与数据预处理技术 
 > - [[Data Store Homepage]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
@@ -19,18 +20,26 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 > - [[Data Visual]] 数据可视化、BI分析
 > - [[Data Lifecycle]] 数据生存周期
 
->[!summary] Python
+### Python 
+> [!column]
+>>[!voc]  Python
+>>
+>> - 🐼 [[Dataframe]] 
+>> - 🐨 [[NumPy]]  
+>> - 🐻‍❄️ [[Pandas]] 
+>> - 🦁 [[Faker]]  
+>> - 🐻 [[Multilab]]  
+>> - 🐍 [[Spider]]
 >
->🐼 [[Dataframe]] | 🐨 [[NumPy]]  | 🐻‍❄️ [[Pandas]] |  🦁 [[Faker]]  | 🐻 [[Multilab]]  | 🐍 [[Spider]]
+>> [!ex] System Architecture
+>> 
+>> 
+>>  [[01 计算机系统|计算机系统]] | [[02 操作系统|操作系统]] | [[Data Store Homepage|数据存储]] | [[04 嵌入式系统架构设计|嵌入式技术]] | [[05 计算机网络|计算机网络]] | [[08 信息系统|信息系统]] | [[09 系统安全|系统安全]] | [[10 软件工程|软件工程]] | [[11 面向对象|面向对象]] | [[12 项目管理|项目管理]] | [[13 系统架构设计|系统架构设计]] | [[14 软件可靠性|软件可靠性]] | [[15 软件架构的演化和维护|软件架构的演化和维护]] |  [[系统质量属性与架构评估]] | [[17 知识产权保护|知识产权保护]]
 
-> [!summary] System Architecture
->
-> [[01 计算机系统|计算机系统]] | [[02 操作系统|操作系统]] | [[Data Store Homepage|数据存储]] | [[04 嵌入式系统架构设计|嵌入式技术]] | [[05 计算机网络|计算机网络]] | [[08 信息系统|信息系统]] | [[09 系统安全|系统安全]] | [[10 软件工程|软件工程]] | [[11 面向对象|面向对象]] | [[12 项目管理|项目管理]] | [[13 系统架构设计|系统架构设计]] | [[14 软件可靠性|软件可靠性]] | [[15 软件架构的演化和维护|软件架构的演化和维护]] |  [[系统质量属性与架构评估]] | [[17 知识产权保护|知识产权保护]]
 
 
->[!info] Resources
->
-> 
+### Resources
+>[!conclusion] 
 > - [[Bigdata DataSet]] 数据集合、开源数据集、权威数据源、机器学习算法数据集等等
 > - [[Big Data Wiki]] 大数据开源Wiki知识库、权威文档等等
 > - [[Bigdata Book]] 大数据相关论文、书籍、报刊、资讯媒体等等
@@ -40,7 +49,3 @@ I’m a Big Data Developer with over three years of hands-on experience in the e
 > - [[Data Market]] 数据服务交易市场、数据资产交易等等
 >
 >> [[Concepts]]
-
-```python
-print("hello")
-```

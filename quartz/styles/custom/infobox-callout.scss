@@ -4,7 +4,8 @@
 .callout[data-callout="infobox"] {
     background-color: transparent;
     --callout-icon: none;
-    border: 1px solid var(--lightgray);
+    //border: 1px solid var(--lightgray); //lightgray
+    border: 1px solid hwb(9 20% 32% / 0.884);
     float: right;
     width: 300px;
     margin: 0px 0px 10px 10px;

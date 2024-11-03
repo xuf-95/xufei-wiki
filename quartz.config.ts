@@ -31,15 +31,15 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#ffffff",          // 纯白色背景
-          lightgray: "#f8f9fa",      // 更柔和的浅灰色，用于搜索框和代码框
-          gray: "#495057",           // 优雅的中灰色，用于次要文本
-          darkgray: "#343a40",       // 深灰色，用于主要文本
-          dark: "#212529",           // 近黑色，用于标题，提供强对比度
-          secondary: "#228be6",      // 沉稳的蓝色，用于链接
-          tertiary: "#12b886",       // 清新的绿松石色，用于悬浮效果
-          highlight: "rgba(34, 139, 230, 0.08)", // 更淡的蓝色背景，突出但不刺眼
-          textHighlight: "#339af0"   // 明亮的蓝色，用于文本高亮
+          light: '#f5f2e9',
+          lightgray: '#e0dcd3',
+          gray: '#b8b8b8',
+          darkgray: '#4e4e4e',
+          dark: '#2b2b2b',
+          secondary: '#2d788e',
+          tertiary: '#34bbc1',
+          highlight: 'rgba(143, 159, 169, 0.15)',
+          textHighlight: '#f5f2e9',
         },
         darkMode: {
           light: "#10183A",          // 比较深的黑色，减少纯黑的硬度，适合作为主背景色 #14141D #10183A(best VICTOR)
@@ -74,6 +74,19 @@ const config: QuartzConfig = {
         //   tertiary: "#84a59d",
         //   highlight: "rgba(143, 159, 169, 0.15)",
         //   textHighlight: "#b3aa0288",
+        // },
+
+        // from 
+        // darkMode: {
+        //   light: '#232426',
+        //   lightgray: '#393639',
+        //   gray: '#646464',
+        //   darkgray: '#d4d4d4',
+        //   dark: '#ebebec',
+        //   secondary: '#1F9ABF',
+        //   tertiary: '#84a59d',
+        //   highlight: 'rgba(143, 159, 169, 0.15)',
+        //   textHighlight: '#232426',
         // },
       },
     },
