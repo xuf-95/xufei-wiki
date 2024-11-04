@@ -53,6 +53,24 @@
 }
 
 
+// hr {
+//   overflow: visible;
+//   padding: 0;
+//   margin: 4em auto;
+//   border: none;
+//   color: var(--gray);
+//   text-align: center;
+//   width: 40%;
+//   border-color: var(--gray);
+//   &:after {
+//     content: "* * *";
+//     display: inline-block;
+//     margin: -1em 0 0.5em;
+//     font-size: 1.5em;
+//     padding: 0.5em 1em;
+//     background: var(--light);
+//   }
+// }
 // /* For Light Mode */
 // table {
 //   width: 100%;
@@ -83,63 +101,509 @@
 // }
 
 
-
-
-// Put your custom CSS here!
-
-
-.page .page-header {
-  padding: 1px 1px 1px 1dvw;
-  width: auto;
-  margin-left: -1dvw;
-  margin-right: -1dvw;
+.blaze-slider {
+  /* default config */
+  --slides-to-show: 1;
+  --slide-gap: 20px;
+  /* force ltr - slider does not work in rtl mode */
+  direction: ltr;
 }
 
-// @media all and (max-width: $fullPageWidth) {
-//   .page-title.mobile-only {
-//     max-width: fit-content;
-//     a {
-//       font-size: 4dvw;
-//       vertical-align: 0.25em;
-//     }
-//   }
-// }
+.blaze-container {
+  position: relative;
+}
 
-// @media all and (max-width: $mobileBreakpoint) {
-//   .page .page-header {
-//     width: auto;
-//   }
-// }
+.blaze-track-container {
+  overflow: hidden;
+}
 
-// @media all and (min-width: $tabletBreakpoint) {
-//   .page-title.mobile-only a {
-//     font-size: 2.5vw;
-//     vertical-align: middle;
-//   }
-// }
+.blaze-track {
+  will-change: transform;
+  touch-action: pan-y;
+  display: flex;
+  gap: var(--slide-gap);
+  --slide-width: calc(
+    (100% - (var(--slides-to-show) - 1) * var(--slide-gap)) /
+      var(--slides-to-show)
+  );
+}
+
+.blaze-track,
+.blaze-track > * {
+  box-sizing: border-box;
+}
+
+.blaze-track > * {
+  width: var(--slide-width);
+  flex-shrink: 0;
+}
 
 
 
-hr {
-  width: auto !important;
 
-  .hr-title & {
-    margin: 0;
-    margin-top: -0.3em;
+// ==============================================================================================
+// Carosal Code 
+// from https://codepen.io/siiron/pen/QWwLoMy
+// ==============================================================================================
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+    
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: calc($height / $width) * 100%;
+  }
+    
+  > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
   }
 }
 
-.rside-10 img[alt*="+rside"] {
-  width: 10em;
+// Styling
+
+[saved-theme="light"] .carousel-section {
+    background: #F4F4F4;
+    padding: 50px 0;
 }
 
-.wiki-left .callout[data-callout$="wiki"] h1,
-.wiki-left .callout[data-callout$="wiki"] h3 {
-  background-color: var(--lightgray);
+[saved-theme="dark"] .carousel-section {
+    background: #2A2A2A;
+    padding: 50px 0;
 }
 
-.avatar img[alt="+rside"] {
-  width: auto;
+.container {
+    max-width: 1044px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
+
+[saved-theme="dark"] .carousel {
+    display: block;
+    text-align: left;
+    position: relative;
+    margin-bottom: 22px;
+    
+    > input {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        
+        &:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -500%; }
+        &:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -400%; }
+        &:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -300%; }
+        &:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -200%; }
+        &:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -100%; }
+        &:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: 0%; }
+        
+        &:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) { box-shadow: 0px 0px 0px 5px #B6902C; }
+        &:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) { box-shadow: 0px 0px 0px 5px #B6902C; }
+        &:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) { box-shadow: 0px 0px 0px 5px #B6902C; }
+        &:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) { box-shadow: 0px 0px 0px 5px #B6902C; }
+        &:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) { box-shadow: 0px 0px 0px 5px #B6902C; }
+        &:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) { box-shadow: 0px 0px 0px 5px #B6902C; }
+    }
+}
+
+[saved-theme="light"] .carousel {
+    display: block;
+    text-align: left;
+    position: relative;
+    margin-bottom: 22px;
+
+    > input {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+
+        &:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -500%; }
+        &:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -400%; }
+        &:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -300%; }
+        &:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -200%; }
+        &:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -100%; }
+        &:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: 0%; }
+
+        &:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) { box-shadow: 0px 0px 0px 5px #697F90; }
+        &:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) { box-shadow: 0px 0px 0px 5px #697F90; }
+        &:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) { box-shadow: 0px 0px 0px 5px #697F90; }
+        &:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) { box-shadow: 0px 0px 0px 5px #697F90; }
+        &:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) { box-shadow: 0px 0px 0px 5px #697F90; }
+        &:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) { box-shadow: 0px 0px 0px 5px #697F90; }
+    }
+}
+
+.carousel__slides {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: flex;
+}
+
+ [saved-theme="dark"] .carousel__slide {
+    position: relative;
+    display: block;
+    flex: 1 0 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 300ms ease-out;
+    vertical-align: top;
+    box-sizing: border-box;
+    white-space: normal;
+    
+    figure {
+        display: flex;
+        margin: 0;
+    }
+    
+    div {
+        @include aspect-ratio(3, 2);
+        width: 100%;
+    }
+    
+    img {
+        display: block;
+        flex: 1 1 auto;
+        object-fit: cover;
+    }
+    
+    figcaption {
+        align-self: flex-end;
+        padding: 20px 20px 0 20px;
+        flex: 0 0 auto;
+        color: #EBE6DC;
+        width: 25%;
+        min-width: 150px;
+    }
+    
+    .credit {
+        margin-top: 1rem;
+        color: #F1B922;  
+        display: block;        
+    }
+    
+    &.scrollable {
+        overflow-y: scroll;
+    }
+}
+
+ [saved-theme="light"] .carousel__slide {
+    position: relative;
+    display: block;
+    flex: 1 0 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 300ms ease-out;
+    vertical-align: top;
+    box-sizing: border-box;
+    white-space: normal;
+    
+    figure {
+        display: flex;
+        margin: 0;
+    }
+    
+    div {
+        @include aspect-ratio(3, 2);
+        width: 100%;
+    }
+    
+    img {
+        display: block;                                                                                                                                                    
+        flex: 1 1 auto;
+        object-fit: cover;
+    }
+
+    figcaption {
+        align-self: flex-end;
+        padding: 20px 20px 0 20px;
+        flex: 0 0 auto;
+        color: #7A7A7A;//98AFC8
+        width: 25%;
+        min-width: 150px;
+    }
+
+    .credit {
+        margin-top: 1rem;
+        color: #284B63;//7A7A7A
+        display: block;
+    }
+
+    &.scrollable {
+        overflow-y: scroll;
+    }
+}
+
+
+.carousel__thumbnails {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    margin: 0 -10px;
+    
+    .carousel__slides + & {
+        margin-top: 20px;
+    }
+    
+    li {        
+        flex: 1 1 auto;
+        max-width: calc((100% / 6) - 20px);  
+        margin: 0 10px;
+        transition: all 300ms ease-in-out;
+    }
+    
+    label {
+        display: block;
+        @include aspect-ratio(1,1);
+        
+                  
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            
+            img {
+                box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.25);
+                transition: all 300ms ease-in-out;
+            }
+        }
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+/* Styles for Light Theme */
+[saved-theme="light"] table {
+  /* Light theme table styles */
+  background-color: #ffffff; /* white background for light theme */
+  color: #000000; /* black text for light theme */
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto; /* Centers the table horizontally by automatically adjusting the left margin */
+  margin-right: auto; /* Centers the table horizontally by automatically adjusting the right margin */
+  
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #CFE4FF;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover td {
+    background-color: #f1f1f1;
+  }
+  
+  th {
+    text-align: center; /* Center aligns the text in header cells */
+    padding: 8px; /* Add padding for spacing */
+    font-size: 16.5px;
+  }
+
+  caption {
+    padding: 8px;
+    font-size: larger;
+    caption-side: top;
+  }
+}
+
+
+
+/* Styles for Dark Theme */
+[saved-theme="dark"] {
+  table {
+    background-color: #36312A; /* dark gray background for dark theme */
+    color: #ffffff; /* white text for dark theme */
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    td {
+      padding: 8px;
+      text-align: center;
+      border-bottom: 1px solid #A19084;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #2B2519;
+    }
+
+    th {
+    text-align: center; /* Center aligns the text in header cells */
+    padding: 8px; /* Add padding for spacing */
+    font-size: 16.5px;
+  }
+
+    tr:hover td {
+      background-color: #4F483E;
+    }
+
+    caption {
+      padding: 8px;
+      font-size: larger;
+      caption-side: top;
+    }
+  }
+}
+
+
+// style for class body (I am leaving it in as a reference for when I want to make settings for a spefic class)
+/* Styles for Light Theme */
+[saved-theme="light"] .body {
+  /* Light theme table styles */
+  background-color: #ffffff; /* white background for light theme */
+  color: #000000; /* black text for light theme */
+  // ... Other light theme styles for table ...
+  td {
+    border-bottom: 1px solid #F6F4D6;
+  }
+  tr:nth-child(even) td {
+    background-color: #F6F5F5;
+  }
+  tr:hover td {
+    background-color: #f1f1f1;
+  }
+  caption {
+    /* Caption styles for light theme */
+  }
+}
+
+/* Styles for Dark Theme */
+[saved-theme="dark"] .body {
+  /* Dark theme table styles */
+  background-color: #333333; /* dark gray background for dark theme */
+  color: #ffffff; /* white text for dark theme */
+  // ... Other dark theme styles for table ...
+  td {
+    border-bottom: 1px solid #464D58; /* Darker border color for dark theme */
+  }
+  tr:nth-child(even) td {
+    background-color: #1a1a1a; /* Darker shade for even rows in dark theme */
+  }
+  tr:hover td {
+    background-color: #4F483E; /* Darker shade on hover in dark theme */
+  }
+  caption {
+    /* Caption styles for dark theme */
+  }
+}
+
+
+
+
+.columns {
+  column-count: 5;
+}
+
+.columns p {
+  border: 5px solid #34c9eb;
+  padding: 0.5em;
+  margin: 0 0 1em 0;
+  box-decoration-break: clone;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+ 
+/** Subtle text "highlighter" in pure CSS. from https://codepen.io/cassidoo/pen/JjQOBZB  */ 
+// html {
+//   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+//   font-size: 1.3em;
+//   max-width: 40rem;
+//   padding: .8rem;
+//   margin: auto;
+//   line-height: 1.6rem;
+// }
+
+.highlight {
+  display: inline-block;
+  background: linear-gradient(
+      100deg,
+      #ffffaf00 1%,
+      #ffffaf 2.5%,
+      #ffffaf80 5.7%,
+      #ffffaf1a 93%,
+      #ffffafb4 95%,
+      #ffffaf00 98%
+    ),
+    linear-gradient(182deg, #ffffaf00, #ffffaf4d 8%, #ffffaf00 15%);
+}
+
+.green-highlight {
+  display: inline-block;
+  background: linear-gradient(
+      100deg,
+      #b8ffaf00 1%,
+      #b8ffaf 2.5%,
+      #b8ffaf80 5.7%,
+      #b8ffaf1a 93%,
+      #b8ffafb4 95%,
+      #b8ffaf00 98%
+    ),
+    linear-gradient(182deg, #b8ffaf00, #b8ffaf4d 8%, #b8ffaf00 15%);
+}
+
+.pink-highlight {
+  display: inline-block;
+  background: linear-gradient(
+      100deg,
+      #ffafd400 1%,
+      #ffafd4 2.5%,
+      #ffafd480 5.7%,
+      #ffafd41a 93%,
+      #ffafd4b4 95%,
+      #ffafd400 98%
+    ),
+    linear-gradient(182deg, #ffafd400, #ffafd44d 8%, #ffafd400 15%);
+}
+
+.blue-highlight {
+  display: inline-block;
+  background: linear-gradient(
+      100deg,
+      #afd7ff00 1%,
+      #afd7ff 2.5%,
+      #afd7ff80 5.7%,
+      #afd7ff1a 93%,
+      #afd7ffb4 95%,
+      #afd7ff00 98%
+    ),
+    linear-gradient(182deg, #afd7ff00, #afd7ff4d 8%, #afd7ff00 15%);
+}
+
+/* */
 
 
