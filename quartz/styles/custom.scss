@@ -175,7 +175,7 @@
 }
 
 [saved-theme="dark"] .carousel-section {
-    background: #2A2A2A;
+    background: #474960;
     padding: 50px 0;
 }
 
@@ -442,7 +442,7 @@
 /* Styles for Dark Theme */
 [saved-theme="dark"] {
   table {
-    background-color: #36312A; /* dark gray background for dark theme */
+    background-color: #373563; /* dark gray background for dark theme */
     color: #ffffff; /* white text for dark theme */
     border-collapse: collapse;
     width: 90%;
@@ -452,11 +452,11 @@
     td {
       padding: 8px;
       text-align: center;
-      border-bottom: 1px solid #A19084;
+      border-bottom: 1px solid #f4eeeadc;
     }
 
     tr:nth-child(even) td {
-      background-color: #2B2519;
+      background-color: #3A4764;
     }
 
     th {
@@ -466,7 +466,7 @@
   }
 
     tr:hover td {
-      background-color: #4F483E;
+      background-color: #193959;
     }
 
     caption {
@@ -603,6 +603,8 @@ body {
     ),
     linear-gradient(182deg, #afd7ff00, #afd7ff4d 8%, #afd7ff00 15%);
 }
+
+
 
 /* */
 

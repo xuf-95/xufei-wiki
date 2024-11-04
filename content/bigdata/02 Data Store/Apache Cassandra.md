@@ -41,48 +41,7 @@ draft:
 >> | Row | Row |
 
 
-
-Wiki Content
-
-> [!seealso] Big Data Knowledge
-> 
-> - [[Data Integration Homepage]] 数据集成与数据预处理技术 
-> - [[Data Store Homepage]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
-
 ***
-
->[!clean] Python
->
->🐼 [[Dataframe]] | 🐨 [[NumPy]]  | 🐻‍❄️ [[Pandas]] |  🦁 [[Faker]]  | 🐻 [[Multilab]]  | 🐍 [[Spider]]
-
-
-
->[!info] Resources
->
-> 
-> - [[Bigdata DataSet]] 数据集合、开源数据集、权威数据源、机器学习算法数据集等等
-> - [[Big Data Wiki]] 大数据开源Wiki知识库、权威文档等等
-
-
-> [[Concepts]]
-
-
-> [!multi-column]
-> 
->> [!Summary|wide-3 min-0]+ Using callout-metadata `wide-3 min-0`
->> #### How to achieve this?
->> specify the sub callout as `> [!Summary|wide-3 min-0]`
->> - this callout width is 3/6 overall width
->
->> [!warning|wide-2 min-0]+  `wide-2 min-0`
->> #### header
->> - this callout is 2/6
->
->> [!summary|min-0]+ `min-0`
->> #### header
->> - this callout is 1/6
-
-
 
 
 > [!callout|attribute attribute] Open Callout with Attributes
@@ -95,10 +54,7 @@ Wiki Content
 > [!callout|attribute attribute]+ Open Collapsible Callout with Attributes
 > xx
 
-
-
-> [!kanban|n-t]
-
+***
 
 
 > [!kanban]+
@@ -112,8 +68,6 @@ Wiki Content
 > 	- [x] Text
 > 	- [x] d
 
-
-![[cassandra.png]]
 
 
 > [!cards|4]

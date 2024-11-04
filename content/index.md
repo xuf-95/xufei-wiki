@@ -4,12 +4,9 @@ title: Welcome to My Wiki
 
 ![bg](images/nishaung.png)
 
-<p>I’m a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. My journey began with a passion for understanding how massive datasets can drive business value, leading me to specialize in data processing, analysis, and optimization using tools like Apache Spark, Hadoop, and Kafka. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects. Also, you can see a breakdown of this website’s content by  <span class="green-highlight" > <a href = "https://xuf-95.github.io/xufei-wiki/tags">tags</a> 
-</span></p>
+<p>I’m Xufei, a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. My journey began with a passion for understanding how massive datasets can drive business value, leading me to specialize in data processing, analysis, and optimization using tools like Apache Spark, Hadoop, and Kafka. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects. Also, you can see a breakdown of this website’s content by tags.</p>
 
-
-
-## Wiki Content
+### Wiki Contents
 
 > [!obsidian] Big Data Knowledge
 > 
@@ -23,32 +20,57 @@ title: Welcome to My Wiki
 > - [[Data Visual]] 数据可视化、BI分析
 > - [[Data Lifecycle]] 数据生存周期
 
+### Resources
+
+> [!column]
+>> [!tabler] Big Data Resources
+>> - [[Bigdata DataSet]] 
+>> - [[Big Data Wiki]]
+>> - [[Bigdata Book]] 
+>> - [[Bigdata Team]] 
+>> - [[Bigdata Engineer]] 
+>> - [[Bigdata Product & Tools]] 
+>> - [[Data Market]] 
+>
+>> [!objectif] Big Data Concepts
+>>- [[Column-oriented Database]]
+>>- [[Document Database]]
+>>- [[Graph Database]]
+>>- [[In-Memory Database]]
+>>- [[Key-Value Database]]
+>>- [[Non-relational Database]]
+>>- [[Online Analytical Processing]]
+>>- [[Online Transaction Processing]]
+>>- [[Relational Database]]
+>>- [[Relational Database Management System]]
+>>- [[Timeseries Database]]
+>> 
+>> 
+>> 
+
+
+
+
 ### Python  & System Architecture
 > [!column]
->>[!voc]  Python
+>>[!conclusion]  Python
 >>
->> - 🐼 [[Dataframe]] 
->> - 🐨 [[NumPy]]  
->> - 🐻‍❄️ [[Pandas]] 
->> - 🦁 [[Faker]]  
->> - 🐻 [[Multilab]]  
->> - 🐍 [[Spider]]
+>> - [[Dataframe]] 
+>> - [[NumPy]]  
+>> - [[Pandas]] 
+>> - [[Faker]]  
+>> - [[Multilab]]  
+>> - [[Spider]]
 >
 >> [!ex] System Architecture
 >> 
 >> 
->>  [[01 计算机系统|计算机系统]] | [[02 操作系统|操作系统]] | [[Data Store Homepage|数据存储]] | [[04 嵌入式系统架构设计|嵌入式技术]] | [[05 计算机网络|计算机网络]] | [[08 信息系统|信息系统]] | [[09 系统安全|系统安全]] | [[10 软件工程|软件工程]] | [[11 面向对象|面向对象]] | [[12 项目管理|项目管理]] | [[13 系统架构设计|系统架构设计]] | [[14 软件可靠性|软件可靠性]] | [[15 软件架构的演化和维护|软件架构的演化和维护]] |  [[系统质量属性与架构评估]] | [[17 知识产权保护|知识产权保护]]
+>>  - [[05 计算机网络|计算机网络]]
+>>  - [[08 信息系统|信息系统]]
+>>  - [[09 系统安全|系统安全]]
+>>  - [[10 软件工程|软件工程]]
+>>  - [[11 面向对象|面向对象]]
+>>  - [[12 项目管理|项目管理]]
+>>  - [[13 系统架构设计|系统架构设计]] 
 
 
-
-### Resources
->[!conclusion] 
-> - [[Bigdata DataSet]] 数据集合、开源数据集、权威数据源、机器学习算法数据集等等
-> - [[Big Data Wiki]] 大数据开源Wiki知识库、权威文档等等
-> - [[Bigdata Book]] 大数据相关论文、书籍、报刊、资讯媒体等等
-> - [[Bigdata Team]] 大数据团队建设、平台建设、技术博客、开源仓库、产品、项目等等
-> - [[Bigdata Engineer]] 大数据生态重要人员、CDO、领导者、开发者等等
-> - [[Bigdata Product & Tools]] 大数据产品、组件、云服务等等
-> - [[Data Market]] 数据服务交易市场、数据资产交易等等
->
->> [[Concepts]]

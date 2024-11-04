@@ -31,8 +31,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Darkmode(),
-    Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
+    // Component.Darkmode(),
+    Component.RecentNotes({ showTags: false, title: "Recently Notes:", showDate: true }),
     Component.DesktopOnly(Component.Explorer()),
 
     // Component.TagList(),

@@ -261,9 +261,6 @@ The data is on the percent body fat for 252 adult males, where the objective is 
 <div class="columns">
   <p>Asparagus black-eyed bok bona brussels bunya cauliflower celtuce chestnut earthnut garbanzo gram green greens. Artichoke arugula avocado bamboo bell bitterleaf bok bunya carrot catsear cauliflower chard chestnut collard corn courgette dandelion dulse epazote esse fennel groundnut j. Asparagus aubergine azuki bamboo bean beetroot brussels cabbage celtuce cucumber dandelion dulse gram green groundnut. Asparagus aubergine avocado azuki bamboo beet beetroot bell carrot caulie celtuce chestnut chickpea coriander daikon dulse earthnut esse garlic green gumbo.</p>
 
-  <p>Aubergine bamboo bean beet beetroot bell bitterleaf black-eyed bona broccoli bunya burdock caulie chard chickpea choy coriander courgette daikon dandelion eggplant esse fava fennel gourd gram greens groundnut horseradish j. Asparagus aubergine azuki bean black-eyed bona cauliflower chestnut chickweed collard corn desert earthnut eggplant endive esse fava garbanzo gourd grape green groundnut j. Artichoke asparagus aubergine azuki black-eyed broccoli brussels cabbage carrot chestnut chickpea chicory.</p>
-
-  <p>Artichoke arugula asparagus aubergine bamboo bean beet bitterleaf black-eyed bok bologi bona brussels bush carrot caulie chestnut chickpea chickweed. Artichoke asparagus avocado bean beet bell bitterleaf bona bush carrot catsear caulie celtuce chestnut chickpea chickweed coriander corn earthnut esse garlic grape greens horseradish. Arugula avocado beetroot bitterleaf bok bona brussels burdock cabbage carrot catsear celtuce chestnut.</p>
 </div>
 
 
