@@ -9,15 +9,7 @@ tags:
 
 ![[640.png]]
 
->[!summary]+ [[Data Integration|Data Integration]]
->
->- [[Apache Airflow]]
->- [[Apache DolphinScheduler]]
->- [[Apache Flume]]
->- [[DataX]]
->- [[chunjun]]
->- [[Apache Sqoop]]
->
+- [[Data Integration|Data Integration]] 
 
 - [[Data Store|Data Store]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
 - [[Data Center]] 数据中台、数据一站式平台、IDE

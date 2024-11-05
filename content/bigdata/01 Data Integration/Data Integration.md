@@ -21,6 +21,15 @@ mindmap
        系统集成产品和工具
     系统集成开发
 ```
+>[!summary]+ Open Source
+>
+>- [[Apache Airflow]]
+>- [[Apache DolphinScheduler]]
+>- [[Apache Flume]]
+>- [[DataX]]
+>- [[chunjun]]
+>- [[Apache Sqoop]]
+>
 
 
 ### 数据集成概述

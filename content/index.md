@@ -17,34 +17,38 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 
 ### Wiki Contents
 
-> [!obsidian] Big Data Knowledge
+> [!obsidian|list] Big Data Knowledge
 > 
 >  About Big Data Tech 
 > 
-> - [[Data Integration]] 数据集成与数据预处理技术 
-> - [[Data Store]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
-> - [[Data Center]] 数据中台、数据一站式平台、IDE
-> - [[Data Compute Homepage]] 数据计算引擎、数据计算架构、数据开发、数据清洗
-> - [[数据治理（Data Governance）]] 数据治理、数据资产管理
-> - [[Data Visual]] 数据可视化、BI分析
-> - [[Data Lifecycle]] 数据生存周期
+>>  [!column|list] ### Columns for regular lists only
+>> -  [[Data Integration]]
+>>  	- [[CDC（Change Data Capture）|CDC]]
+>>  - [[Data Store]] 
+>> 	   - [[content/BigData/02 Data Store/Data Warehouse|Data Warehouse]]
+>>  	- [[content/BigData/02 Data Store/Data Lake|Data Lake]]
+>>  - [[Data Center]] 
+>>  - [[Data Compute Homepage|Data Compute]]
+>>  - [[Data Governance|Data Governance]] 
+>>  - [[Data Visual]] 
+>>  - [[Data Lifecycle]] 
 
 ### Resources
 
 > [!column]
 >> [!tabler] Big Data Resources
 >> - [[Bigdata DataSet]] 
->> - [[Big Data Wiki]]
+>> 	- [[Big Data Wiki]]
 >> - [[Bigdata Book]] 
 >> - [[Bigdata Team]] 
 >> - [[Bigdata Engineer]] 
 >> - [[Bigdata Product & Tools]] 
 >> - [[Data Market]] 
+>>   
+>>   
+>> [***See More ->***](https://xuf-95.github.io/xufei-wiki/bigdata/Big-Data-Homepage)
 >
 >> [!objectif] Big Data Concepts
->>- [[Column-oriented Database]]
->>- [[Document Database]]
->>- [[Graph Database]]
 >>- [[In-Memory Database]]
 >>- [[Key-Value Database]]
 >>- [[Non-relational Database]]
@@ -54,7 +58,7 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >>- [[Relational Database Management System]]
 >>- [[Timeseries Database]]
 >> 
->> 
+>> [***See More ->***](https://xuf-95.github.io/xufei-wiki/concepts/BigData-Concepts)
 >> 
 
 
@@ -72,12 +76,13 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >> - [[Spider]]
 >
 >> [!ex] System Architecture
->> 
+>>  
+>>  Here is my  [***System Architecture***](https://xuf-95.github.io/xufei-wiki/System-Architecture/) knowledge floder.
 >> 
 >>  - [[05 计算机网络|计算机网络]]
 >>  - [[08 信息系统|信息系统]]
->>  - [[09 系统安全|系统安全]]
 >>  - [[10 软件工程|软件工程]]
 >>  - [[11 面向对象|面向对象]]
 >>  - [[12 项目管理|项目管理]]
->>  - [[13 系统架构设计|系统架构设计]] 
+>>    
+

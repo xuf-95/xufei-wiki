@@ -44,18 +44,6 @@ draft:
 ***
 
 
-> [!callout|attribute attribute] Open Callout with Attributes
-
-> [!callout|attribute attribute]- Collapsed Callout with Attributes
-> d
-> dc
-
-
-> [!callout|attribute attribute]+ Open Collapsible Callout with Attributes
-> xx
-
-***
-
 
 > [!kanban]+
 > - [[Link|Lane 1 Title]]
@@ -143,6 +131,30 @@ draft:
 > 
 > 
 > ![External Image 4](https://obsidian.md/images/obsidian-logo-gradient.svg)
+
+> [!obsidian|list] Big Data Knowledge
+> 
+>  About Big Data Tech 
+> 
+> - List  
+> -  xx
+>>  [!column|list] ### Columns for regular lists only
+>> - xx
+>>  	- Sub list item
+>>  - xx
+>>  - List Item
+>>  	- Sub list item
+>>  	- Sub list item
+>>  - List Item
+>>  - List Item
+>>  - List Item
+>>  - List Item
+>>  	- Sub list item
+>>  	- Sub list item
+>>  	- Sub list item
+>>  - List Item
+>>  - List Item
+>>  - List Item
 
 
 ## Reference

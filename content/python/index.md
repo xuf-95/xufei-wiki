@@ -1,3 +1,3 @@
 ---
-title: Python  699
+title: Python
 ---

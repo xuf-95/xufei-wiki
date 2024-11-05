@@ -1,6 +1,4 @@
 
-
-
 <section class="carousel-section">
     <div class="container">
         <div class="carousel">
