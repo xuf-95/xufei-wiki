@@ -1,7 +1,10 @@
 ---
-Aliases: [sharding]
-Tags: [seedling]
+aliases:
+  - sharding
+tags:
+  - seedling
 publish: false
+draft: true
 ---
 
 Brief description of the concept.

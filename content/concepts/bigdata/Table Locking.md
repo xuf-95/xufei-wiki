@@ -1,7 +1,9 @@
 ---
-Aliases: []
-Tags: [seedling]
+aliases: 
+tags:
+  - seedling
 publish: false
+draft: true
 ---
 
 Brief description of the concept.
