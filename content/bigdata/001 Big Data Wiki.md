@@ -7,7 +7,7 @@ tags:
 ---
 ### Big Data Map Of Content 
 
->[!summary] ### [[Data Integration Homepage|Data Integration]] 数据集成与预处理 & 数据管道
+>[!summary] ### [[Data Integration|Data Integration]] 数据集成与预处理 & 数据管道
 >
 >- [[Apache Airflow]]
 >- [[Apache DolphinScheduler]]
@@ -17,7 +17,7 @@ tags:
 >- [[Apache Sqoop]]
 >
 
-- [[Data Store Homepage|Data Store]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
+- [[Data Store|Data Store]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
 - [[Data Center]] 数据中台、数据一站式平台、IDE
 - [[Data Compute Homepage|Data Compute]] 数据计算引擎、数据计算架构、数据开发、数据清洗
 - [[数据治理（Data Governance）|Data Governance]] 数据治理、数据资产管理

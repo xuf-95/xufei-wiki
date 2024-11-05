@@ -26,7 +26,35 @@
 @use "./custom/image_grid_float.scss";
 @use "./custom/grid_callouts.scss";
 
+[saved-theme="dark"] {
+  h1 {
+    color: #FFF;  // 淡紫色
+  }
+  
+  h2 {
+    color: #b8c6db;  // 淡蓝灰色
+  }
+  
+  h3 {
+    color: #a6b1e1;  // 淡蓝紫色
+  }
+}
 
+/* 暗色主题的链接颜色 */
+[saved-theme="dark"] {
+  a {
+    color:  #FF0;  // 正常状态 - 亮蓝色
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #FF0;  // 悬停状态 - 更亮的蓝色
+      text-decoration: underline;
+    }
+
+
+  }
+}
 
 
 //put your custom CSS here!

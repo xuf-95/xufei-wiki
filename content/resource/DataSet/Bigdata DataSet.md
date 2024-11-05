@@ -1,5 +1,4 @@
 ---
-title: Bigdata DataSet
 tags:
   - database
   - dataset

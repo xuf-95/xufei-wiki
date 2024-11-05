@@ -12,8 +12,8 @@ title: Welcome to My Wiki
 > 
 >  About Big Data Tech 
 > 
-> - [[Data Integration Homepage]] 数据集成与数据预处理技术 
-> - [[Data Store Homepage]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
+> - [[Data Integration]] 数据集成与数据预处理技术 
+> - [[Data Store]] 大数据存储技术、数据湖、数据库、数据仓库、存储格式
 > - [[Data Center]] 数据中台、数据一站式平台、IDE
 > - [[Data Compute Homepage]] 数据计算引擎、数据计算架构、数据开发、数据清洗
 > - [[数据治理（Data Governance）]] 数据治理、数据资产管理
@@ -55,7 +55,7 @@ title: Welcome to My Wiki
 > [!column]
 >>[!conclusion]  Python
 >>
->> - [[Dataframe]] 
+>> - [[DataFrame]] 
 >> - [[NumPy]]  
 >> - [[Pandas]] 
 >> - [[Faker]]  

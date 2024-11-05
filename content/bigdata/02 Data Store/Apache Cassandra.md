@@ -21,7 +21,7 @@ draft:
 
 > [!column|title-center]
 >> [!info|sm] Python
->> - [[Dataframe]] 
+>> - [[DataFrame]] 
 >> - [[NumPy]] 
 >> - [[Pandas]]
 >> - [[Faker]]

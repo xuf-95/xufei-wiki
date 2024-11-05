@@ -1,5 +1,4 @@
 ---
-title: DataFrame
 tags:
   - format
   - python-lib

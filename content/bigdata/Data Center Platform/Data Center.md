@@ -1,5 +1,5 @@
 ---
-title: " Data Center"
+title: " 01 Data Center Homepage"
 tags:
   - bigdata
   - architecture

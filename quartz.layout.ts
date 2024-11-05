@@ -24,7 +24,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta({ showReadingTime: false }),
-    Component.TagList(),
+    // Component.TagList(),
 
   ],
   left: [
@@ -38,8 +38,9 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.TagList(),
   ],
   right: [
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.TagList(),
     Component.Backlinks(),
+    Component.DesktopOnly(Component.TableOfContents()),
     Component.Graph(),
   ],
 }

@@ -50,7 +50,7 @@ const config: QuartzConfig = {
           dark: "#c8c8ca",              // 文件；目录；加粗文本；链接图标；
           secondary: "#dbe2ef",      // 博客标题；文件夹；  -> 橙黄色，作为高亮色，用于CTA按钮、链接或重要提示信息
           tertiary: "#FF0",       // graphy 图中节点颜色；金黄色，作为次级强调色（悬浮高亮颜色），用于装饰元素或高优先级提示
-          highlight: "#325b8c",     // 标签和Page页路由背景色，透明橙黄色，用于背景高亮，突出某些选中状态
+          // highlight: "#10183A",     // 标签和Page页路由背景色，透明橙黄色，用于背景高亮，突出某些选中状态 325b8c
           textHighlight: "#ffbe00"   // 柔和的黄橙色，用于文本高亮，增强视觉引导效果#F5C0C0 
         },
         // lightMode: {

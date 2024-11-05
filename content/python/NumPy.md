@@ -1,5 +1,5 @@
 ---
-title: Numpy
+title: NumPy
 tags:
   - python-lib
   - array
