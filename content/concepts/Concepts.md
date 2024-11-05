@@ -22,8 +22,8 @@ draft:
 > [!info]- ## 计算机基础知识
 > 
 >
->- [[content/concepts/bigdata/Data Architecture]]
->- [[content/concepts/bigdata/Data Lake]]
+>- [[content/Concepts/bigdata/Data Architecture]]
+>- [[content/Concepts/bigdata/Data Lake]]
 
 
 > [!info]- ## Database Concepts
@@ -56,9 +56,9 @@ draft:
 
 > [!info]- ## Data Architecture Concepts
 >
->- [[content/concepts/bigdata/Data Architecture]]
->- [[content/concepts/bigdata/Data Lake]]
->- [[content/concepts/bigdata/Data Warehouse]]
+>- [[content/Concepts/bigdata/Data Architecture]]
+>- [[content/Concepts/bigdata/Data Lake]]
+>- [[content/Concepts/bigdata/Data Warehouse]]
 >- [[Fan-out]]
 >- [[Horizontal Scaling]]
 >- [[Lambda Architecture]]

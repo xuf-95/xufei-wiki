@@ -62,7 +62,7 @@ cssclasses:
 
 > [!infobox]
 > # Name
-> ![[aaaa.png|cover hsmall]]
+> ![[content/Resource/aaaa.png|cover hsmall]]
 > ###### Stats
 > | Type | Stat |
 > | ---- | ---- |
@@ -77,5 +77,5 @@ cssclasses:
 
 > [!caption|right wsmall] Full width caption sizing  
 > ## H2
-> ![[aaaa.png]]
+> ![[content/Resource/aaaa.png]]
 

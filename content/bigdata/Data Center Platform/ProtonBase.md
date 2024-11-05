@@ -17,7 +17,7 @@ draft:
 
 ### 原理 & 功能
 
-![[ProtonBase.png]]
+![[content/Big Data/Data Center Platform/ProtonBase.png]]
 
 ### 应用场景
 

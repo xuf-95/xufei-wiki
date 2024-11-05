@@ -1,11 +1,13 @@
 ---
-title: 001 Big Data Wiki
+title: Big Data Homepage
 date: 2022-06-18
 publish: true
 tags:
   - "#bigdata"
 ---
 ### Big Data Map Of Content 
+
+![[content/Big Data/640.png]]
 
 >[!summary] ### [[Data Integration|Data Integration]] 数据集成与预处理 & 数据管道
 >

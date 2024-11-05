@@ -16,7 +16,7 @@ title: Bigdata OpenSource Projects
 
 - [数据同步系统 WhaleTunnel](https://www.whaleops.com/marketing.html) 高速、高准确率、高稳定、省资源，全场景数据同步
 
-![[DataOPS.png]]
+![[public/resource/images/DataOPS.png]]
 
 ### CDC (Change data captrue)
 

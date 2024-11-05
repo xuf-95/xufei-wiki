@@ -13,7 +13,7 @@ draft:
 
 ## What is Apache Cassandra?
 
-> ![[cassandra.png|left|200]]                                              Apache Cassandra is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data.
+> ![[content/Big Data/02 Data Store/img/cassandra.png|left|200]]                                              Apache Cassandra is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data.
 
 
 *** 
@@ -32,7 +32,7 @@ draft:
 >> 
 >> 
 >> 
->> ![[cassandra.png]]
+>> ![[content/Big Data/02 Data Store/img/cassandra.png]]
 >> 
 >> 
 >> | Type | Name |
@@ -59,10 +59,10 @@ draft:
 
 > [!kanban]+
 > - [[Link|Lane 1 Title]]
-> 	- ![[cassandra.png]]
+> 	- ![[content/Big Data/02 Data Store/img/cassandra.png]]
 > 	- [[Link|Card]]
 > - [[Link|Lane 2 Title]]
-> 	![[cassandra.png]]
+> 	![[content/Big Data/02 Data Store/img/cassandra.png]]
 > 	- [[Link|Card]]
 > - Text
 > 	- [x] Text
@@ -75,7 +75,7 @@ draft:
 > ![Image link|sban htiny ctr](https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200)
 > 
 > **[[Link]]**
-> ![[cassandra.png|sban htiny ctr]]
+> ![[content/Big Data/02 Data Store/img/cassandra.png|sban htiny ctr]]
 > 
 > **[[Link]]**
 > ![Image link|sban htiny ctr](https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200)
@@ -153,7 +153,7 @@ draft:
 > [!caption]
 > 
 > 
-> ![[cassandra.png]]
+> ![[content/Big Data/02 Data Store/img/cassandra.png]]
 > 
 > Image caption.
 

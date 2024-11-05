@@ -5,7 +5,7 @@ tags:
 ---
 
 ## 架构
-![[mysql.png]]
+![[content/Big Data/02 Data Store/img/mysql.png]]
 ### MySQL运行机制
 
 - 建立连接

@@ -8,7 +8,7 @@ aliases:
   - 数据库设计
 ---
 
-![[分布式数据库.png]]
+![[content/Big Data/02 Data Store/img/分布式数据库.png]]
 ## 数据库管理系统
 
 #### 概述

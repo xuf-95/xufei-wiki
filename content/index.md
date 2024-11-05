@@ -4,7 +4,16 @@ title: Welcome to My Wiki
 
 ![bg](images/nishaung.png)
 
-<p>I’m Xufei, a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. My journey began with a passion for understanding how massive datasets can drive business value, leading me to specialize in data processing, analysis, and optimization using tools like Apache Spark, Hadoop, and Kafka. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects. Also, you can see a breakdown of this website’s content by tags.</p>
+<p>I’m Xufei, a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. Welcome to Digital Archive. This is a space where I store my notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected..</p>
+
+**There are multiple ways to navigate Digital Archive:**
+
+1. Use the search bar (top right) to search for any term, or press `ctrl+k` (`cmd+k` on Mac).
+2. Click on a note to explore its content, and follow the links and backlinks to dive deeper into related topics.
+3. Interact with the graph on the left of the page to visualize connections between notes, and click on any node to navigate directly to that note.
+4. Click on the Hashtags to explore the topics by tags.
+
+I welcome your feedback and encourage contributes to enhance the accuracy of my notes.
 
 ### Wiki Contents
 
