@@ -1,3 +1,4 @@
 ---
-title: BigData 101
+title: BigData
 ---
+![[bigdata-index.png]]

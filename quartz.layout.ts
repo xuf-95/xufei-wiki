@@ -6,14 +6,17 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [Component.LinksHeader()],
+  header: [
+   // Component.LinksHeader(),
+  ],
   afterBody: [
     // Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
   ],
   footer: Component.Footer({
     links: {
+      "Tags": "https://xuf-95.github.io/xufei-wiki/tags/",
       GitHub: "https://github.com/xuf-95",
-      "Website": "https://xufei.site",
+      "xufei.site": "https://xufei.site",
     },
   }),
 }
@@ -24,21 +27,19 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta({ showReadingTime: false }),
-    // Component.TagList(),
+    Component.TagList(),
 
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    // Component.Darkmode(),
-    Component.RecentNotes({ showTags: false, title: "Recently Notes:", showDate: true }),
+    Component.RecentNotes({ showTags: false, title: "Recently Notes", showDate: true }),
     Component.DesktopOnly(Component.Explorer()),
 
-    // Component.TagList(),
   ],
   right: [
-    Component.TagList(),
+
     Component.Backlinks(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Graph(),

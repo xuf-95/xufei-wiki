@@ -7,9 +7,9 @@ tags:
 ---
 ### Big Data Map Of Content 
 
-![[content/Big Data/640.png]]
+![[640.png]]
 
->[!summary] ### [[Data Integration|Data Integration]] 数据集成与预处理 & 数据管道
+>[!summary]+ [[Data Integration|Data Integration]]
 >
 >- [[Apache Airflow]]
 >- [[Apache DolphinScheduler]]

@@ -1,16 +1,29 @@
 ---
-title: Concepts Homepage
+title: BigData Concepts
 aliases:
   - 概念
 tags:
   - home
+  - bigdata
 publish: true
 date: 
 draft:
 ---
 
-## Concepts List
 
+
+> [!info]+  Data Architecture Concepts
+>
+>- [[content/Concepts/bigdata/Data Architecture]]
+>- [[content/Concepts/bigdata/Data Lake]]
+>- [[content/Concepts/bigdata/Data Warehouse]]
+>- [[Fan-out]]
+>- [[Horizontal Scaling]]
+>- [[Lambda Architecture]]
+>- [[Medallion Architecture]]
+>- [[Metrics Layer]]
+>- [[Semantic Layer]]
+>- [[Vertical Scaling]]
 
 > [!obsidian]+ Database Concepts
 >
@@ -30,7 +43,6 @@ draft:
 >- [[content/Concepts/bigdata/Data Architecture]]
 >- [[content/Concepts/bigdata/Data Lake]]
 
-***
 > [!ev]+  Data Pipeline Concepts
 >
 >- [[Batch Data Processing]]
@@ -42,26 +54,3 @@ draft:
 >- [[Idempotence]]
 >- [[Stream Data Processing]]
 >- [[Workflow Orchestration]]
-
-***
-> [!info]+  Data Architecture Concepts
->
->- [[content/Concepts/bigdata/Data Architecture]]
->- [[content/Concepts/bigdata/Data Lake]]
->- [[content/Concepts/bigdata/Data Warehouse]]
->- [[Fan-out]]
->- [[Horizontal Scaling]]
->- [[Lambda Architecture]]
->- [[Medallion Architecture]]
->- [[Metrics Layer]]
->- [[Semantic Layer]]
->- [[Vertical Scaling]]
-
-
-***
-- How to build a [[Data Pipeline|data pipeline]]
-- [[Data Modeling]]
-- [[Batch Data Processing|Batch]] vs [[Stream Data Processing|Stream processing]]
-- [[Indexing]]
-- [[Relational Database|Relational]] vs [[Non-relational Database|Non-relational]] data
-- [[Online Transaction Processing|OLTP]] vs [[Online Analytical Processing|OLAP]]
