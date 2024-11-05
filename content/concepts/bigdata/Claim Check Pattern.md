@@ -1,7 +1,9 @@
 ---
-Aliases: [Reference-Based Messaging]
-Tags: [incubating]
-publish: true
+aliases:
+  - Reference-Based Messaging
+tags:
+  - incubating
+publish: false
 ---
 
 The claim-check pattern is used to reduce the cost and size of large messages by first storing the data in an external storage location and then sending a reference to the data/event to the consumer.
@@ -48,11 +50,3 @@ Sources:
 - https://serverlessland.com/event-driven-architecture/visuals/claim-check-pattern
 - https://aws.plainenglish.io/an-introduction-to-claim-check-pattern-and-its-uses-b018649a380d
 
-%% wiki footer: Please don't edit anything below this line %%
-
-## This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/data-engineering-community/data-engineering-wiki/blob/main/Concepts/Claim%20Check%20Pattern.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/data-engineering-community/data-engineering-wiki/main/Concepts/Claim%20Check%20Pattern.md "git-hub-copy-note")</span>
-
-<span class="git-footer">Was this page helpful?
-[👍](https://tally.so/r/mOaxjk?rating=Yes&url=https://dataengineering.wiki/Concepts/Claim%20Check%20Pattern) or [👎](https://tally.so/r/mOaxjk?rating=No&url=https://dataengineering.wiki/Concepts/Claim%20Check%20Pattern)</span>

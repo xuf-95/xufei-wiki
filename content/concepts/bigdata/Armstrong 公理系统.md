@@ -1,9 +1,9 @@
 ---
 title: 
 tags:
-  - concepts
   - database
   - rule
+  - theory
 publish: true
 draft: false
 date:

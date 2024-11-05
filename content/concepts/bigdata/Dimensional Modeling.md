@@ -21,11 +21,4 @@ Within dimensional modeling there are a few different schema design patterns: [s
 
 - Can be complicated to query sometimes.
 
-%% wiki footer: Please don't edit anything below this line %%
 
-## This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/data-engineering-community/data-engineering-wiki/blob/main/Concepts/Dimensional%20Modeling.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/data-engineering-community/data-engineering-wiki/main/Concepts/Dimensional%20Modeling.md "git-hub-copy-note")</span>
-
-<span class="git-footer">Was this page helpful?
-[👍](https://tally.so/r/mOaxjk?rating=Yes&url=https://dataengineering.wiki/Concepts/Dimensional%20Modeling) or [👎](https://tally.so/r/mOaxjk?rating=No&url=https://dataengineering.wiki/Concepts/Dimensional%20Modeling)</span>

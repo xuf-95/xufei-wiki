@@ -22,11 +22,3 @@ The main idea behind one big table (OBT) is to join all of the data necessary fo
 - Very wide tables can get messy to read and maintain.
 - Does not adapt to changes well. Adding new data sources will require rebuilding the table.
 
-%% wiki footer: Please don't edit anything below this line %%
-
-## This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/data-engineering-community/data-engineering-wiki/blob/main/Concepts/One%20Big%20Table.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/data-engineering-community/data-engineering-wiki/main/Concepts/One%20Big%20Table.md "git-hub-copy-note")</span>
-
-<span class="git-footer">Was this page helpful?
-[👍](https://tally.so/r/mOaxjk?rating=Yes&url=https://dataengineering.wiki/Concepts/One%20Big%20Table) or [👎](https://tally.so/r/mOaxjk?rating=No&url=https://dataengineering.wiki/Concepts/One%20Big%20Table)</span>

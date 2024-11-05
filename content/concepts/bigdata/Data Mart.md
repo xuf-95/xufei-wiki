@@ -3,6 +3,7 @@ aliases:
 tags:
   - seedling
 publish: false
+draft:
 ---
 
 A data mart is a subject-specific database which acts as a partitioned segment of an enterprise data warehouse. The domain of a data mart aligns with a particular business unit - for instance there would be separate data marts created for finance, marketing, or supply chain departments within a company.
@@ -35,10 +36,3 @@ A --> D[Data Mart C]
 ## Data Mart Learning Resources
 [What is a Data Mart? - Data Mart Explained - AWS (amazon.com)](https://aws.amazon.com/what-is/data-mart/)
 
-%% wiki footer: Please don't edit anything below this line %%
-## This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/data-engineering-community/data-engineering-wiki/blob/main/Concepts/Data%20Mart.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/data-engineering-community/data-engineering-wiki/main/Concepts/Data%20Mart.md "git-hub-copy-note")</span>
-
-<span class="git-footer">Was this page helpful?
-[👍](https://tally.so/r/mOaxjk?rating=Yes&url=https://dataengineering.wiki/Concepts/Data%20Mart) or [👎](https://tally.so/r/mOaxjk?rating=No&url=https://dataengineering.wiki/Concepts/Data%20Mart)</span>

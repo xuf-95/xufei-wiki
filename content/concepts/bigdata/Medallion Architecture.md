@@ -38,11 +38,3 @@ Finally, in the gold stage, data is refined to meet specific business and analyt
 - **Often requires additional downstream processing**: If data engineers are maintaining the medallion architecture, there needs to be a place for analysts/analytics engineers to build business-focused transformations that power BI. Some teams might prefer those processes remain separate, rather than having analysts develop in the gold layer. As such, a medallion architecture is not a drop-in replacement for existing data transformation solutions.
 - **Implies a data lakehouse architecture**: The medallion architecture is built on the premise of a data lakehouse. If a lakehouse is impractical for your team, this architecture might not make sense. Nonetheless, medallion architectures _can_ be used effectively in hybrid data lake/warehouse implementations.
 
-%% wiki footer: Please don't edit anything below this line %%
-
-## This note in GitHub
-
-<span class="git-footer">[Edit In GitHub](https://github.dev/data-engineering-community/data-engineering-wiki/blob/main/Concepts/Medallion%20Architecture.md "git-hub-edit-note") | [Copy this note](https://raw.githubusercontent.com/data-engineering-community/data-engineering-wiki/main/Concepts/Medallion%20Architecture.md "git-hub-copy-note")</span>
-
-<span class="git-footer">Was this page helpful?
-[👍](https://tally.so/r/mOaxjk?rating=Yes&url=https://dataengineering.wiki/Concepts/Medallion%20Architecture) or [👎](https://tally.so/r/mOaxjk?rating=No&url=https://dataengineering.wiki/Concepts/Medallion%20Architecture)</span>
