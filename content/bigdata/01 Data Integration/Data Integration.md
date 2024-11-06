@@ -93,18 +93,13 @@ graph LR
 ### 数据集成方式
 
 > [!tip] 根据业务流程，数据环境，数据格式，确定数据需求，并考虑相关的安全性、合规性、可扩展性等因素再选择合适的集成方式
-| 数据集成场景<br/> | ETL & ELT                                       |
-| ----------- | ----------------------------------------------- |
-|             | 实时数据集成                                          |
-|             | 云数据集成                                           |
-|             | 大数据集成                                           |
-| 数据集成类型      | 下游集成                                            |
-|             | 中游集成                                            |
-|             | 上游集成                                            |
-| 数据集成模型      | 基于物化或是 ETL 方法的引擎(Materialization or ETL engine) |
-|             | 基于联邦数据库或中间件方法的引擎(Federation engine or Mediator) |
-|             | 基于数据流方法的引擎(Stream engine)                       |
-|             | 基于搜索引擎的方法(Search engine)                        |
+> | 数据集成场景    | 数据集成类型 | 数据集成类型                                          |
+|-----------|--------|-------------------------------------------------|
+| ETL & ELT | 下游集成   | 基于物化或是 ETL 方法的引擎(Materialization or ETL engine) |
+| 实时数据集成    | 中游集成   | 基于联邦数据库或中间件方法的引擎(Federation engine or Mediator) |
+| 云数据集成     | 上游集成   | 基于数据流方法的引擎(Stream engine)                       |
+| 大数据集成     |        | 基于搜索引擎的方法(Search engine)                        |
+
 
 ### 消息队列采集技术
 
@@ -138,7 +133,19 @@ graph LR
 
 ![[Data Integration 05.png]]
 *** 
-## 08.数据集成调整
+## 08.数据集成市场（产品）
+
+| 国内市场                 | 国外市场               | 开源                          |
+| -------------------- | ------------------ | --------------------------- |
+| 阿里云 Data Integration | Google Data Fusion | [[Apache InLong]]           |
+| 腾讯云 DataInLong       | AWS Glue           | Apache Seatunnal            |
+| 华为云 ROMA             | DBT                | Apache Gobblin              |
+| DataPipeline         | Azure Data-Factory | DataX                       |
+| Kettle               | Airbyte            | [[Flink CDC                 |
+|                      | Fivetran           | FlinkX （chunjun）            |
+|                      |                    | [[Apache Nifi]]             |
+|                      |                    | [[Apache DolphinScheduler]] |
+
 *** 
 ## 09.数据集成面临的挑战
 
