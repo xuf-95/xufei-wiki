@@ -38,7 +38,7 @@ date: 2023-08-06
 - [DataArt Studio](https://www.huaweicloud.com/product/dayu.html) 一站式数据全生命周期管理工具平台，库仓湖智全流程治理，释放数据价值
 - [DTSphere DataStudio](https://www.dtdream.com/#/coreProduct?id=de092665ff60437e9a79a975e787e808)是数梦工场推出的为满足用户在大数据环境下开发、测试、生产运维需求的大数据集成开发进行数据作业程序
 - [Striim Platform - Striim](https://www.striim.com/striim-platform/)
-- 
+- [数据中台|数据集成平台|数据治理平台|数据管理平台-龙石数据](https://www.longshidata.com/pages/government.html)
 
 ### Big data Cloud
 

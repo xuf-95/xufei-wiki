@@ -27,7 +27,7 @@ tags:
 - [[Bigdata Team]] 大数据团队建设、平台建设、技术博客、开源仓库、产品、项目等等
 - [[Bigdata Engineer]] 大数据生态重要人员、CDO、领导者、开发者等等
 - [[Bigdata Product & Tools]] 大数据产品、组件、云服务等等
-- [[Data Market]] 数据服务交易市场、数据资产交易等等
+- [[Data Organization]] 数据服务交易市场、数据资产交易等等
 
 ### Projects
 

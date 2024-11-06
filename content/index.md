@@ -1,7 +1,6 @@
 ---
 title: Welcome to My Wiki
 ---
-
 ![bg](images/nishaung.png)
 
 <p>I’m Xufei, a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. This is a space where I store my work notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.</p>
@@ -43,7 +42,7 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >> - [[Bigdata Team]] 
 >> - [[Bigdata Engineer]] 
 >> - [[Bigdata Product & Tools]] 
->> - [[Data Market]] 
+>> - [[Data Organization]] 
 >>   
 >>   
 >> [***See More ->***](https://xuf-95.github.io/xufei-wiki/bigdata/Big-Data-Homepage)

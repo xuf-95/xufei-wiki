@@ -15,4 +15,7 @@ tags:
 
 - [Indeed](https://cn.indeed.com/jobs?q=Hadoop%E5%BC%80%E5%8F%91&l&vjk=e961c757f7cc3e56)
 - [Read CV](https://read.cv/open-roles)
-- 
+
+[IDC: The premier global market intelligence firm.](https://www.idc.com/)
+	- _International Data Corporation_ (_IDC_) is the premier global market intelligence, data, and events provider for the information technology, telecommunications
+	- 
