@@ -21,7 +21,7 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >  About Big Data Tech 
 > 
 >>  [!column|list] ### Columns for regular lists only
->> -  [[Data Integration]]
+>> -  [[01 Data Integration]]
 >>  	- [[CDC（Change Data Capture）|CDC]]
 >>  - [[Data Store]] 
 >> 	   - [[content/BigData/02 Data Store/Data Warehouse|Data Warehouse]]

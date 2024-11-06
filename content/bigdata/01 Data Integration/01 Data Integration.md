@@ -1,11 +1,11 @@
 ---
-title: 01 Data Integration Homepage
+title: Data Integration Homepage
 tags:
   - bigdata
   - Sync
   - home
 draft: 
-date: 2022-01-11
+date: 2022-01-21
 aliases:
   - 数据集成
   - 数据同步
@@ -30,7 +30,7 @@ mindmap
 ***
 ## 01.数据集成的概念
 
-> [!note] [[DAMA]] 认为“数据集成旨在将数据整合为物理的或虚拟的一致格式”
+>[!obsidian] [[DAMA]] 认为“数据集成旨在将数据整合为物理的或虚拟的一致格式” 
 
 `数据集成` 是指将异构数据源（不同数据库，系统或者是其他第三方数据源）的数据，通过某种方式整合到一起。从而为数据分析或者其他应用提供统一、准确的数据视图
 
@@ -59,18 +59,13 @@ graph LR
 ![[Data Integration-2.png]]
 
 - 批处理：定时调度，周期调度，针对数据量大的，要求非实时性的。如：“T+1” 今天处理昨天的数据
-- 增量加载：数据增量捕获 [[CDC（Change Data Capture）]]
-- 实时：来一条处理一条，时间极低
 - 准实时：处理时间极短，毫秒级
+- 实时：来一条处理一条，时间极低
 - 流数据：手机短视频播放
-
-#### 数据集成技术
-
+- 增量同步：数据增量捕获 [[CDC（Change Data Capture）]]
 - 物理集成 & 虚拟集成
 - [[ETL & ELT]]
-- [[CDC（Change Data Capture）|CDC]]
 - Push & Pull & Publish/Subscribe
-- 批量 & 准时是 & 实时
 - [[消息队列（MQ, Message Queue）]] & API
 
 *** 
@@ -140,16 +135,17 @@ graph LR
 *** 
 ## 08.数据集成市场（产品）
 
-| 国内市场                 | 国外市场               | 开源                          |
-| -------------------- | ------------------ | --------------------------- |
-| 阿里云 Data Integration | Google Data Fusion | [[Apache InLong]]           |
-| 腾讯云 DataInLong       | AWS Glue           | Apache Seatunnal            |
-| 华为云 ROMA             | DBT                | Apache Gobblin              |
-| DataPipeline         | Azure Data-Factory | DataX                       |
-| Kettle               | Airbyte            | [[Flink CDC]]               |
-|                      | Fivetran           | [[FlinkX （chunjun）]]        |
-|                      |                    | [[Apache Nifi]]             |
-|                      |                    | [[Apache DolphinScheduler]] |
+| 国内市场                 | 国外市场                                     | 开源                          |
+| -------------------- | ---------------------------------------- | --------------------------- |
+| 阿里云 Data Integration | Google Data Fusion                       | [[Apache InLong]]           |
+| 腾讯云 DataInLong       | [AWS Glue](https://aws.amazon.com/glue/) | Apache Seatunnal            |
+| 华为云 ROMA             | DBT                                      | Apache Gobblin              |
+| DataPipeline         | Azure Data-Factory                       | DataX                       |
+| Kettle               | Airbyte                                  | [[Flink CDC]]               |
+|                      | Fivetran                                 | [[FlinkX （chunjun）]]        |
+|                      |                                          | [[Apache Nifi]]             |
+|                      |                                          | [[Apache DolphinScheduler]] |
+|                      |                                          |                             |
 
 *** 
 ## 09.数据集成面临的挑战
