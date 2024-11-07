@@ -1,9 +1,8 @@
 ---
+title: 
 aliases: 
 tags:
-  - concepts
-  - system
-  - todo
+  - Python
 date: 
 draft: true
 ---
@@ -12,14 +11,11 @@ draft: true
 
 ### 定义
 
-### 核心概念
 
-### 原理 & 功能
+### 开发案例
 
-### 应用场景
 
 
 ***
 ## Reference
-
 

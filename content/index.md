@@ -21,12 +21,11 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >  About Big Data Tech 
 > 
 >>  [!column|list] ### Columns for regular lists only
->> -  [[01 Data Integration]]
->>  	- [[CDC（Change Data Capture）|CDC]]
+>> -  [[Data Integration]]
 >>  - [[Data Store]] 
->> 	   - [[content/BigData/02 Data Store/Data Warehouse|Data Warehouse]]
->>  	- [[content/BigData/02 Data Store/Data Lake|Data Lake]]
->>  - [[Data Center]] 
+>> 	   - [[Data Warehouse|Data Warehouse]]
+>>  	- [[Data Lake|Data Lake]]
+>>  - [[Data Architecture]] 
 >>  - [[Data Compute Homepage|Data Compute]]
 >>  - [[Data Governance|Data Governance]] 
 >>  - [[Data Visual]] 
@@ -39,8 +38,8 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >> - [[Bigdata DataSet]] 
 >> 	- [[Big Data Wiki]]
 >> - [[Bigdata Book]] 
->> - [[Bigdata Team]] 
->> - [[Bigdata Engineer]] 
+>> - [[Big Data Team]] 
+>> - [[Big data Engineer]] 
 >> - [[Bigdata Product & Tools]] 
 >> - [[Data Organization]] 
 >>   
@@ -48,12 +47,12 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >> [***See More ->***](https://xuf-95.github.io/xufei-wiki/bigdata/Big-Data-Homepage)
 >
 >> [!objectif] Big Data Concepts
->>- [[In-Memory Database]]
->>- [[Key-Value Database]]
->>- [[Non-relational Database]]
->>- [[Online Analytical Processing]]
->>- [[Online Transaction Processing]]
->>- [[Relational Database]]
+>>- [[CAP（CAP theorem）]]
+>>- [[CDC（Change Data Capture）]]
+>>- [[DFD（Data Flow Diagrams)]]
+>>- [[MQ（Message Queue）]]
+>>- [[RUP（Relation Unified Process）]]
+>>- [[远程过程调用（RPC, Remote Procedure Call）]]
 >>- [[Relational Database Management System]]
 >>- [[Timeseries Database]]
 >> 
