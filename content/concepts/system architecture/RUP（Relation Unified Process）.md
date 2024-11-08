@@ -6,7 +6,6 @@ aliases:
 tags:
   - concepts
   - system
-  - todo
 date: 2023-06-07
 publish: true
 ---

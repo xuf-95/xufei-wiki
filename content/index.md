@@ -36,15 +36,15 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 > [!column]
 >> [!tabler] Big Data Resources
 >> - [[Bigdata DataSet]] 
->> 	- [[Big Data Wiki]]
+>> - [[Big Data Wiki]]
 >> - [[Bigdata Book]] 
 >> - [[Big Data Team]] 
 >> - [[Big data Engineer]] 
 >> - [[Bigdata Product & Tools]] 
 >> - [[Data Organization]] 
->>   
->>   
->> [***See More ->***](https://xuf-95.github.io/xufei-wiki/bigdata/Big-Data-Homepage)
+>>
+>> [***see more other big data resources …***](https://xuf-95.github.io/xufei-wiki/bigdata/Big-Data-Homepage)
+>>
 >
 >> [!objectif] Big Data Concepts
 >>- [[CAP（CAP theorem）]]
@@ -52,12 +52,10 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >>- [[DFD（Data Flow Diagrams)]]
 >>- [[MQ（Message Queue）]]
 >>- [[RUP（Relation Unified Process）]]
->>- [[远程过程调用（RPC, Remote Procedure Call）]]
->>- [[Relational Database Management System]]
->>- [[Timeseries Database]]
+>>- [[RPC（Remote Procedure Call）]]
 >> 
->> [***See More ->***](https://xuf-95.github.io/xufei-wiki/concepts/BigData-Concepts)
->> 
+>> [***see more other big data concpets…***](https://xuf-95.github.io/xufei-wiki/concepts/BigData-Concepts)
+
 
 
 
@@ -72,15 +70,21 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >> - [[Faker]]  
 >> - [[Multilab]]  
 >> - [[Spider]]
+>> 
+>> [***see more other python files…*** ](https://xuf-95.github.io/xufei-wiki/Python)
+>> 
 >
 >> [!ex] System Architecture
 >>  
->>  Here is my  [***System Architecture***](https://xuf-95.github.io/xufei-wiki/System-Architecture/) knowledge floder.
 >> 
 >>  - [[05 计算机网络|计算机网络]]
 >>  - [[08 信息系统|信息系统]]
 >>  - [[10 软件工程|软件工程]]
 >>  - [[11 面向对象|面向对象]]
 >>  - [[12 项目管理|项目管理]]
->>    
+>> 
+>> [***see more other system architecture files…***](https://xuf-95.github.io/xufei-wiki/System-Architecture/)
+>>  
+>>  
+>
 

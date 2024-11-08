@@ -282,3 +282,5 @@ The data is on the percent body fat for 252 adult males, where the objective is 
 <!--FOOTNOTES-->
 [^1]: [Givens and Hoeting, 2006](https://onlinelibrary.wiley.com/doi/book/10.1002/9781118555552)
 [^2]: [Introna, Michele, et al, 2022](https://pubmed.ncbi.nlm.nih.gov/35147768/)
+
+
