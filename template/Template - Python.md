@@ -1,8 +1,7 @@
 ---
 title: 
 aliases: 
-tags:
-  - Python
+tags: []
 date: 
 draft:
 ---

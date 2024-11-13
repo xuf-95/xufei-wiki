@@ -7,7 +7,7 @@ tags:
   - sql
   - demo
 date: 2024-02-11
-draft: true
+draft: false
 ---
 # Flink Table API & SQL
 

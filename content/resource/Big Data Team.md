@@ -16,4 +16,5 @@ cssclasses:
 	- [Visualis](https://github.com/WeBankFinTech/Visualis) Data visualization tool
 	- [Streamis](https://github.com/WeBankFinTech/Streamis) Streaming application development management system
 - [DTStack](https://github.com/DTStack) 袋鼠云
+- [小米信息部技术团队](https://xiaomi-info.github.io/)
 

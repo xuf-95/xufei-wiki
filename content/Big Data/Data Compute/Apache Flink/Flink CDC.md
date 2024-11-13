@@ -4,8 +4,8 @@ tags:
   - demo
   - flink
   - Development
-draft: true
 date: 2024-09-18
+draft: false
 ---
 ## Flink CDC 概述
 

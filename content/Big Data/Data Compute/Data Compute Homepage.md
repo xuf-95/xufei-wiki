@@ -1,11 +1,11 @@
 ---
-title: Data Compute Homepage
+title: Data Compute
 tags:
   - bigdata
   - comput
   - home
 draft: 
-date: 
+date: 2024-02-13
 aliases:
   - Data Compute
   - 数据计算
@@ -13,7 +13,9 @@ aliases:
 ---
 ### What is Data Compute？
 
-## Data Compute  Include
+
+
+## Data Compute  Architecture
 
 [[Apache Hadoop]] 
 
@@ -24,5 +26,7 @@ aliases:
 [[Apache Spark]]
 
 [[Apache Flink]]
+
+
 
 

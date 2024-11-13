@@ -3,6 +3,7 @@
     {
       "id": "cce73dd291b1fcd4",
       "type": "group",
+      "styleAttributes": {},
       "x": -380,
       "y": -620,
       "width": 1440,
@@ -26,7 +27,7 @@
     {
       "id": "77105c867e9512b4",
       "type": "file",
-      "file": "content/Concepts/system architecture/面向对象的分析（OOA，Object Oriented Analysis）.md",
+      "file": "content/Concepts/System Architecture/面向对象的分析（OOA，Object Oriented Analysis）.md",
       "styleAttributes": {},
       "x": -360,
       "y": -240,
@@ -37,7 +38,7 @@
     {
       "id": "d159c586268d5dd7",
       "type": "file",
-      "file": "content/Concepts/system architecture/OOD（Object Oriented Design）.md",
+      "file": "content/Concepts/System Architecture/OOD（Object Oriented Design）.md",
       "styleAttributes": {},
       "x": 121,
       "y": -240,
@@ -48,7 +49,7 @@
     {
       "id": "157e5931b5183528",
       "type": "file",
-      "file": "content/Concepts/system architecture/OOP（Object-oriented programming）.md",
+      "file": "content/Concepts/System Architecture/OOP（Object-oriented programming）.md",
       "styleAttributes": {},
       "x": 601,
       "y": -240,

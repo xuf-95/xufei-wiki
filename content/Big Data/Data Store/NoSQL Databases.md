@@ -6,7 +6,7 @@ tags:
   - nosql
   - opensource
 date: 
-draft:
+draft: true
 ---
 
 ## What NoSQL Databases?

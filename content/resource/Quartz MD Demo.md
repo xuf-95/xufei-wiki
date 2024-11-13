@@ -4,24 +4,15 @@ aliases:
   - markdown
 tags:
   - demo
-draft: true
+draft: false
 ---
 
-## What is Apache Cassandra?
-
-> ![[content/Big Data/02 Data Store/img/cassandra.png|left|200]]                                              Apache Cassandra is an open source NoSQL distributed database trusted by thousands of companies for scalability and high availability without compromising performance. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure make it the perfect platform for mission-critical data.
-
-
-*** 
-
+***
 
 > [!column|title-center]
 >> [!info|sm] Python
 >> - [[DataFrame]] 
->> - [[NumPy]] 
->> - [[Pandas]]
->> - [[Faker]]
->> - [[Multilab]]
+>> - [[NumPy]]
 >> - [[Spider]]
 >
 >> [!infobox]

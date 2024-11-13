@@ -37,9 +37,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.RecentNotes({ showTags: false, title: "Recently Notes", showDate: true }),
     Component.DesktopOnly(Component.Explorer()),
 
+
   ],
   right: [
-
     Component.Backlinks(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Graph(),

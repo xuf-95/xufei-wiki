@@ -19,6 +19,10 @@ date: 2023-08-06
 - [Estuary Flow | Real-time Data Pipeline & Integration Platform](https://estuary.dev/product/)
 - [Ideal Modeling & Diagramming Tool for Agile Team Collaboration](https://www.visual-paradigm.com/)
 
+## API
+- [DBAPI](https://www.51dbapi.com/v4.0.0/) SQL生成API，低代码开发API
+- [FastAPI](https://fastapi.tiangolo.com/)
+
 ### Big data With AI 
 
 - [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) 
@@ -62,10 +66,15 @@ date: 2023-08-06
 
 - [BigData Guide Website](https://hao.199it.com/) All type of data tools
 
+### Multiple Views
+
+- [Teable - Postgres-Airtable Fusion](https://teable.io/) Super fast, Real-time, Professional, Developer-friendly, No-code database
+- 
 
 
 
 ## Quartz
 
 - [GitHub - Gassandrid/Quartz\_CodeRunner\_Plugin: a python code runner for Quartz static site generator](https://github.com/Gassandrid/Quartz_CodeRunner_Plugin/tree/main)
-- 
+
+![[Bigdata Product & Tools.png]]

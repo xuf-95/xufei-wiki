@@ -6,7 +6,7 @@ tags:
   - concepts
   - database
   - KV
-publish: true
+draft: true
 ---
 A Key/Value database is a type of [[Non-relational Database|NoSQL]] database that stores data as a table where you have a unique key for each data value.
 

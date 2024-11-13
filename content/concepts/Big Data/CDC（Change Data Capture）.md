@@ -17,7 +17,7 @@ publish: false
 > Change data capture describes the process of recording the change of data in a database. Typically, this means tracking when records are inserted, updated, and deleted along with the data itself.
 
 捕获追踪数据库中数据的变化（CRUD操作），一般是分析数据库日志中的数据。
- ![[content/Concepts/bigdata/images/CDC.png]]
+ ![[content/Concepts/Big Data/images/CDC.png]]
 > [Image Source](https://www.striim.com/blog/change-data-capture-cdc-what-it-is-and-how-it-works/)
 
 ## 案例
