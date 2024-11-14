@@ -17,6 +17,7 @@ export const sharedPageComponents: SharedLayout = {
       "Tags": "https://xuf-95.github.io/xufei-wiki/tags/",
       GitHub: "https://github.com/xuf-95",
       "xufei.site": "https://xufei.site",
+      "Bento.me": "https://bento.me/xfei"
     },
   }),
 }
@@ -34,7 +35,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.RecentNotes({ showTags: false, title: "Recently Notes", showDate: true }),
+    // Component.RecentNotes({ showTags: false, title: "Recently Notes", showDate: true }),
     Component.DesktopOnly(Component.Explorer()),
 
 
@@ -43,6 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Graph(),
+    Component.RecentNotes({ showTags: false, title: "Recently Notes", showDate: true }),
   ],
 }
 

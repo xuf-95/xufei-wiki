@@ -4,7 +4,7 @@ tags:
   - bigdata
   - comput
   - home
-draft: 
+draft: true
 date: 2024-02-13
 aliases:
   - Data Compute

@@ -7,6 +7,7 @@ date:
 draft: false
 ---
 Apache Atlas是一个开源的数据治理和元数据管理平台，旨在帮助组织建立全面的数据治理流程。它可跟踪数据的来源和去向，确保数据质量，支持元数据管理和数据分类等功能
+
 ![[Apache Atlas.png]]
 
 - [What's new in Apache Atlas 2.3? ](https://atlas.apache.org/#/WhatsNew-2.3)
