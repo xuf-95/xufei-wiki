@@ -127,10 +127,6 @@ public class TableTest1_Example {
 
 ```
 
-
-```
-
-
 ```shell
 1. 启动flink-sql-client
     ./bin/start-cluster.sh

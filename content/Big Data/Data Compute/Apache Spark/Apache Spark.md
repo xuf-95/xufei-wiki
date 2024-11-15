@@ -159,17 +159,10 @@ SparkStreaming是以某一时间间隔的批量处理，它的实时性就比较
 
 它会触发任务的真正运行，类似于RDD中action操作
 
-
-
-
 ### Resource 
 
-- [erryLead/SparkInternals](https://github.com/JerryLead/SparkInternals/tree/master)
-
-## [Apache Spark MLlib](https://spark.apache.org/mllib/)
-
-[](https://github.com/connected-bsamadi/awesome-wiki/blob/master/awesome-artificial-intelligence.md#apache-spark-mllib)
-
+- [SparkInternals](https://github.com/JerryLead/SparkInternals/tree/master)
+- [Apache Spark MLlib](https://spark.apache.org/mllib/)
 - [Databricks courses](https://academy.databricks.com/)
 - [PySpark Uploader](https://github.com/scottcode/pyspark-uploader)
 - [Analytics for Apache Spark](https://console.bluemix.net/docs/services/AnalyticsforApacheSpark)

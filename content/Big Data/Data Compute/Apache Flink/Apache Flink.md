@@ -10,12 +10,12 @@ tags:
 date: 2023-06-07
 draft:
 ---
-
+![[Apache Flink.png|center]]
 ## 简介
 
-Apache Flink 是一个开源的流处理框架，具有强大的流处理和批处理功能。
+Apache Flink 是一个开源的流处理框架，具有强大的流处理和批处理功能
 
-Apache Flink 是一个'框架'和'分布式'处理引擎，用于对`无界和有界数据流`进行`状态计算`。
+Apache Flink 是一个'框架'和'分布式'处理引擎，用于对`无界和有界数据流`进行`状态计算`
 
 ### Apache Flink 的定义
 
@@ -64,37 +64,41 @@ Apache Flink是一个框架和分布式处理引擎，用于在无界和有界�
 #### 数据架构演变
 
 **事务处理 OLTP**
+
 ![[Pasted image 20241007221530.png]]
 
 - 分析处理 OLAP ： 将数据从业务数据库复制到数仓，再进行分析和查询
+
 ![[Pasted image 20241007221726.png]]
 
-- lambda 架构 :  用两套系统，同时保证低延迟和结果准确
-![[Pasted image 20241007221747.png]]
+- [[Lambda Architecture]] :  用两套系统，同时保证低延迟和结果准确
+
 
 - 有状态的流式处理流程
-![[Pasted image 20241007221802.png]]
 
-- 流处理的演变
-![[Pasted image 20241007221829.png]]
-
+![[Apache Flink-4.png]]
 
 - 本质 : 事件驱动（Event-driven）
+
 ![[Pasted image 20241007221844.png]]
 
 
 - 基于流的世界观 : 一切都是由流组成的，离线数据是有界的流；实时数据是一个没有界限的流：这就是所谓的有界流和无界流
+
 ![[Pasted image 20241007221904.png]]
 
 - Flink 分层API
+
 ![[Pasted image 20241007221915.png]]
 
 - 有状态 与 无状态
-![[Pasted image 20241007221935.png]]
+![[Apache Flink-3.png]]
 
 ## 运行架构
 
 ### Flink 运行时的组件
+
+![flink-architecture](flink-architecture.png)
 
 1. 作业管理器 JobManager
 2. 资源管理器 ResourceManager
