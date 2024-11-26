@@ -26,3 +26,5 @@ draft: true
 
 - [GitHub - vinta/awesome-python: An opinionated list of awesome Python frameworks, libraries, software and resources.](https://github.com/vinta/awesome-python)
 - [Full Stack Python](https //www.fullstackpython.com/)
+- [Python Tutorials – Real Python](https://realpython.com/)
+- 

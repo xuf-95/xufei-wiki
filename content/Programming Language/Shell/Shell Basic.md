@@ -6,6 +6,7 @@ tags:
 date: 2022-07-08
 draft:
 ---
+![[Shell Basic.png]]
 ### Variables
 
 ```bash
