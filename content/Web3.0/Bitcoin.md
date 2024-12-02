@@ -1,5 +1,7 @@
 ---
-aliases: 
+aliases:
+  - bitcoin
+  - BTC
 tags:
   - web3
 date: 
