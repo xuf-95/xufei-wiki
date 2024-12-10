@@ -50,8 +50,6 @@ Response包含：html，json，图片，视频等
 ### pyspider
 
 [Introduction - pyspider](http://docs.pyspider.org/en/latest/)
-
-
 ### Scrapy
 
 Scrapy是一个基于Twisted的开源的Python爬虫框架，在工业中应用非常广泛。
@@ -60,17 +58,10 @@ Scrapy是一个基于Twisted的开源的Python爬虫框架，在工业中应用�
 
 参考项目：[使用Scrapy或Requests递归抓取微信搜索结果](https://github.com/lining0806/PythonSpiderNotes/blob/master/WechatSearchProjects)
 
-
-
-### 开发案例
-
-
-
 ***
 ## Reference
 
 - [绿色先锋](https://www.greenxf.com/)
-- 
 
 #### Open Source Projects
 

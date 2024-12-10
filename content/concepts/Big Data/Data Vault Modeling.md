@@ -3,7 +3,7 @@ aliases:
   - Data Vault
 tags:
   - seedling
-publish: false
+draft: true
 ---
 
 Developed by [Dan Linstedt](https://en.wikipedia.org/wiki/Dan_Linstedt), data vault modeling aims to be the most flexible modeling technique, adapting to changes and new datasets easily while storing all historical data by default. There are 3 core types of tables in data vault: hubs, links, and satellites.

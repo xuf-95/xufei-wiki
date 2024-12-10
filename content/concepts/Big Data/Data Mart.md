@@ -2,7 +2,6 @@
 aliases: 
 tags:
   - seedling
-publish: false
 draft:
 ---
 
@@ -34,5 +33,6 @@ A --> D[Data Mart C]
 - Data quality risk - the risk of arising discrepancies between a data mart and the original data warehouse.
 - Implementation challenges - poor design may lead to extensive complexity and inconsistencies over time.
 ## Data Mart Learning Resources
+
 [What is a Data Mart? - Data Mart Explained - AWS (amazon.com)](https://aws.amazon.com/what-is/data-mart/)
 

@@ -8,10 +8,7 @@ tags:
   - CDC
   - database
   - concepts
-publish: false
 ---
-## 概述
-
 ### 定义
 
 > Change data capture describes the process of recording the change of data in a database. Typically, this means tracking when records are inserted, updated, and deleted along with the data itself.
@@ -20,12 +17,10 @@ publish: false
  ![[content/Concepts/Big Data/images/CDC.png]]
 > [Image Source](https://www.striim.com/blog/change-data-capture-cdc-what-it-is-and-how-it-works/)
 
-## 案例
+### 案例
 
-- 在[[Apache Kafka]] 中的项目案例 [How To Implement Change Data Capture With Apache Kafka  | Estuary](https://estuary.dev/change-data-capture-kafka/)
-- 
-
-## When to use change data capture
+- 在 [[Apache Kafka]] 中的项目案例 [How To Implement Change Data Capture With Apache Kafka  | Estuary](https://estuary.dev/change-data-capture-kafka/)
+### When to use change data capture
 
 Change data capture is typically used to replicate data that is overwritten to another database. For example, replicating data from an operational database to a data warehouse. While the operational database may not need to store historical changes, it might be useful for analysis.
 
@@ -36,7 +31,7 @@ A few situations where you might use change data capture:
 - Upgrade a database to a higher version with minimal downtime
 - Migrate data from database X to database Y with minimal downtime
 
-## Popular Change Data Capture Tools
+### Popular Change Data Capture Tools
 
 - [[Debezium]]
 - Confluent
@@ -47,7 +42,7 @@ A few situations where you might use change data capture:
 - [Estuary | Real-Time Data Integration, CDC & ETL Platform](https://estuary.dev/)
 
 
-## Resourc
+### Resource
 
 - [Change Data Capture (CDC): What it is and How it Works - Striim](https://www.striim.com/blog/change-data-capture-cdc-what-it-is-and-how-it-works/)
 - [How To Implement Change Data Capture With Apache Kafka  | Estuary](https://estuary.dev/change-data-capture-kafka/)

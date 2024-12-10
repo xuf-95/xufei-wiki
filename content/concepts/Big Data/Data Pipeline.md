@@ -6,7 +6,7 @@ aliases:
   - ETL Pipeline
 tags:
   - incubating
-publish: false
+draft: true
 ---
 
 A Data Pipeline is a term used to describe a workflow consisting of one or more tasks that ingest, move, and transform raw data from one or more sources to a destination. Usually, the data at the destination is then used for analysis, machine learning, or other business functions. You can generally separate data pipelines into 2 categories: [[Batch Data Processing|batch processing]] (most common) and [[Stream Data Processing|real-time processing]] pipelines.
