@@ -33,6 +33,7 @@ tags:
 | 2.7.0 | 增加了对动态配置更改的支持，并显著改进了流处理性能。                             | 2020年12月 | [文档链接](https://kafka.apache.org/27/documentation) |
 
 其他更新：流处理和连接器等子系统引入了新的功能
+
 - [oai_citation:2,Apache Kafka](https://kafka.apache.org/downloads)
 - [oai_citation:1,Apache Kafka](https://kafka.apache.org/20/documentation/streams/upgrade-guide)
 - [Apache Kafka Upgrade Guide and API Changes](https://kafka.apache.org/20/documentation/streams/upgrade-guide)
@@ -55,7 +56,7 @@ tags:
 **扩展性**：
 - **分区**
 
-
+### 定义
 
 Kafka 由`Scala`和`Java`编写,Kafka是一种`高吞吐量`的分布式`发布-订阅`消息系统.
 
@@ -65,16 +66,17 @@ Kafka 由`Scala`和`Java`编写,Kafka是一种`高吞吐量`的分布式`发布-
 
  - 默认端口: 9092
 
-###
+### API
 
+Apache Kafka有4个主要的API
 
-Apache Kafka有4个主要的API：
     1、生产者接口
     2、消费者接口
     3、流接口
     4、连接器接口
 
-Kafka拥有三个非常重要的角色特性：  
+Kafka拥有三个非常重要的角色特性
+
 - 消息系统。与传统的消息队列或者消息系统类似。  
 - 存储系统。可以把消息持久化到磁盘，有较好的容错性。  
 - 流式处理平台。可以在流式记录产生时就进行处理。
@@ -113,9 +115,9 @@ Kafka拥有三个非常重要的角色特性：
 
 ### **Kafka支持的主要应用场景**
 
-1）“**削峰填谷**”。所谓的“削峰填谷”就是指缓冲上下游瞬时突发流量，使其更平滑
-2）**解耦**，即允许独立的扩展或修改两边的处理过程，只要确保它们遵守同样的接口约束
-3）**异步通信**，即允许把一个消息放入队列，但并不立即处理它们，然后再需要的时候才去处理它们。
+- “**削峰填谷**”：所谓的“削峰填谷”就是指缓冲上下游瞬时突发流量，使其更平滑
+- **解耦** ：即允许独立的扩展或修改两边的处理过程，只要确保它们遵守同样的接口约束
+- **异步通信**：即允许把一个消息放入队列，但并不立即处理它们，然后再需要的时候才去处理它们。
 
 
 
@@ -137,7 +139,36 @@ Kafka拥有三个非常重要的角色特性：
 #### Presentation
 
 [Keynote Session | Kafka Summit London 2024](https://www.confluent.io/events/kafka-summit-london-2024/keynote-session/)
+
+#### Question
+> [面试|Kafka常见面试问题总结 | Jmx's Blog](https://jiamaoxiang.top/2020/09/08/%E9%9D%A2%E8%AF%95-Kafka%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93/)
+
+- Kafka是如何保障数据不丢失的？
+    
+- 如何解决Kafka数据丢失问题？
+    
+- Kafka可以保障永久不丢失数据吗？
+    
+- 如何保障Kafka中的消息是有序的？
+    
+- 如何确定Kafka主题的分区数量？
+    
+- 如何调整生产环境中Kafka主题的分区数量？
+    
+- 如何重平衡Kafka集群？
+    
+- 如何查看消费者组是否存在滞后消费？
+
+
+## Business Example
+
+- 2019-05-17 [快手万亿级别Kafka集群应用实践与技术演进之路](https://www.infoq.cn/article/Q0o*QzLQiay31MWiOBJH)
+	- 快手 Kafka 使用场景
+	- Kafka 的 5 点重要改进：平滑扩容、Mirror 集群化、资源隔离、cache 改造以及消费智能限速
+	- 
+
 ## Reference
+
 
 - [Apache Kafka](https://kafka.apache.org/)
 - [1. 入门 - 【布客】kafka 中文翻译](https://kafka.apachecn.org/1/)
@@ -145,3 +176,5 @@ Kafka拥有三个非常重要的角色特性：
 - [Kafka 快速入门 | BIGDATA-TUTORIAL](https://dunwu.github.io/bigdata-tutorial/kafka/Kafka%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html#_1-1-kafka-%E7%9A%84%E5%8A%9F%E8%83%BD)
 - [Apache Kafka](https://kafka.apache.org/books-and-papers)  Books and Papers
 - [What is Apache Kafka](https://bell-sw.com/blog/a-guide-to-event-streaming-with-apache-kafka/)
+- [Know Streaming](https://knowstreaming.com/) 运维管控、监控告警、资源治理、多活容灾等核心场景
+

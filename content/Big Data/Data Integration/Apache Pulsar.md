@@ -28,6 +28,10 @@ date: 2024-08-16
 
 
 ***
+
+## Business Example
+
+- 2022-10-22 [Apache Pulsar 在微信大流量实时推荐场景下的实践](https://www.infoq.cn/article/LKBS54VlX2VtC9phdN0B?utm_source=related_read&utm_medium=article)
 ## Reference
 
 
