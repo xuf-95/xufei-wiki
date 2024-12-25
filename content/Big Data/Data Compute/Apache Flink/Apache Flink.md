@@ -10,7 +10,9 @@ tags:
 date: 2023-06-07
 draft:
 ---
-![[Apache Flink.png|center]]
+
+![[Apache Flink-5.png]]
+
 ## 简介
 
 Apache Flink 是一个开源的流处理框架，具有强大的流处理和批处理功能
