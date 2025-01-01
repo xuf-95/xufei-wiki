@@ -4,6 +4,8 @@ tags:
   - Visual
   - BI
 ---
+![[数据分析价值链全景图 小红书.jpg]]
+
 > “Data visualization is the creation and study of the visual representation of data”  -- wikipedia
 
 ### Data Visual of People

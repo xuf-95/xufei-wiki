@@ -94,6 +94,7 @@ Hbase是由Client、Zookeeper、Master、HRegionServer、HDFS等几个组件组�
 - 如果是从StoreFile里面读取的数据，不是直接返回给客户端，而是先写入BlockCache，再返回给客户端  
 
 ### HBase写流程
+
 ![[Apache HBase Write.png]]
 
 - Client向HregionServer发送写请求 

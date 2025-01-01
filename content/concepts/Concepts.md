@@ -27,8 +27,7 @@ draft:
 >- [[Relational Database]]
 >- [[Relational Database Management System]]
 >- [[Timeseries Database]]
->- [[content/Concepts/bigdata/Data Architecture]]
->- [[content/Concepts/bigdata/Data Lake]]
+
 
 ***
 > [!ev]+  Data Pipeline Concepts

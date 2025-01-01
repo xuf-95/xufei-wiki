@@ -10,8 +10,6 @@ date:
 draft:
 ---
 
-
-
 > [!info]+  Data Architecture Concepts
 >
 >- [[content/Concepts/bigdata/Data Architecture]]
@@ -24,6 +22,8 @@ draft:
 >- [[Metrics Layer]]
 >- [[Semantic Layer]]
 >- [[Vertical Scaling]]
+
+***
 
 > [!obsidian]+ Database Concepts
 >
@@ -42,6 +42,8 @@ draft:
 >- [[Timeseries Database]]
 >- [[content/Concepts/bigdata/Data Architecture]]
 >- [[content/Concepts/bigdata/Data Lake]]
+
+***
 
 > [!ev]+  Data Pipeline Concepts
 >

@@ -2,7 +2,7 @@
 aliases: 
 tags:
   - schema
-publish: false
+draft: true
 ---
 
 Created by [Ahmed Elsamadisi](https://www.activityschema.com/mission), the activity schema is a standard that is designed to make data modeling and analysis substantially simpler, faster, and more reliable by modeling all data as a single time series table, which makes it easier to answer any data question using a single query pattern.

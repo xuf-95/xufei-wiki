@@ -2,7 +2,7 @@
 aliases: 
 tags:
   - seedling
-draft:
+draft: true
 ---
 
 A data mart is a subject-specific database which acts as a partitioned segment of an enterprise data warehouse. The domain of a data mart aligns with a particular business unit - for instance there would be separate data marts created for finance, marketing, or supply chain departments within a company.

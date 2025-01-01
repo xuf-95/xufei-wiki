@@ -12,6 +12,7 @@ aliases:
   - DB
   - Data Store
 ---
+![[数据库类型全集 from 小红书.jpg]]
 ## 数据存储分类
 
 ### OLAP

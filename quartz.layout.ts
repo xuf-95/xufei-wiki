@@ -15,7 +15,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "Tags": "https://xuf-95.github.io/xufei-wiki/tags/",
-      GitHub: "https://github.com/xuf-95",
+      "GitHub": "https://github.com/xuf-95",
       "xufei.site": "https://xufei.site",
       "Bento.me": "https://bento.me/xfei"
     },
@@ -35,6 +35,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
+    Component.Darkmode(),
     // Component.RecentNotes({ showTags: false, title: "Recently Notes", showDate: true }),
     Component.DesktopOnly(Component.Explorer()),
 
