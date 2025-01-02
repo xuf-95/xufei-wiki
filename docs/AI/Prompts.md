@@ -3,16 +3,16 @@ aliases:
 tags:
   - AI
 date: 
-draft:
+draft: true
 ---
 
 > ChatGPT Prompt Engineering Learning Notesfor Developers (面向开发者的ChatGPT提问工程学习笔记)
 
-![[Prompts.png]]
+![[docs/AI/Prompts.png]]
  
 ## 提示工程关键原则 (Guidelines)
 
-![[Prompts-1.png]]
+![[docs/AI/Prompts-1.png]]
 ### 原则1 - 编写清晰具体的指令
 
 1.1 策略1-使用定界符清楚地限定输入的不同部分
@@ -22,7 +22,7 @@ draft:
 
 ### 模型的局限性
 
-![[Prompts-2.png]]
+![[docs/AI/Prompts-2.png]]
 
 > [!obsidian] 幻觉：如果在其训练过程中，模型被暴露于大量的知识之中，那么它并没有完美地记忆所见到的信息，因此它并不十分清楚它的知识边界。 这意味着它可能会尝试回答有关深奥话题的问题，并且可能会虚构听起来很有道理但实际上不正确的东西。我们将这些捏造的想法称为 幻觉
 

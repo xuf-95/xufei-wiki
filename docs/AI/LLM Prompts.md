@@ -4,7 +4,7 @@ tags:
   - AI
   - prompts
 date: 
-draft:
+draft: true
 ---
 ## Prompt 打分器
 ```shell

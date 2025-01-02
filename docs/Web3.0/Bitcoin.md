@@ -7,7 +7,7 @@ tags:
 date: 
 draft:
 ---
-![[Bitcoin.png]]
+![[docs/Web3.0/Bitcoin.png]]
 ## 概述
 
 - 比特币(BTC)**是一种点对点加密货币，旨在充当独立于任何中央机构**的一种交易手段。 BTC可以安全，可验证和不变的方式进行电子现金转移。

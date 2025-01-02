@@ -7,7 +7,7 @@ tags:
 date: 
 draft:
 ---
-![[NFT.png]]
+![[docs/Web3.0/NFT.png]]
 
 NFT 全称为 Non-Fungible Token，表示「非同质化代币」，国内也称为数字藏品，用于代表艺术品等独一无二的数字资产。
 
@@ -19,6 +19,6 @@ NFT 全称为 Non-Fungible Token，表示「非同质化代币」，国内也称
 
 ***
 ## Reference
+
 - [CryptoPunks](https://cryptopunks.app/)
-- 
 
