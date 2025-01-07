@@ -7,7 +7,7 @@ tags:
 draft:
 ---
 
-![[ZooKeeper.png]]
+![[content/Big Data/01 Data Architecture/image/ZooKeeper.png]]
 
 
 ## 

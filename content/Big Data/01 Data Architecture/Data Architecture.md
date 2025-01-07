@@ -44,7 +44,7 @@ draft:
 
 - 基于分布式文件系统 [[Apache Hadoop|Hadoop]] 
 - 使用 [[map 或 [[Apache Spark|Spark]] 数据处理技术
-- 使用 [[Apache Kafka|Kafka]] 数据传输消息队列及  二进制格式
+- 使用 [[Apache Kafka|Kafka]] 数据传输消息队列及二进制格式
 
 
 ## 典型的大数据架构 

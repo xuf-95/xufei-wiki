@@ -9,10 +9,13 @@ tags:
 date: 2024-02-11
 draft: false
 ---
-# Flink Table API & SQL
 
-[Apache Flink Documentation | Apache Flink](https://nightlies.apache.org/flink/flink-docs-release-1.14/)
+## Flink SQL是什么？ 
 
+- **声明式 API**：Flink 最高层的AP1，易于使用
+- **自动优化**：屏蔽 State 的复杂性，自动做到最优处理
+- **流批统一**：一样的SQL，一样的结果
+- **应用广泛**：ETL，统计分析，实时报表，实时风控
 
 Flink 本身是批流统一的处理框架，所以Table API 和SQL，就是批流统一的上层处理API
   
@@ -48,33 +51,9 @@ Flink 本身是批流统一的处理框架，所以Table API 和SQL，就是批�
 		2. 撤回（ Retract ）模式
 		3. 更新插入（ Upsert ）模式
 
-- 传统的数据库SQL和实时SQL概念
 
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406165923778.png)
 
-- 动态表与持续查询
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406165501355.png)
-
-- 流数据转换成动态表
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406165537828.png)
-
-- 持续查询
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406165820284.png)
-
-- 将动态表转换成 DataStream
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406170101199.png)
-
-- 函数
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406171102730.png)
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406171118743.png)
-
-- 例子
+### 开发案例
 
 ```Java
 package com.atguigu.apitest.tableapi;
@@ -168,3 +147,9 @@ nStatus int)with('connector.type' = 'kafka',
 'format.type' = 'json');
 ```
 
+
+
+## 参考链接
+
+- [Apache Flink Documentation | Apache Flink](https://nightlies.apache.org/flink/flink-docs-release-1.14/)
+- 
