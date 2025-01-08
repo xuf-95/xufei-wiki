@@ -10,6 +10,7 @@ tags:
 - [Wikimedia Downloads](https://dumps.wikimedia.org/backup-index.html)
 - [Tianchi Datasets](https://tianchi.aliyun.com/dataset/)
 - [和鲸社区 - Heywhale.com](https://www.heywhale.com/home/dataset)
+- [NYCtaxidata](https://uofi.app.box.com/v/NYCtaxidata) ：[纽约市出租车与豪华礼车管理局(New York City Taxi & Limousine Commission)](http://www.nyc.gov/html/tlc/html/home/home.shtml)公开的数据集
 
 
 
