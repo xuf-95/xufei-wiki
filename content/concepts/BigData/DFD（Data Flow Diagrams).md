@@ -9,7 +9,7 @@ tags:
   - bigdata
   - draw
 date: 
-publish: false
+publish: true
 ---
 ### What's DFD?
 

@@ -1,9 +1,7 @@
 ---
-title: 
 tags:
   - concepts
   - system
-publish: false
 draft: true
 date: 
 aliases:

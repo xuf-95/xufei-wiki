@@ -3,7 +3,6 @@ tags:
   - concepts
   - system
   - draw
-publish: false
 draft: false
 date: 
 aliases:

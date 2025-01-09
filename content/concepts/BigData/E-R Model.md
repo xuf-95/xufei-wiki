@@ -4,7 +4,6 @@ tags:
   - concepts
   - system
   - model
-publish: true
 draft: false
 date:
 ---

@@ -5,6 +5,14 @@ title: Welcome to My Wiki
 
 <p>I’m Xufei, a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. This is a space where I store my work notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.</p>
 
+**There are multiple ways to navigate `Digital Wiki`:**
+
+1. Use the search bar (top right) to search for any term, or press `ctrl+k` (`cmd+k` on Mac).Use 80% of the screen on the web side of the computer, and the experience will be better
+2. Click on a note to explore its content, and follow the links and backlinks to dive deeper into related topics.
+3. Interact with the graph on the left of the page to visualize connections between notes, and click on any node to navigate directly to that note.
+4. Click on the Hashtags to explore the topics by [tags](https://xuf-95.github.io/xufei-wiki/tags/).
+
+I welcome your feedback and encourage contributes to enhance the accuracy of my notes.
 
 ### Wiki Contents
 
@@ -17,6 +25,7 @@ title: Welcome to My Wiki
 | [[Data Visual]]                            | [[Data Visual Product & Tools]]                                                           |
 | [[数据治理（Data Governance）\|Data Governance]] | [[Apache Atlas]]                                                                          |
 |                                            |                                                                                           |
+
 
 
 ### Resources
