@@ -10,16 +10,5 @@ draft: false
 date: 
 aliases:
 ---
-
-## 概述
-
-
-### 定义
-
-### 原理 & 功能
-
-
-## 资源链接
-
-## 参考文献 
+联机分析处理 OLAP（On-Line Analytical Processing）一般针对某些主题的历史数据进行分析，支持管理决策，ETL。
 

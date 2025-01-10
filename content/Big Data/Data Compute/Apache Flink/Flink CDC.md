@@ -9,7 +9,7 @@ draft: false
 ---
 ## Flink CDC 概述
 
-> CDC是 Change Data Capture "变更数据获取"的简称
+> CDC（Change Data Capture ）：变更数据获取
 	
 核心思想是，监测并捕获'数据库的变动'（包括数据或数据表的插入 .  更新 以及 删除等），将这些变更按发生的顺序完整记录下来，写入到消息中间件中以供其他服务进行订阅及消费。
 	
@@ -21,14 +21,21 @@ Flink-CDC ： 可以直接从 MySQL. PostgreSQL 等数据库直接"读取全量�
 	3. 数据采集(E)，面向数据仓库/数据湖的ETL数据集成
 
 - 常见的开源CDC
+
 ![[Pasted image 20241007224505.png]]
 
-- CDC 分类
+- CDC 分类：`基于查询`和`基于Binlog`
+
 ![[Pasted image 20241007224544.png]]
 
 - 传统 CDC ETL 分析 
-![[Pasted image 20241007224555.png]]
-![[Pasted image 20241007224604.png]]
+
+```mermaid
+graph LR
+    A[Database] -- Update Data --> B[CDC工具]
+    B --> C[Search Index]
+    B --> D[Cache]
+```
 
 - 基于Flink CDC 的ETL 分析
 ![[Pasted image 20241007224615.png]]

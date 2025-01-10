@@ -1,5 +1,7 @@
 ---
 title: Welcome to My Wiki
+draft: true
+publish:
 ---
 ![bg](images/nishaung.png)
 
