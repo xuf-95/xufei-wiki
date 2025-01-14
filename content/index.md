@@ -3,20 +3,21 @@ title: Welcome to My Wiki
 ---
 ![bg](images/nishaung.png)
 
-<p>I’m Xufei, a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. This is a space where I store my work notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.</p>
+<p>I’m 许飛, 数据工程师，这个是我的Wiki知识库，主要记录大数据生态的学习记录，问题总结，资源整理等。该Wiki是按照 [[DCMM]] 的评估标准进行分模块管理的。该Wiki是基于 <a href="https://quartz.jzhao.xyz/">Quartz</a>构建，通过  <a href="https://obsidian.md/">Obsidian</a> 进行文档管理的。我从事过阿里云大数据海外项目交付、政务云数据治理，数据平台资产管理等，你可以通过我的博客网站查看我做过的相关<a href="https://www.xufei.site/projects">项目 </a> 
+</p>
 
 
 ### Wiki Contents
 
-| AREA                                       | INCLUDE                                                                                   |
-| ------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| [[Data Integration\|Data Integration]]     | [[Apache Kafka]] \| [[Apache DolphinScheduler]] \| [[Apache Flume]] \| [[Apache Airflow]] |
-| [[Data Store\|Data Store]]                 | [[Relational Database]] \| [[Non-relational Database\|NoSQL]] \| [[Document Database]] \| |
-| [[Data Compute Homepage\|Data Compute]]    | [[Apache Flink]] \| [[Apache Spark]] \| [[Apache Hadoop]] \| [[Apache Storm]]             |
-| [[Data Architecture]]                      | [[Lambda Architecture]] \| [[Kappa Architecture]] \|                                      |
-| [[Data Visual]]                            | [[Data Visual Product & Tools]]                                                           |
-| [[数据治理（Data Governance）\|Data Governance]] | [[Apache Atlas]]                                                                          |
-|                                            |                                                                                           |
+| AREA                                       | INCLUDE                                                                                                                                       |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Data Integration\|Data Integration]]     | [[Apache Kafka]] \| [[Apache Pulsar]] ｜[[Apache Airflow]] ｜ [[Apache DolphinScheduler]] \| [[Apache Flume]] \|                                |
+| [[Data Store\|Data Store]]                 | [[Apache Hive]] ｜[[ClickHouse]] ｜[[Data Lake]] \| [[Relational Database]] \| [[Apache HBase\|Hbase]] \| [[Apache Doris]] \| [[Apache Paimon]] |
+| [[Data Compute Homepage\|Data Compute]]    | [[Apache Flink]] \| [[Apache Spark]] \| [[Apache Hadoop]] \| [[Apache Storm]]                                                                 |
+| [[Data Architecture]]                      | [[Lambda Architecture]] \| [[Kappa Architecture]] \| [[ZooKeeper]]                                                                            |
+| [[Data Visual]]                            | [[Data Visual Product & Tools]] \| [[Tableau]] \| [[FineBI]] \| [[Grafana]]                                                                   |
+| [[数据治理（Data Governance）\|Data Governance]] | [[Apache Atlas]]                                                                                                                              |
+|                                            |                                                                                                                                               |
 
 
 ### Resources
@@ -62,14 +63,11 @@ title: Welcome to My Wiki
 >> [***see more other python files…*** ](https://xuf-95.github.io/xufei-wiki/Python)
 >> 
 >
->> [!ex] System Architecture
->>  
->> 
->>  - [[05 计算机网络|计算机网络]]
->>  - [[08 信息系统|信息系统]]
->>  - [[10 软件工程|软件工程]]
->>  - [[11 面向对象|面向对象]]
->>  - [[12 项目管理|项目管理]]
+>> [!ex] IDE
+>>  - [[Dataworks]]
+>>  - [[Jupyter Notebook]]
+>>  - 
+>
 >> 
 >> [***see more other system architecture files…***](https://xuf-95.github.io/xufei-wiki/System-Architecture/)
 >>  

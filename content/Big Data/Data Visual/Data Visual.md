@@ -11,7 +11,7 @@ tags:
 ### Data Visual of People
 - [Visual Cinnamon](https://www.visualcinnamon.com/portfolio/) # Bringing Your Data to Life
 - [Geekplux](https://geekplux.com/) a software engineer and data visualization enthusiast
-- 
+
 
 ### visualization Data Type
 
