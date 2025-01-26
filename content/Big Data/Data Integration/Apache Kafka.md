@@ -162,10 +162,13 @@ Kafka拥有三个非常重要的角色特性
 
 ## Business Example
 
+- Kafka at LinkedIn
+	- ![[Apache Kafka.png]]
 - 2019-05-17 [快手万亿级别Kafka集群应用实践与技术演进之路](https://www.infoq.cn/article/Q0o*QzLQiay31MWiOBJH)
 	- 快手 Kafka 使用场景
 	- Kafka 的 5 点重要改进：平滑扩容、Mirror 集群化、资源隔离、cache 改造以及消费智能限速
-	- 
+-
+
 
 ## Reference
 
@@ -177,4 +180,5 @@ Kafka拥有三个非常重要的角色特性
 - [Apache Kafka](https://kafka.apache.org/books-and-papers)  Books and Papers
 - [What is Apache Kafka](https://bell-sw.com/blog/a-guide-to-event-streaming-with-apache-kafka/)
 - [Know Streaming](https://knowstreaming.com/) 运维管控、监控告警、资源治理、多活容灾等核心场景
+- [Apache Kafka — Overview. The terminology and the architecture. | by Vu Trinh | Data Engineer Things](https://medium.com/data-engineer-things/apache-kafka-overview-b04c4ab8ef49)
 
