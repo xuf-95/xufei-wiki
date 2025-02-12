@@ -19,7 +19,6 @@ title: Welcome to My Wiki
 | [[数据治理（Data Governance）\|Data Governance]] | [[Apache Atlas]]                                                                                                                              |
 |                                            |                                                                                                                                               |
 
-
 ### Resources
 
 > [!column]
@@ -46,9 +45,6 @@ title: Welcome to My Wiki
 >> [***see more other big data concpets…***](https://xuf-95.github.io/xufei-wiki/concepts/BigData-Concepts)
 
 
-
-
-
 ### Python  & System Architecture
 > [!column]
 >>[!conclusion]  Python
@@ -66,11 +62,9 @@ title: Welcome to My Wiki
 >> [!ex] IDE
 >>  - [[Dataworks]]
 >>  - [[Jupyter Notebook]]
->>  - 
->
->> 
+>>  
 >> [***see more other system architecture files…***](https://xuf-95.github.io/xufei-wiki/System-Architecture/)
 >>  
 >>  
->
+
 
