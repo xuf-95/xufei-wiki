@@ -66,11 +66,6 @@ NumPy 是 Python 中科学计算的基础包。它是一个 Python 库，提供�
 NumPy 包的核心是 [ndarray](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray) 对象。这封装了同质数据类型的_n_维数组，许多操作在编译代码中执行以提高性能
 ![[NumPy.png]]
 
-
-
-
-
-
 ## Reference
 
 - [What is NumPy? — NumPy v2.1 Manual](https://numpy.org/doc/stable/user/whatisnumpy.html)

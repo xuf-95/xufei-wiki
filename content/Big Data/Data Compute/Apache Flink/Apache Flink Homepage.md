@@ -54,7 +54,6 @@ draft:
 - [美团外卖实时数仓建设实践 - 美团技术团队](https://tech.meituan.com/2021/08/26/data-warehouse-in-meituan-waimai.html)
 - [Flink 在有赞实时计算的实践](https://tech.youzan.com/flink-practice/)
 - [【Apache Flink 公开课】人大 Winter School · Flink Day\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av42427050/?from=search&seid=11682532014460669008&vd_source=34fa11a75da7287c55c8b7aafb16c935)
-
 - [Apache Flink学习网](https://flink-learning.org.cn/article/detail/fee83a72ad1fd67ba519e20ff62d7c9e)
 
 
