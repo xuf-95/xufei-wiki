@@ -1,16 +1,15 @@
 ---
+aliases:
+  - 统一建模语言
+  - Unified Modeling Language
+  - UML
 tags:
   - concepts
   - system
   - draw
 draft: false
-date: 
-aliases:
-  - 统一建模语言
-  - Unified Modeling Language
+date:
 ---
-
-## 概述
 ### 定义
 
 UML即Unified Model Language，是一种建模语言，也是标准建模语言。在软件开发中，当系统规模比较复杂时，需要用图形抽象地来表达复杂的概念，让整个软件设计更具有可读性，可理解性，以便尽早发现软件设计时存在的潜在问题，从而降低开发风险。同时，也极大地方便了业务人员与开发人员之间的交流。
@@ -96,6 +95,5 @@ graph LR
 - [什么是统一建模语言（UML）？](https://www.visual-paradigm.com/cn/guide/uml-unified-modeling-language/what-is-uml/)
 - [什么是UML图?常见的UML图有哪些？](https://www.edrawsoft.cn/uml-diagram-introduction/)
 - [Examples of UML diagrams - use case， class， component， package， activity， sequence diagrams， etc.](https://www.uml-diagrams.org/index-examples.html)
-- 
 
 
