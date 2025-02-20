@@ -24,6 +24,8 @@ draft:
 ### 架构
 ![[MaxCompute 架构.png]]
 
+#### 分布式计算
+![[MaxCompute计算架构.png]]
 ### 原理 & 功能
 ![[MaxCompute.png]]
 
