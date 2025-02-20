@@ -1,11 +1,12 @@
 ---
-aliases: 
+aliases:
+  - ODPS
+  - MaxCompute
 tags:
   - bigdata
 date: 
 draft:
 ---
-
 ## 概述
 
 ### 定义

@@ -51,8 +51,8 @@ mindmap
 >
 >> [!objectif] [[content/Big Data/Data Maintenance/index|Data Maintenance]] | 数据运维
 >>- [[分布式集群启动服务脚本|Server Script]]
->
 >>
+>
 >> [!objectif] [[Data Governance]] | 数据治理
 >>- [[Apache Atlas]]
 >>
