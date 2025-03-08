@@ -9,9 +9,8 @@ export const sharedPageComponents: SharedLayout = {
   header: [
    // Component.LinksHeader(),
   ],
-  afterBody: [
-    // Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
-    Component.Graph(),
+  afterBody: [ 
+
   ],
   footer: Component.Footer({
     links: {
@@ -33,7 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     // Component.PageTitle(),
-    // Component.MobileOnly(Component.Spacer()),
+    Component.MobileOnly(Component.Spacer()),
     // Component.Search(),
     // Component.Darkmode(),
     // Component.RecentNotes({ showTags: false, title: "Recently Notes", showDates: false,}),
@@ -46,6 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.Graph(),
     // Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    // Component.RecentNotes({ showTags: false, title: "Recently Notes", showDates: false,}),
 
 
   ],
@@ -54,7 +54,7 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.ArticleTitle(),
     // Component.Breadcrumbs(),
     // Component.TagList(),
-    // Component.Graph(),
+    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     // Component.Backlinks(),
   ],
@@ -62,7 +62,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [ Component.ArticleTitle(), ],// Component.Breadcrumbs(), Component.ContentMeta()
+  beforeBody: [  ],// Component.ArticleTitle(),Component.Breadcrumbs(), Component.ContentMeta()
   left: [
     // Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
