@@ -7,7 +7,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-   Component.LinksHeader(),
+   // Component.LinksHeader(),
   ],
   afterBody: [
     // Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
@@ -36,7 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.MobileOnly(Component.Spacer()),
     // Component.Search(),
     // Component.Darkmode(),
-    Component.RecentNotes({ showTags: false, title: "Recently Notes" }),
+    Component.RecentNotes({ showTags: false, title: "Recently Notes", showDates: false,}),
     // Component.DesktopOnly(Component.Explorer()),
 
 
@@ -45,7 +45,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.ArticleTitle(),
     Component.Breadcrumbs(),
-   
     Component.TagList(),
     // Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),

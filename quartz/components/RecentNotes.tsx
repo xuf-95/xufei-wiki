@@ -15,14 +15,16 @@ interface Options {
   showTags: boolean
   filter: (f: QuartzPluginData) => boolean
   sort: (f1: QuartzPluginData, f2: QuartzPluginData) => number
+  showDates: false, // xufei
 }
 
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
-  limit: 6,
+  limit: 4,
   linkToMore: false,
   showTags: true,
   filter: () => true,
   sort: byDateAndAlphabetical(cfg),
+    showDates: false,
 })
 
 export default ((userOpts?: Partial<Options>) => {
