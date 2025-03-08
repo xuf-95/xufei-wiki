@@ -1,0 +1,53 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // 让每行 3 个卡片
+  gap: 16px;
+  padding: 20px;
+  background-color: #0f172a; // 深色背景，增强对比度
+  border-radius: 16px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #181818;
+  padding: 12px 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  min-width: 200px; // 最小宽度，确保布局稳定
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .icon {
+    width: 24px; // 调整为 logo 尺寸
+    height: 24px;
+    border-radius: 4px;
+    object-fit: contain; // 确保图片按比例缩放
+  }
+
+  .content {
+    flex-grow: 1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+  }
+}
+
+/* 让布局在小屏幕上自适应 */
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(2, 1fr); // 平板上每行 2 个
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    grid-template-columns: repeat(1, 1fr); // 手机上每行 1 个
+  }
+}

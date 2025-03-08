@@ -1,11 +1,10 @@
 ---
-title: Welcome to My Wiki
+title: Wiki HomePage
 ---
 ![bg](images/nishaung.png)
 
 <p>I’m 许飛, 数据工程师，这个是我的Wiki知识库，主要记录大数据生态的学习记录，问题总结，资源整理等。该Wiki是按照 [[DCMM]] 的评估标准进行分模块管理的。该Wiki是基于 <a href="https://quartz.jzhao.xyz/">Quartz</a>构建，通过  <a href="https://obsidian.md/">Obsidian</a> 进行文档管理的。我从事过阿里云大数据海外项目交付、政务云数据治理，数据平台资产管理等，你可以通过我的博客网站查看我做过的相关<a href="https://www.xufei.site/projects">项目 </a> 
 </p>
-
 
 ### Wiki Contents
 
@@ -66,5 +65,4 @@ title: Welcome to My Wiki
 >> [***see more other system architecture files…***](https://xuf-95.github.io/xufei-wiki/System-Architecture/)
 >>  
 >>  
-
 

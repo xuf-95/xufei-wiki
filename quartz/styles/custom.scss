@@ -1,6 +1,7 @@
 @use "./base.scss";
 
 
+
 /* ITS CSS */
 
 @use "./custom/its-callout.scss";
@@ -25,6 +26,8 @@
 @use "./custom/callouts.scss";
 @use "./custom/image_grid_float.scss";
 @use "./custom/grid_callouts.scss";
+
+@use "./custom/card-view.scss";
 
 [saved-theme="dark"] {
   h1 {

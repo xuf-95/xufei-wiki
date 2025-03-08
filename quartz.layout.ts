@@ -7,10 +7,11 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-   // Component.LinksHeader(),
+   Component.LinksHeader(),
   ],
   afterBody: [
     // Component.RecentNotes({ showTags: false, title: "Recently edited notes:", showDate: true }),
+    Component.Graph(),
   ],
   footer: Component.Footer({
     links: {
@@ -25,24 +26,28 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta({ showReadingTime: false }),
-    Component.TagList(),
-
+    //Component.Breadcrumbs(),
+    // Component.ArticleTitle(),
+    // Component.ContentMeta({ showReadingTime: false }),
+    // Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
+    // Component.PageTitle(),
+    // Component.MobileOnly(Component.Spacer()),
+    // Component.Search(),
     // Component.Darkmode(),
-    // Component.RecentNotes({ showTags: false, title: "Recently Notes", showDate: true }),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.RecentNotes({ showTags: false, title: "Recently Notes" }),
+    // Component.DesktopOnly(Component.Explorer()),
 
 
   ],
   right: [
-    Component.Graph(),
+    Component.Search(),
+    Component.ArticleTitle(),
+    Component.Breadcrumbs(),
+   
+    Component.TagList(),
+    // Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
