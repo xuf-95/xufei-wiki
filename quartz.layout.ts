@@ -36,31 +36,39 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.MobileOnly(Component.Spacer()),
     // Component.Search(),
     // Component.Darkmode(),
-    Component.RecentNotes({ showTags: false, title: "Recently Notes", showDates: false,}),
+    // Component.RecentNotes({ showTags: false, title: "Recently Notes", showDates: false,}),
     // Component.DesktopOnly(Component.Explorer()),
 
-
-  ],
-  right: [
     Component.Search(),
     Component.ArticleTitle(),
     Component.Breadcrumbs(),
     Component.TagList(),
     // Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
+    // Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+
+
+  ],
+  right: [
+    // Component.Search(),
+    // Component.ArticleTitle(),
+    // Component.Breadcrumbs(),
+    // Component.TagList(),
+    // Component.Graph(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    // Component.Backlinks(),
   ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [ Component.ArticleTitle(), ],// Component.Breadcrumbs(), Component.ContentMeta()
   left: [
-    Component.PageTitle(),
+    // Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
+    // Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    // Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
 }
