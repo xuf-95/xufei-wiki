@@ -24,7 +24,7 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 | ------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | [[Data Integration\|Data Integration]]     | [[Apache Kafka]] \| [[Apache DolphinScheduler]] \| [[Apache Flume]] \| [[Apache Airflow]] |
 | [[Data Store\|Data Store]]                 | [[Relational Database]] \| [[Non-relational Database\|NoSQL]] \| [[Document Database]] \| |
-| [[Data Compute Homepage\|Data Compute]]    | [[Apache Flink]] \| [[Apache Spark]] \| [[Apache Hadoop]] \| [[Apache Storm]]             |
+| [[Data Compute\|Data Compute]]    | [[Apache Flink]] \| [[Apache Spark]] \| [[Apache Hadoop]] \| [[Apache Storm]]             |
 | [[Data Architecture]]                      | [[Lambda Architecture]] \| [[Kappa Architecture]] \|                                      |
 | [[Data Visual]]                            | [[Data Visual Product & Tools]]                                                           |
 | [[数据治理（Data Governance）\|Data Governance]] | [[Apache Atlas]]                                                                          |

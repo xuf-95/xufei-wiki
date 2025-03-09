@@ -64,7 +64,7 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
     <td>[[Apache Hive]] ｜[[ClickHouse]] ｜[[Data Lake]] | [[Relational Database]] | [[Apache HBase|Hbase]] | [[Apache Doris]] | [[Apache Paimon]]</td>
   </tr>
   <tr>
-    <td>[[Data Compute|Data Compute]]</td>
+    <td>[[Data Compute]]</td>
     <td>[[Apache Flink]] | [[Apache Spark]] | [[Apache Hadoop]] | [[Apache Storm]]</td>
   </tr>
  <tr>

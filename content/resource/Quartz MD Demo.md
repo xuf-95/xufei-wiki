@@ -7,25 +7,22 @@ tags:
 draft: false
 ---
 
-***
-
 > [!column|title-center]
->> [!info|sm] Python
->> - [[DataFrame]] 
->> - [[NumPy]]
->> - [[Spider]]
 >
 >> [!infobox]
->> 
->> 
->> 
->> ![[content/images/CrossbellIPFS.png]]
->> 
->> 
+>>
+>> ![[CrossbellIPFS.png|xx]]
+>>
 >> | Type | Name |
 >> | --- | --- |
 >> | Row | Row |
 >> | Row | Row |
+>
+>> [!obsidian] obsidian 1
+>> - Use another callout for columns
+>
+
+
 
 
 ***
@@ -50,13 +47,13 @@ draft: false
 > ![Image link|sban htiny ctr](https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200)
 > 
 > **[[Link]]**
-> ![[content/Big Data/02 Data Store/img/cassandra.png|sban htiny ctr]]
+> ![Image link|sban htiny ctr](https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200)
 > 
 > **[[Link]]**
 > ![Image link|sban htiny ctr](https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200)
 > 
 > **[[Link]]**
-> ![[Image Link.png|sban htiny ctr]]
+> ![[content/images/CrossbellIPFS.png]]
 
 
 > [!recite|bg-c-purple]

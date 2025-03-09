@@ -4,15 +4,14 @@ tags:
   - bigdata
   - comput
   - home
-draft: true
 date: 2024-02-13
 aliases:
   - Data Compute
   - 数据计算
   - 数据开发
+draft:
 ---
 ### What is Data Compute？
-
 
 ## Data Compute  Architecture
 

@@ -5,6 +5,7 @@ tags:
 ---
 
 ### Open Dataset
+
 - [Kaggle DataSet](https://www.kaggle.com/datasets) Explore, analyze, and share quality data. About Computer Science 、Education、Classification、Computer Vision、NLP、 Data Visualization、Pre-Trained Model
 - [MovieLens | GroupLens](https://grouplens.org/datasets/movielens/)
 - [Wikimedia Downloads](https://dumps.wikimedia.org/backup-index.html)
@@ -22,12 +23,21 @@ tags:
 - [Getting Data Into ClickHouse - Part 3 - Using S3](https://clickhouse.com/blog/getting-data-into-clickhouse-part-3-s3) has examples of loading data from s3
 - [Generating random data in ClickHouse](https://clickhouse.com/blog/generating-random-test-distribution-data-for-clickhouse) shows how to generate random data if none of the above fit your needs.
 
+### [TPC](https://www.tpc.org/default5.asp)
 
+- [TPC-H](https://www.tpc.org/tpch/default5.asp) 是一套针对数据库决策支持能力的测试基准, 测试数据库复杂查询和并行数据修改的操作
+- TPC-C
+
+ ![[Bigdata DataSet TPC.png]]
 
 ### Government 
 
 - [杭州市数据开放平台](https://data.hangzhou.gov.cn/dop/tpl/dataOpen/dataList.html)
 - [深圳市政府数据开放平台](https://opendata.sz.gov.cn/data/dataSet/toDataSet)
 - [上海市-数据资源](https://data.sh.gov.cn/view/data-resource/index.html)
-- 
 
+### Reference
+
+- [TPC-H详解：数据库决策支持能力的评价与实战指南-CSDN博客](https://blog.csdn.net/qq_42101275/article/details/123479563)
+- [TPC-H Benchmark - Apache Doris](https://doris.apache.org/zh-CN/docs/benchmark/tpch#762-%E5%8D%95%E4%B8%AA-sql-%E6%89%A7%E8%A1%8C)
+- [2024年8款数据库数据分析能力（TPC-H）真实性能评测，真有100倍差距\_国产分析型数据库对比分析-CSDN博客](https://blog.csdn.net/NineData/article/details/139060405)
