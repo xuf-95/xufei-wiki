@@ -77,53 +77,7 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 </body></html>
 
 
-### Resources
 
-> [!column]
->> [!tabler] Big Data Resources
->> - [[Bigdata DataSet]] 
->> - [[Big Data Wiki]]
->> - [[Bigdata Book]] 
->> - [[Big Data Team]] 
->> - [[Big data Engineer]] 
->> - [[Bigdata Product & Tools]] 
->> - [[Data Organization]] 
->>
->> [***see more other big data resources …***](https://xuf-95.github.io/xufei-wiki/bigdata/Big-Data-Homepage)
->>
->
->> [!objectif] Big Data Concepts
->>- [[CAP（CAP theorem）]]
->>- [[CDC（Change Data Capture）]]
->>- [[DFD（Data Flow Diagrams)]]
->>- [[MQ（Message Queue）]]
->>- [[RUP（Relation Unified Process）]]
->>- [[RPC（Remote Procedure Call）]]
->> 
->> [***see more other big data concpets…***](https://xuf-95.github.io/xufei-wiki/concepts/BigData-Concepts)
-
-
-### Python  & System Architecture
-> [!column]
->>[!voc 3]  Python
->>
->> - [[DataFrame]] 
->> - [[NumPy]]  
->> - [[Pandas]] 
->> - [[Faker]]  
->> - [[Multilab]]  
->> - [[Spider]]
->> 
->> [***see more other python files…*** ](https://xuf-95.github.io/xufei-wiki/Python)
->> 
->
->> [!ex] IDE
->>  - [[Dataworks]]
->>  - [[Jupyter Notebook]]
->>  
->> [***see more other system architecture files…***](https://xuf-95.github.io/xufei-wiki/System-Architecture/)
->>  
->>  
 
 
  
