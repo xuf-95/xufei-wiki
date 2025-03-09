@@ -3,7 +3,7 @@ aliases:
 tags:
   - bigdata
 date: 
-draft:
+draft: true
 ---
 
 [OPPO数据中台之基石：基于Flink SQL构建实时数据仓库](https://cloud.tencent.com/developer/article/1429594)

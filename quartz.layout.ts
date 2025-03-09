@@ -7,10 +7,10 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-  Component.LinksHeader(),
+   Component.LinksHeader(),
   ],
   afterBody: [ 
-
+    // Component.LinksHeader(),
   ],
   footer: Component.Footer({
     links: {
@@ -18,9 +18,12 @@ export const sharedPageComponents: SharedLayout = {
       "GitHub": "https://github.com/xuf-95",
       "xufei.site": "https://xufei.site",
       "Bento.me": "https://bento.me/xfei",
-      "Home": "https://xufei.site"
+      "HomePage": "https://xufei.site",
+      "Bigdata Home": "https://xufei.biz/Big-Data/"
     },
+    
   }),
+  
 }
 
 // components for pages that display a single page (e.g. a single note)
