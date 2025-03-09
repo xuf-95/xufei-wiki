@@ -1,13 +1,13 @@
 ---
 title: Quartz css test
-draft: true
+draft: false
 ---
 
 <section class="carousel-section">
     <div class="container">
         <div class="carousel">
             <input type="radio" name="slides" checked="checked" id="slide-1">
-            <input type="radio" name="slides" id="slide-2">
+            <input type="radio" name="slides" checked="checked" id="slide-2">
             <input type="radio" name="slides" id="slide-3">
             <input type="radio" name="slides" id="slide-4">
             <input type="radio" name="slides" id="slide-5">
@@ -16,7 +16,7 @@ draft: true
                 <li class="carousel__slide">
                     <figure>
                         <div>
-                            <img src="images/CrossbellIPFS.png" alt="">
+                            <img src="images/CrossbellIPFS.png" alt="test">
                         </div>
                         <figcaption>
                             Spearfishing with my childhood friend 
@@ -27,18 +27,18 @@ draft: true
                 <li class="carousel__slide">
                     <figure>
                         <div>
-                            <img src="images/avatar.png" alt="">
+                            <img src="images/CrossbellIPFS.png" alt="test">
                         </div>
                         <figcaption>
-                            On a morning long-run while I was still a student-athlete at UW
-                            <span class="credit">Teton County, Wyoming</span>                            
+                            XX
+                            <span class="credit">Coromandel, New Zealand</span>
                         </figcaption>
                     </figure>
                 </li>
                 <li class="carousel__slide">
                     <figure>
                         <div>
-                            <img src="pictures/ute.jpeg" alt="">
+                            <img src="images/CrossbellIPFS.png" alt="test">
                         </div>
                         <figcaption>
                             Dad and I giving some family friends a tour of the farm
@@ -85,10 +85,10 @@ draft: true
                     <label for="slide-1"><img src="images/CrossbellIPFS.png" alt=""></label>
                 </li>
                 <li>
-                    <label for="slide-2"><img src="images/avatar.png" alt=""></label>
+                    <label for="slide-2"><img src="images/CrossbellIPFS.png" alt=""></label>
                 </li>
                 <li>
-                    <label for="slide-3"><img src="pictures/ute.jpeg" alt=""></label>
+                    <label for="slide-3"><img src="images/CrossbellIPFS.png" alt=""></label>
                 </li>
                 <li>
                     <label for="slide-4"><img src="pictures/nz_champs.jpg" alt=""></label>
@@ -108,12 +108,8 @@ draft: true
 
 
 
-<iframe src="https://dhintz137.github.io/Completed_Works/" width="100%" height="600px" style="border: none; display: block;" onload="iframeLoaded()" allowfullscreen frameborder="25px"></iframe>
+<iframe src="https://github.com/xuf-95/" width="100%" height="600px" style="border: none; display: block;" onload="iframeLoaded()" allowfullscreen frameborder="25px"></iframe>
 
-<figure>
-  <img src="images/avatar.png" width="450" height="422" alt="">
-  <figcaption>Cross-country skiing at Happy Jack, Laramie, Wyoming</figcaption>
-</figure>
 
 
 

@@ -3,20 +3,79 @@ title: Wiki HomePage
 ---
 ![bg](images/nishaung.png)
 
-<p>I’m 许飛, 数据工程师，这个是我的Wiki知识库，主要记录大数据生态的学习记录，问题总结，资源整理等。该Wiki是按照 [[DCMM]] 的评估标准进行分模块管理的。该Wiki是基于 <a href="https://quartz.jzhao.xyz/">Quartz</a>构建，通过  <a href="https://obsidian.md/">Obsidian</a> 进行文档管理的。我从事过阿里云大数据海外项目交付、政务云数据治理，数据平台资产管理等，你可以通过我的博客网站查看我做过的相关<a href="https://www.xufei.site/projects">项目 </a> 
-</p>
 
-### Wiki Contents
+<p>I’m Xufei, a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. This is a space where I store my work notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.</p>
 
-| AREA                                       | INCLUDE                                                                                                                                       |
-| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Data Integration\|Data Integration]]     | [[Apache Kafka]] \| [[Apache Pulsar]] ｜[[Apache Airflow]] ｜ [[Apache DolphinScheduler]] \| [[Apache Flume]] \|                                |
-| [[Data Store\|Data Store]]                 | [[Apache Hive]] ｜[[ClickHouse]] ｜[[Data Lake]] \| [[Relational Database]] \| [[Apache HBase\|Hbase]] \| [[Apache Doris]] \| [[Apache Paimon]] |
-| [[Data Compute Homepage\|Data Compute]]    | [[Apache Flink]] \| [[Apache Spark]] \| [[Apache Hadoop]] \| [[Apache Storm]]                                                                 |
-| [[Data Architecture]]                      | [[Lambda Architecture]] \| [[Kappa Architecture]] \| [[ZooKeeper]]                                                                            |
-| [[Data Visual]]                            | [[Data Visual Product & Tools]] \| [[Tableau]] \| [[FineBI]] \| [[Grafana]]                                                                   |
-| [[数据治理（Data Governance）\|Data Governance]] | [[Apache Atlas]]                                                                                                                              |
-|                                            |                                                                                                                                               |
+**There are multiple ways to navigate `Digital Wiki`:**
+
+1. Use the search bar (top right) to search for any term, or press `ctrl+k` (`cmd+k` on Mac).Use 80% of the screen on the web side of the computer, and the experience will be better
+2. Click on a note to explore its content, and follow the links and backlinks to dive deeper into related topics.
+3. Interact with the graph on the left of the page to visualize connections between notes, and click on any node to navigate directly to that note.
+4. Click on the Hashtags to explore the topics by [tags](https://xuf-95.github.io/xufei-wiki/tags/).
+
+I welcome your feedback and encourage contributes to enhance the accuracy of my notes.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wiki Contents</title>
+    <style>
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th, td {
+            text-align: left;
+            padding: 5px;
+        }
+        caption {
+            caption-side: top; /* Caption position: top or bottom */
+            font-size: 18px; /* Adjust caption font size as needed */
+            font-weight: bold; /* Optional: makes the caption text bold */
+            padding: 5px; /* Optional: adds padding around the caption */
+        }
+    </style>
+</head>
+<body>
+
+<table border="1">
+  <caption>Wiki Contents</caption>
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 80%;">
+  </colgroup>
+  <tr>
+    <th>Area</th>
+    <th>Include</th>
+  </tr>
+   <tr>
+    <td>[[Data Architecture]]</td>
+    <td>[[Lambda Architecture]] | [[Kappa Architecture]] | [[ZooKeeper]]</td>
+  </tr>
+  <tr>
+    <td>[[Data Integration|Data Integration]]</td>
+    <td>[[Apache Kafka]] | [[Apache Pulsar]] ｜[[Apache Airflow]] ｜ [[Apache DolphinScheduler]] | [[Apache Flume]] |</td>
+  </tr>
+  <tr>
+    <td>[[Data Store|Data Store]]</td>
+    <td>[[Apache Hive]] ｜[[ClickHouse]] ｜[[Data Lake]] | [[Relational Database]] | [[Apache HBase|Hbase]] | [[Apache Doris]] | [[Apache Paimon]]</td>
+  </tr>
+  <tr>
+    <td>[[Data Compute Homepage|Data Compute]]</td>
+    <td>[[Apache Flink]] | [[Apache Spark]] | [[Apache Hadoop]] | [[Apache Storm]]</td>
+  </tr>
+ <tr>
+    <td>[[Data Visual]]</td>
+    <td>[[Data Visual Product & Tools]] | [[Tableau]] | [[FineBI]] | [[Grafana]]</td>
+  </tr>
+  
+</table>
+
+</body></html>
+
 
 ### Resources
 
@@ -65,4 +124,8 @@ title: Wiki HomePage
 >> [***see more other system architecture files…***](https://xuf-95.github.io/xufei-wiki/System-Architecture/)
 >>  
 >>  
+
+***
+ 
+
 

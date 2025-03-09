@@ -6,6 +6,8 @@ publish:
 ![bg](images/nishaung.png)
 
 <p>I’m Xufei, a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. This is a space where I store my work notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.</p>
+<p>I’m 许飛, 数据工程师，这个是我的Wiki知识库，主要记录大数据生态的学习记录，问题总结，资源整理等。该Wiki是按照 [[DCMM]] 的评估标准进行分模块管理的。该Wiki是基于 <a href="https://quartz.jzhao.xyz/">Quartz</a>构建，通过  <a href="https://obsidian.md/">Obsidian</a> 进行文档管理的。我从事过阿里云大数据海外项目交付、政务云数据治理，数据平台资产管理等，你可以通过我的博客网站查看我做过的相关<a href="https://www.xufei.site/projects">项目 </a> 
+</p>
 
 **There are multiple ways to navigate `Digital Wiki`:**
 

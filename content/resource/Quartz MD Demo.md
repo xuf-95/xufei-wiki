@@ -19,7 +19,7 @@ draft: false
 >> 
 >> 
 >> 
->> ![[content/Big Data/02 Data Store/img/cassandra.png]]
+>> ![[content/images/CrossbellIPFS.png]]
 >> 
 >> 
 >> | Type | Name |
