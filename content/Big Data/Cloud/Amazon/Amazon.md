@@ -22,11 +22,11 @@ draft:
 - [RDS for Oracle](https://aws.amazon.com/rds/oracle/?pg=ln&sec=hiw)
 - [RDS for Db2](https://aws.amazon.com/rds/db2/?pg=ln&sec=hiw)
 #### Amazon RDS
-![[Amazon.png]]
+![[content/resource/images/Amazon.png]]
 #### Amazon RDS Custom
-![[Amazon-1.png]]
+![[content/resource/images/Amazon-1.png]]
 #### Amazon RDS on outposts
-![[Amazon-2.png]]
+![[content/resource/images/Amazon-2.png]]
 
 ***
 ### Reference

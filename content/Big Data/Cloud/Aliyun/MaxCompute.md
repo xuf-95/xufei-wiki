@@ -25,9 +25,9 @@ draft:
 ![[MaxCompute 架构.png]]
 
 #### 分布式计算
-![[MaxCompute计算架构.png]]
+![[content/Big Data/Cloud/Aliyun/image/MaxCompute计算架构.png]]
 ### 原理 & 功能
-![[MaxCompute.png]]
+![[content/Big Data/Cloud/Aliyun/image/MaxCompute.png]]
 
 ### 应用场景
 
