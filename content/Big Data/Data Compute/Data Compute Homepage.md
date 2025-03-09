@@ -14,7 +14,6 @@ aliases:
 ### What is Data Compute？
 
 
-
 ## Data Compute  Architecture
 
 [[Apache Hadoop]] 

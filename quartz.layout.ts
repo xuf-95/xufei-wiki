@@ -7,7 +7,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-   // Component.LinksHeader(),
+  Component.LinksHeader(),
   ],
   afterBody: [ 
 
@@ -17,7 +17,8 @@ export const sharedPageComponents: SharedLayout = {
       "Tags": "https://xuf-95.github.io/xufei-wiki/tags/",
       "GitHub": "https://github.com/xuf-95",
       "xufei.site": "https://xufei.site",
-      "Bento.me": "https://bento.me/xfei"
+      "Bento.me": "https://bento.me/xfei",
+      "Home": "https://xufei.site"
     },
   }),
 }
@@ -40,6 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
 
     Component.Search(),
     Component.ArticleTitle(),
+    // Component.ContentMeta({ showReadingTime: true }),
     Component.Breadcrumbs(),
     Component.TagList(),
     // Component.Graph(),
