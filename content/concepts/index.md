@@ -1,5 +1,8 @@
 ---
 title: Concepts
+tags:
+  - concepts
+date: 2025-03-08
 ---
 > [!column]
 >> [!tabler] Big Data Resources
@@ -23,15 +26,3 @@ title: Concepts
 >>- [[RPC（Remote Procedure Call）]]
 >> 
 >> [***see more other big data concpets…***](https://xuf-95.github.io/xufei-wiki/concepts/BigData-Concepts)
-
-
-
-```dataview
-CALENDAR file.cday
-```
-
-
-```dataview
-list
-from "Concepts/Big Data"
-```
