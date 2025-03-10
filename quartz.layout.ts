@@ -18,8 +18,6 @@ export const sharedPageComponents: SharedLayout = {
       "GitHub": "https://github.com/xuf-95",
       "xufei.site": "https://xufei.site",
       "Bento.me": "https://bento.me/xfei",
-      "HomePage": "https://xufei.site",
-      "Bigdata Home": "https://xufei.biz/Big-Data/"
     },
     
   }),

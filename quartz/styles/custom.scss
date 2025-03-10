@@ -54,8 +54,6 @@
       color: #FF0;  // 悬停状态 - 更亮的蓝色
       text-decoration: underline;
     }
-
-
   }
 }
 
@@ -339,53 +337,53 @@
     }
 }
 
- [saved-theme="light"] .carousel__slide {
-    position: relative;
-    display: block;
-    flex: 1 0 100%;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    transition: all 300ms ease-out;
-    vertical-align: top;
-    box-sizing: border-box;
-    white-space: normal;
+//  [saved-theme="light"] .carousel__slide {
+//     position: relative;
+//     display: block;
+//     flex: 1 0 100%;
+//     width: 100%;
+//     height: 100%;
+//     overflow: hidden;
+//     transition: all 300ms ease-out;
+//     vertical-align: top;
+//     box-sizing: border-box;
+//     white-space: normal;
     
-    figure {
-        display: flex;
-        margin: 0;
-    }
+//     figure {
+//         display: flex;
+//         margin: 0;
+//     }
     
-    div {
-        @include aspect-ratio(3, 2);
-        width: 100%;
-    }
+//     div {
+//         @include aspect-ratio(3, 2);
+//         width: 100%;
+//     }
     
-    img {
-        display: block;                                                                                                                                                    
-        flex: 1 1 auto;
-        object-fit: cover;
-    }
+//     img {
+//         display: block;                                                                                                                                                    
+//         flex: 1 1 auto;
+//         object-fit: cover;
+//     }
 
-    figcaption {
-        align-self: flex-end;
-        padding: 20px 20px 0 20px;
-        flex: 0 0 auto;
-        color: #7A7A7A;//98AFC8
-        width: 25%;
-        min-width: 150px;
-    }
+//     figcaption {
+//         align-self: flex-end;
+//         padding: 20px 20px 0 20px;
+//         flex: 0 0 auto;
+//         color: #7A7A7A;//98AFC8
+//         width: 25%;
+//         min-width: 150px;
+//     }
 
-    .credit {
-        margin-top: 1rem;
-        color: #284B63;//7A7A7A
-        display: block;
-    }
+//     .credit {
+//         margin-top: 1rem;
+//         color: #284B63;//7A7A7A
+//         display: block;
+//     }
 
-    &.scrollable {
-        overflow-y: scroll;
-    }
-}
+//     &.scrollable {
+//         overflow-y: scroll;
+//     }
+// }
 
 
 .carousel__thumbnails {
