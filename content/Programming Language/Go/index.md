@@ -3,6 +3,6 @@ title: index
 aliases: 
 tags: 
 date: 
-draft:
+draft: true
 ---
 
