@@ -4,13 +4,11 @@ aliases:
 tags:
   - AI
 date: 2025-03-09
-draft:
+draft: true
 ---
-
 ## White Paper
 
 - is you need
-
 
 ***
 ## Reference

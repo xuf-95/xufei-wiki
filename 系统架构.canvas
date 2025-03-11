@@ -1,89 +1,89 @@
 {
-  "nodes": [
-    {
-      "id": "c31cca32c118db6f",
-      "type": "file",
-      "file": "content/System Architecture/32 通信系统架构设计.md",
-      "styleAttributes": {},
-      "x": 0,
-      "y": -1060,
-      "width": 400,
-      "height": 940
-    },
-    {
-      "id": "533e17f8d7016d22",
-      "type": "text",
-      "text": "系统架构",
-      "styleAttributes": {},
-      "x": 300,
-      "y": -1540,
-      "width": 118,
-      "height": 62
-    },
-    {
-      "id": "eac021762afe5b28",
-      "type": "file",
-      "file": "content/System Architecture/33 面向服务架构设计.md",
-      "styleAttributes": {},
-      "x": 460,
-      "y": -1060,
-      "width": 400,
-      "height": 940
-    },
-    {
-      "id": "fbe7cc6687319bef",
-      "type": "file",
-      "file": "content/System Architecture/31 层次式架构设计.md",
-      "styleAttributes": {},
-      "x": -440,
-      "y": -1060,
-      "width": 401,
-      "height": 940
-    },
-    {
-      "id": "706598462872a36c",
-      "type": "file",
-      "file": "content/System Architecture/34 云原生架构设计.md",
-      "styleAttributes": {},
-      "x": 900,
-      "y": -1060,
-      "width": 400,
-      "height": 980
-    }
-  ],
-  "edges": [
-    {
-      "id": "cff72476547b994c",
-      "styleAttributes": {},
-      "fromNode": "533e17f8d7016d22",
-      "fromSide": "bottom",
-      "toNode": "fbe7cc6687319bef",
-      "toSide": "top"
-    },
-    {
-      "id": "183f18669791bbe5",
-      "styleAttributes": {},
-      "fromNode": "533e17f8d7016d22",
-      "fromSide": "bottom",
-      "toNode": "706598462872a36c",
-      "toSide": "top"
-    },
-    {
-      "id": "aa5a77307346a845",
-      "styleAttributes": {},
-      "fromNode": "533e17f8d7016d22",
-      "fromSide": "bottom",
-      "toNode": "c31cca32c118db6f",
-      "toSide": "top"
-    },
-    {
-      "id": "86d22f84ddaee0a1",
-      "styleAttributes": {},
-      "fromNode": "533e17f8d7016d22",
-      "fromSide": "bottom",
-      "toNode": "eac021762afe5b28",
-      "toSide": "top"
-    }
-  ],
-  "metadata": {}
+	"nodes":[
+		{
+			"id":"c31cca32c118db6f",
+			"type":"file",
+			"file":"content/system architecture/32 通信系统架构设计.md",
+			"styleAttributes":{},
+			"x":0,
+			"y":-1060,
+			"width":400,
+			"height":940
+		},
+		{
+			"id":"533e17f8d7016d22",
+			"type":"text",
+			"text":"系统架构",
+			"styleAttributes":{},
+			"x":300,
+			"y":-1540,
+			"width":118,
+			"height":62
+		},
+		{
+			"id":"eac021762afe5b28",
+			"type":"file",
+			"file":"content/system architecture/33 面向服务架构设计.md",
+			"styleAttributes":{},
+			"x":460,
+			"y":-1060,
+			"width":400,
+			"height":940
+		},
+		{
+			"id":"fbe7cc6687319bef",
+			"type":"file",
+			"file":"content/system architecture/31 层次式架构设计.md",
+			"styleAttributes":{},
+			"x":-440,
+			"y":-1060,
+			"width":401,
+			"height":940
+		},
+		{
+			"id":"706598462872a36c",
+			"type":"file",
+			"file":"content/system architecture/34 云原生架构设计.md",
+			"styleAttributes":{},
+			"x":900,
+			"y":-1060,
+			"width":400,
+			"height":980
+		}
+	],
+	"edges":[
+		{
+			"id":"cff72476547b994c",
+			"styleAttributes":{},
+			"fromNode":"533e17f8d7016d22",
+			"fromSide":"bottom",
+			"toNode":"fbe7cc6687319bef",
+			"toSide":"top"
+		},
+		{
+			"id":"183f18669791bbe5",
+			"styleAttributes":{},
+			"fromNode":"533e17f8d7016d22",
+			"fromSide":"bottom",
+			"toNode":"706598462872a36c",
+			"toSide":"top"
+		},
+		{
+			"id":"aa5a77307346a845",
+			"styleAttributes":{},
+			"fromNode":"533e17f8d7016d22",
+			"fromSide":"bottom",
+			"toNode":"c31cca32c118db6f",
+			"toSide":"top"
+		},
+		{
+			"id":"86d22f84ddaee0a1",
+			"styleAttributes":{},
+			"fromNode":"533e17f8d7016d22",
+			"fromSide":"bottom",
+			"toNode":"eac021762afe5b28",
+			"toSide":"top"
+		}
+	],
+	"metadata":{}
 }

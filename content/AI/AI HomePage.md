@@ -1,7 +1,8 @@
 ---
 aliases:
-  - Ai
+  - AI HomePage
 tags:
+  - homepage
   - ai
 date: 2024-01-09
 ---

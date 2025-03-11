@@ -1,8 +1,6 @@
 ---
 aliases:
-  - Ai
-tags:
-  - ai
+  - digital garden
 date: 2024-01-09
 ---
 ***Soon….***

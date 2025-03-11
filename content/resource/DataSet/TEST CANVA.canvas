@@ -1,13 +1,68 @@
 {
-	"nodes":[
-		{"id":"78783e1e0a61f562","x":-125,"y":-20,"width":125,"height":50,"type":"text","text":"\tROOT"},
-		{"id":"da43e06120bd708c","x":120,"y":-20,"width":245,"height":50,"type":"text","text":"01"},
-		{"id":"16e5623a16d45fd9","x":120,"y":-320,"width":400,"height":225,"type":"file","file":"public/static/og-image.png"},
-		{"id":"294b4fd2441ee91c","x":120,"y":120,"width":400,"height":235,"type":"file","file":"content/Big Data/Data Visual/Data Visual.md"}
-	],
-	"edges":[
-		{"id":"91253877994e9f5f","fromNode":"78783e1e0a61f562","fromSide":"right","toNode":"da43e06120bd708c","toSide":"left"},
-		{"id":"18494af5850e997f","fromNode":"78783e1e0a61f562","fromSide":"right","toNode":"294b4fd2441ee91c","toSide":"left"},
-		{"id":"cab7f16eef68a862","fromNode":"78783e1e0a61f562","fromSide":"right","toNode":"16e5623a16d45fd9","toSide":"left"}
-	]
+  "nodes": [
+    {
+      "id": "78783e1e0a61f562",
+      "type": "text",
+      "text": "\tROOT",
+      "styleAttributes": {},
+      "x": -125,
+      "y": -20,
+      "width": 125,
+      "height": 50
+    },
+    {
+      "id": "da43e06120bd708c",
+      "type": "text",
+      "text": "01",
+      "styleAttributes": {},
+      "x": 120,
+      "y": -20,
+      "width": 245,
+      "height": 50
+    },
+    {
+      "id": "16e5623a16d45fd9",
+      "type": "file",
+      "file": "public/static/og-image.png",
+      "styleAttributes": {},
+      "x": 120,
+      "y": -320,
+      "width": 400,
+      "height": 225
+    },
+    {
+      "id": "294b4fd2441ee91c",
+      "type": "file",
+      "file": "content/bigdata/Data Visual/Data Visual.md",
+      "styleAttributes": {},
+      "x": 120,
+      "y": 120,
+      "width": 400,
+      "height": 235
+    }
+  ],
+  "edges": [
+    {
+      "id": "91253877994e9f5f",
+      "fromNode": "78783e1e0a61f562",
+      "fromSide": "right",
+      "toNode": "da43e06120bd708c",
+      "toSide": "left"
+    },
+    {
+      "id": "18494af5850e997f",
+      "fromNode": "78783e1e0a61f562",
+      "fromSide": "right",
+      "toNode": "294b4fd2441ee91c",
+      "toSide": "left"
+    },
+    {
+      "id": "cab7f16eef68a862",
+      "fromNode": "78783e1e0a61f562",
+      "fromSide": "right",
+      "toNode": "16e5623a16d45fd9",
+      "toSide": "left"
+    }
+  ],
+  "metadata": {}
 }

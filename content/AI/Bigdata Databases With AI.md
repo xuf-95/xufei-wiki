@@ -3,7 +3,8 @@ title: Bigdata Databases With AI
 tags:
   - bigdata
   - database
-  - AI
+  - ai
+date: 2024-12-30
 ---
 # Databases with AI Capabilities
 

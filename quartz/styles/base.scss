@@ -102,7 +102,7 @@ a {
     }
     &.tag-link {
       &::before {
-        content: "#";
+        content: "*";
       }
     }
   }

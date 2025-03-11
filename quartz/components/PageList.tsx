@@ -59,7 +59,6 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
                   <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                     {title}
                   </a>
-                  {/* Show the trimmed slug only if it's a tag page, and desktoponly is applied by the class */}
                   {isTagPage && (
                     <span class="slug-pagelist desktop-only" title="Slug">
                       ⟡ {trimmedSlug ? `/${trimmedSlug}/` : '/'}

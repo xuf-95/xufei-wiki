@@ -7,7 +7,7 @@ tags:
   - Introduction
 date: 2023-08-06
 ---
-### Bigdata  Product & Tools
+### Big Data  Product & Tools
 
 - [SQLFlow](https://www.gudusoft.com/) 
 	- > SQLFlow provides a visual representation of the overall flow of data.
@@ -20,6 +20,7 @@ date: 2023-08-06
 - [Ideal Modeling & Diagramming Tool for Agile Team Collaboration](https://www.visual-paradigm.com/)
 
 ## API
+
 - [DBAPI](https://www.51dbapi.com/v4.0.0/) SQL生成API，低代码开发API
 - [FastAPI](https://fastapi.tiangolo.com/)
 
@@ -60,8 +61,9 @@ date: 2023-08-06
 
 ### Message Queue
 
+- [[Apache Kafka]]
 
-### big data Guide
+### Big Data Guide
 
 - [BigData Guide Website](https://hao.199it.com/) All type of data tools
 

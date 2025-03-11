@@ -14,3 +14,5 @@ tags:
 
 [IDC: The premier global market intelligence firm.](https://www.idc.com/)
 	- _International Data Corporation_ (_IDC_) is the premier global market intelligence, data, and events provider for the information technology, telecommunications
+
+[Gartner | Delivering Actionable, Objective Insight to Executives and Their Teams](https://www.gartner.com/)
