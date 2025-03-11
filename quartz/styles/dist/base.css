@@ -1529,7 +1529,7 @@ a.internal:has(> img) {
   padding: 0;
 }
 a.internal.tag-link::before {
-  content: "*";
+  content: "#";
 }
 a.external .external-icon {
   height: 1ex;
