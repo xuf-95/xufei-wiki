@@ -5,6 +5,67 @@ tags:
 date: 2025-03-04
 ---
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wiki Contents</title>
+    <style>
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th, td {
+            text-align: left;
+            padding: 5px;
+        }
+        caption {
+            caption-side: top; /* Caption position: top or bottom */
+            font-size: 18px; /* Adjust caption font size as needed */
+            font-weight: bold; /* Optional: makes the caption text bold */
+            padding: 5px; /* Optional: adds padding around the caption */
+        }
+    </style>
+</head>
+<body>
+
+<table border="1">
+  <caption>Big Data Area Contents</caption>
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 80%;">
+  </colgroup>
+  <tr>
+    <th>Area</th>
+    <th>Include</th>
+  </tr>
+   <tr>
+    <td>[[Data Architecture]]</td>
+    <td>[[Lambda Architecture]] | [[Kappa Architecture]] | [[ZooKeeper]]</td>
+  </tr>
+  <tr>
+    <td>[[Data Integration|Data Integration]]</td>
+    <td>[[Apache Kafka]] | [[Apache Pulsar]] ｜[[Apache Airflow]] ｜ [[Apache DolphinScheduler]] | [[Apache Flume]] |</td>
+  </tr>
+  <tr>
+    <td>[[Data Store|Data Store]]</td>
+    <td>[[Apache Hive]] ｜[[ClickHouse]] ｜[[Data Lake]] | [[Relational Database]] | [[Apache HBase|Hbase]] | [[Apache Doris]] | [[Apache Paimon]]</td>
+  </tr>
+  <tr>
+    <td>[[Data Compute]]</td>
+    <td>[[Apache Flink]] | [[Apache Spark]] | [[Apache Hadoop]] | [[Apache Storm]]</td>
+  </tr>
+ <tr>
+    <td>[[Data Visual]]</td>
+    <td>[[Data Visual Product & Tools]] | [[Tableau]] | [[FineBI]] | [[Grafana]]</td>
+  </tr>
+  
+</table>
+
+</body></html>
+
 ```mermaid
 mindmap
   root((Big Data))
@@ -17,46 +78,3 @@ mindmap
     Data Lifecycle
     Data Safe
 ```
-
-> [!column]
->> [!tabler] Data Architecture
->> - [[Kappa Architecture]] 
->> - [[Lambda Architecture]]
->> - [[ZooKeeper]] 
->>
->
->> [!objectif] Data Compute
->>- [[Apache Flink]]
->>- [[Apache Spark]]
->>- [[Apache Storm]]
->
->> [!objectif] Data Integration
->>- [[Apache Airflow]]
->>- [[Apache Flume]]
->>- [[Apache Kafka]]
->>- [[Apache Pulsar]]
->>- [[Apache Nifi]]
->>- [[DataX]]
->>- [[Apache DolphinScheduler]]
->>- [[chunjun]]
->
->
->> [!objectif] Data Store
->>- [[Data Lake]]
->>- [[Data Mart]]
->>- [[Data Warehouse]]
->>- [[MySQL]]
->>- [[Redis]]
->>- [[TiDB]]
->>- [[PostgreSQL]]
->>- [[Apache HBase]]
->>- [[Apache Hive]]
->>
->
->> [!objectif] [[content/Big Data/Data Maintenance/index|Data Maintenance]] | 数据运维
->>- [[分布式集群启动服务脚本|Server Script]]
->>
->
->> [!objectif] [[Data Governance]] | 数据治理
->>- [[Apache Atlas]]
->>

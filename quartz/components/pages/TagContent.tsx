@@ -38,23 +38,43 @@ export default ((opts?: Partial<TagContentOptions>) => {
         ? fileData.description
         : htmlToJsx(fileData.filePath!, tree)
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
-    const classes = ["popover-hint", ...cssClasses].join(" ")
+    const classes = cssClasses.join(" ")
     if (tag === "/") {
-      const tags = [
+      const unfilteredtags = [
         ...new Set(
           allFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
         ),
       ].sort((a, b) => a.localeCompare(b))
+      const _excludeStrings = ["exclude"]
+      const tags = unfilteredtags.filter(tag => !_excludeStrings.some(excludeString => tag.includes(excludeString)));
+      const renderAllTagsList = (tags: string[], cfg: any) => {
+        return (
+          <div class="all-tags-list">
+            <p class="all-tags-list-p">
+              {tags.map((tag, index) => (
+                <>
+                  <a class="internal tag-link" href={`../tags/${tag}`}>
+                    {tag}
+                  </a>
+                  {index < tags.length - 1 && " "}
+                </>
+              ))}
+            </p>
+          </div>
+        )
+      }      
       const tagItemMap: Map<string, QuartzPluginData[]> = new Map()
       for (const tag of tags) {
         tagItemMap.set(tag, allPagesWithTag(tag))
       }
       return (
-        <div class={classes}>
-          <article>
+        <div class="popover-hint">
+          <article class={classes}>
             <p>{content}</p>
           </article>
           <p>{i18n(cfg.locale).pages.tagContent.totalTags({ count: tags.length })}</p>
+          {renderAllTagsList(tags, cfg)}
+          <p class="page-sparkle-divider"> __________________________________ ✱✱✱ ________________________________ </p>
           <div>
             {tags.map((tag) => {
               const pages = tagItemMap.get(tag)!
@@ -93,7 +113,7 @@ export default ((opts?: Partial<TagContentOptions>) => {
                         </>
                       )}
                     </p>
-                    <PageList limit={options.numPages} {...listProps} sort={opts?.sort} />
+                    <PageList limit={options.numPages} {...listProps} sort={options?.sort} isTagPage={"true"} />
                   </div>
                 </div>
               )
@@ -108,15 +128,22 @@ export default ((opts?: Partial<TagContentOptions>) => {
         allFiles: pages,
       }
 
+      // If baseUrl contains a pathname after the domain, use this as the home link
+      const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
+      const baseDir = url.pathname
+
       return (
         <div class={classes}>
-          <article>{content}</article>
+          <article class="popover-hint">{content}</article>
           <div class="page-listing">
             <p>{i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}</p>
+            <p class="page-sparkle-divider">─── ✱✱✱ ───</p>
             <div>
-              <PageList {...listProps} />
+              <PageList {...listProps} sort={options?.sort} isTagPage={"true"} />
             </div>
           </div>
+          <a href={baseDir} class="internal">{i18n(cfg.locale).pages.error.home}</a>
+          {/* <hr /> */}
         </div>
       )
     }

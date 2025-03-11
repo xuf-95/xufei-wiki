@@ -632,9 +632,12 @@ body {
     ),
     linear-gradient(182deg, #afd7ff00, #afd7ff4d 8%, #afd7ff00 15%);
 }
-
-
-
 /* */
 
+// Slugs on PageLists
+.slug-pagelist {
+  color: var(--gray);
+  font-style: italic;
+  font-size: 70%;
+}
 

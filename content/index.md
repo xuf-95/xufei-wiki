@@ -4,16 +4,7 @@ title: Wiki HomePage
 ![bg](images/nishaung.png)
 
 
-<p>I’m Xufei, a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. This is a space where I store my work notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.</p>
-
-<p>There are multiple ways to navigate <span class="blue-highlight">Digital Wiki</span></p>
-
-1. Use the search bar (top right) to search for any term, or press `ctrl+k` (`cmd+k` on Mac).
-2. Click on a note to explore its content, and follow the links and backlinks to dive deeper into related topics.
-3. Interact with the graph on the left of the page to visualize connections between notes, and click on any node to navigate directly to that note.
-4. Click on the Hashtags to explore the topics by [tags](https://xuf-95.github.io/xufei-wiki/tags/).
-
-I welcome your feedback and encourage contributes to enhance the accuracy of my notes.
+<p>Hello!. I’m xufei, a data engineer. This is a space where I store my work notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.</p>
 
 <!DOCTYPE html>
 <html>
@@ -76,10 +67,17 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 
 </body></html>
 
-
-
-
-
- 
-
+### Some Cool Wiki & Digital Garden
+> [!cards|4]
+> **[Bret Victor](https://worrydream.com/)**
+> ![[worrydream.png]]
+> 
+> **[U.S Graphics Com.](https://usgraphics.com/)**
+> ![[u.s.png]]
+> 
+> **[The Pond](https://turntrout.com/welcome)**
+> ![[the pond.png]]
+> 
+> **[RimWorld](https://rimworldwiki.com/wiki/Main_Page)**
+> ![[Rimwrld.png]]
 

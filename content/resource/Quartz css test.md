@@ -1,6 +1,9 @@
 ---
 title: Quartz css test
 draft: false
+tags:
+  - quartz
+  - demo
 ---
 
 <section class="carousel-section">
@@ -272,9 +275,6 @@ The data is on the percent body fat for 252 adult males, where the objective is 
 <p>And now we're back to normal text. With a few little <span class="pink-highlight">surprises</span> here and there.</p>
 
 <p>Feel free to copy <span class="blue-highlight">whatever you'd like here!</span></p>
-
-
-
 
 
 
