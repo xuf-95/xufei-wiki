@@ -2,6 +2,7 @@
 aliases: 
 tags:
   - seedling
+  - to-trans
 draft: true
 ---
 

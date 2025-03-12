@@ -7,7 +7,7 @@ tags:
   - concepts
   - system
 date: 
-draft: false
+draft:
 ---
 > [!obsidian]
 > Massively Parallel Processing（MPP）是指一种基于大规模并行处理的高性能计算技术。其核心思想是利用大量的处理器或核心同时执行任务，以显著提升系统的计算速度和效率
@@ -36,7 +36,7 @@ draft: false
 7. **与单线程处理的区别**：
    - 单线程处理任务独占CPU资源，通常适用于简单的计算或非实时应用；而MPP则通过并行处理，显著提高处理速度。
 
-### 总结：
+### 总结
 
 Massively Parallel Processing 是一种基于大规模多核心或多处理器的高性能计算技术，能够通过并行处理极大提升系统计算效率和处理速度。它在科学模拟、数据分析等领域发挥着重要作用，并推动了现代高性能计算的发展方向。
 

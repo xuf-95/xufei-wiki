@@ -1,6 +1,9 @@
 ---
-Aliases: [scaling out]
-Tags: [seedling]
+aliases:
+  - scaling out
+tags:
+  - seedling
+  - to-trans
 publish: true
 ---
 

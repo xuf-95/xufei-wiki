@@ -7,7 +7,7 @@ tags:
   - concepts
   - mq
 date: 2023-03-15
-publish: true
+draft:
 ---
 
 ## 概述
@@ -83,8 +83,3 @@ publish: true
 3. **延迟**：消息队列引入的异步处理机制可能导致一定的延迟，需根据业务场景进行权衡
 
 
-## Reference
-
-
-
-    

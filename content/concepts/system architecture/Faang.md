@@ -4,8 +4,7 @@ tags:
   - concepts
   - system
   - todo
-date: 
-publish: true
+date:
 ---
 Facebook
 amazon

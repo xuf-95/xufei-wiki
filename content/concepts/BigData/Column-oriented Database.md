@@ -3,7 +3,8 @@ aliases:
   - columnar database
 tags:
   - incubating
-publish: false
+  - to-trans
+draft: true
 ---
 
 

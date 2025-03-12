@@ -1,11 +1,10 @@
 ---
 tags:
-  - concepts
-  - system
-draft: true
+  - theorem
 date: 
 aliases:
   - Heath's Theorem
+draft: false
 ---
 ### 定义
 

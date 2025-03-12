@@ -3,6 +3,7 @@ title: Data Visual
 tags:
   - Visual
   - BI
+draft:
 ---
 ![[数据分析价值链全景图 小红书.jpg]]
 

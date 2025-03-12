@@ -3,6 +3,7 @@ aliases:
   - Data Vault
 tags:
   - seedling
+  - to-trans
 draft: true
 ---
 

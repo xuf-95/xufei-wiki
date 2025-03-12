@@ -6,6 +6,7 @@ aliases:
 tags:
   - concepts
   - system
+  - database
 date: 
 draft: false
 ---

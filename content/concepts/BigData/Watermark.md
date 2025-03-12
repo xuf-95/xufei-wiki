@@ -1,8 +1,8 @@
 ---
-aliases: 
+aliases:
+  - 水印
 tags:
   - concepts
-  - system
 date: 
 draft: true
 ---

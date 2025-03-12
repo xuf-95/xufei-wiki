@@ -8,9 +8,19 @@ tags:
 date: 2022-01-14
 draft: false
 ---
+
+> [!infobox]
+> 
+> 
+> #### Apache Hive
+> 
+> ![[Apache Hive.png|300]]
+> 
+> 
+
 ## 概述
 
-> Hive由Facebook开源，是基于Hadoop的一个数据仓库工具，可以将结构化的数据文件映射为一张表，并提供类SQL查询功能，解决 `海量结构化日志` 的数据统计工具
+> Hive由Facebook开源，是基于Hadoop的一个数据仓库工具，可以将结构化的数据文件映射为一张表，并提供类`SQL`查询功能，解决 `海量结构化日志` 的数据统计工具
 
 Hive本质：将HQL转化成 [[MapReduce]] 程序
 
@@ -18,6 +28,7 @@ Hive本质：将HQL转化成 [[MapReduce]] 程序
 - hive默认分析计算引擎是[[MapReduce]]
 - hive执行程序运行在[[Apache Yarn]]
 
+***
 > [!warning] Hive是针对数据仓库应用设计的，而数据仓库的内容是`读多写少`的。因此，Hive中不建议对数据的改写，所有的数据都是在加载的时候确定好的
 > 
 
@@ -39,6 +50,7 @@ Hive本质：将HQL转化成 [[MapReduce]] 程序
 ## Hive Data Type
 
 ##### 基本数据类型
+
 ##### 集合数据类型
 ##### 数据类型的转化
 
@@ -700,3 +712,6 @@ alter table  INDEX_PARAMS  modify column PARAM_VALUE  varchar(4000) character se
         
 - 密钥
     - 统一编写 "8888888"
+
+
+ 

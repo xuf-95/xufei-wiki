@@ -1,7 +1,11 @@
 ---
-Aliases: [database normalization, data normalization]
-Tags: [incubating]
-publish: true
+aliases:
+  - database normalization
+  - data normalization
+tags:
+  - incubating
+  - to-trans
+draft:
 ---
 Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. This makes the database design simpler and faster, as well as more accurate and efficient. Since inserts, updates, and deletes occur rapidly in [[Online Transaction Processing|OLTP]] systems, normalization is particularly important for those types of systems. There are several steps to normalization: 
 

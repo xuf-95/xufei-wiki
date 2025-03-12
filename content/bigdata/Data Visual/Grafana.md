@@ -2,6 +2,8 @@
 aliases: 
 tags:
   - bigdata
+  - BI
+  - tools
 date: 
 draft:
 ---

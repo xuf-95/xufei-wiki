@@ -3,7 +3,7 @@ aliases:
   - Reference-Based Messaging
 tags:
   - incubating
-publish: false
+  - to-trans
 draft: true
 ---
 

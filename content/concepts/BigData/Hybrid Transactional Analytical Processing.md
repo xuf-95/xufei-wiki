@@ -1,7 +1,10 @@
 ---
-Aliases: [HTAP]
-Tags: [seedling]
-publish: false
+aliases:
+  - HTAP
+tags:
+  - seedling
+  - to-trans
+draft:
 ---
 
 Brief description of the concept.

@@ -100,7 +100,7 @@ Apache Flink是一个框架和分布式处理引擎，用于在无界和有界�
 
 ### Flink 运行时的组件
 
-![flink-architecture](content/bigdata/Data%20Compute/Apache%20Flink/image/flink-architecture.png)
+![flink-architecture](content/bigdata/01%20Data%20Compute%20HomePage/Apache%20Flink/image/flink-architecture.png)
 
 1. 作业管理器 JobManager
 2. 资源管理器 ResourceManager

@@ -5,7 +5,7 @@ aliases:
 title: Apache Kafka
 tags:
   - data-integration
-  - MQ
+  - mq
 ---
 ## Kafka 概述
 

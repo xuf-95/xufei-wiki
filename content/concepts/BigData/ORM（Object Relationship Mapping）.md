@@ -6,6 +6,7 @@ aliases:
 tags:
   - concepts
   - bigdata
+  - todo
 date: 
 draft: true
 ---

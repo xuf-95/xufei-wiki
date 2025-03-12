@@ -1,9 +1,8 @@
 ---
 aliases:
-  - scaling up
+  - 垂直扩展
 tags:
-  - seedling
-publish: false
+  - architecture
 ---
 
 Vertical scaling is when you increase the capacity of a system by increasing the compute size.

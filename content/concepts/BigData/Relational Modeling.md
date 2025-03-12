@@ -2,7 +2,8 @@
 aliases: 
 tags:
   - seedling
-publish: false
+  - to-trans
+draft: true
 ---
 
 Relational modeling revolves around using tables, columns, and rows to represent data. Each table denotes entities or subjects, while every row signifies individual records or instances belonging to that entity. These tables are connected via unique identifiers called foreign keys. Essentially, a foreign key is a column in a table that refers to the primary key of another table. A key component for relational modeling is [[Normalization|normalization]] (reduces data redundancy).

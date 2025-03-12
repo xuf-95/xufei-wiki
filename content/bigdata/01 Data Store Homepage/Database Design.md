@@ -76,7 +76,7 @@ graph LR
 
 **两级映像：** 概念模式/内模式映像、外模式/概念模式映像。这两级映像保证了数据库中的数据具有较高的逻辑独立性和物理独立性
 
-![[content/bigdata/Data Store/image/分布式数据库.png]]
+![[content/bigdata/01 Data Store Homepage/image/分布式数据库.png]]
 
 #### 规范化理论
 

@@ -8,7 +8,6 @@ tags:
 date: 
 publish: true
 ---
-
 ## 概述
 
  >[!note] ETL 于 1970 年代问世，随着数据仓库的兴起，ETL 变得特别受欢迎。
@@ -27,4 +26,3 @@ L： 将该数据加载到目标数据库中
 ## Reference
 
 - [ETL 与 ELT — 数据处理方法之间的区别 — AWS](https://aws.amazon.com/cn/compare/the-difference-between-etl-and-elt/)
-- 

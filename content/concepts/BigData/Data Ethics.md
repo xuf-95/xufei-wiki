@@ -2,7 +2,7 @@
 aliases: 
 tags:
   - seedling
-publish: false
+  - to-trans
 draft: true
 ---
 

@@ -2,7 +2,8 @@
 aliases: 
 tags:
   - evergreen
-publish: false
+  - to-trans
+draft: true
 ---
 
 Sargable, short for Search ARGument ABLE, is a definition in relational database management systems for queries that can take advantage of indexes to speed up the query. A query that fails this definition is known as a non-sargable query and usually has a negative effect on query performance. So, simply making a query sargable CAN increase its performance alone, but in concert with the right indexes the results can be dramatic.

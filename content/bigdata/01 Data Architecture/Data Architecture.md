@@ -22,7 +22,7 @@ draft:
 - 数据模型
 - 数据架构（[[Data Architecture]]）
 - 数据分布
-- 数据集成与共享（[[Data Integration]]）
+- 数据集成与共享（[[01 Data Integration Homepage]]）
 - 元数据管理
 - 数据标准
 - 数据模型

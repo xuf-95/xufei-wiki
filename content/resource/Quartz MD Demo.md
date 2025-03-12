@@ -141,7 +141,7 @@ tags:
 ## Reference
 
 - [Apache Cassandra | Apache Cassandra Documentation](https://cassandra.apache.org/_/index.html)
-- 
+
 
 > [!caption|2]
 >

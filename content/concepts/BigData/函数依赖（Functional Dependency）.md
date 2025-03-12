@@ -1,13 +1,12 @@
 ---
 title: 函数依赖（Functional Dependency）
-tags:
-  - concepts
-  - system
-draft: false
-date: 
 aliases:
   - Functional Dependency
   - 函数依赖
+tags:
+  - concepts
+date: 
+draft: false
 ---
 
 ### 定义

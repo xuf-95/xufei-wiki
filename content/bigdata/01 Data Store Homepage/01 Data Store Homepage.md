@@ -1,5 +1,5 @@
 ---
-title: 01 Data Store Homepage
+title: Data Store Homepage
 tags:
   - store
   - database
