@@ -5,6 +5,7 @@ title: Wiki HomePage
 
 I'm xufei,  a data engineer from china. This is my wiki vault & [[Digital Garden HomePage|digital garden]], which mainly records the learning record of [[Big Data Homepage|Data Engineering Vault]], [[AI HomePage|AI]] and [[PKM HomePage|PKM]]. The wiki is based on the <a href = "https://quartz.jzhao.xyz/"> Quartz </a> build, by <a href = "https://obsidian.md/"> Obsidian </a> for document management. You can see through  <a href = "https://xufei.site/"> my blog website </a>to explore the various topics that interest me.
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,17 +67,18 @@ I'm xufei,  a data engineer from china. This is my wiki vault & [[Digital Garden
 
 </body></html>
 
-### Some Cool Wiki & Digital Garden
-> [!cards|4]
-> **[Bret Victor](https://worrydream.com/)**
-> ![[worrydream.png]]
-> 
-> **[U.S Graphics Com.](https://usgraphics.com/)**
-> ![[u.s.png]]
-> 
-> **[The Pond](https://turntrout.com/welcome)**
-> ![[the pond.png]]
-> 
-> **[RimWorld](https://rimworldwiki.com/wiki/Main_Page)**
-> ![[Rimwrld.png]]
 
+### 
+
+> [!cards|4]
+> ![[worrydream.png]]
+> **[Bret Victor](https://worrydream.com/)**
+> 
+> ![[u.s.png]]
+> **[U.S Graphics Com.](https://usgraphics.com/)**
+> 
+> ![[the pond.png]]
+> **[The Pond](https://turntrout.com/welcome)**
+> 
+> ![[Rimwrld.png]]
+> **[RimWorld](https://rimworldwiki.com/wiki/Main_Page)**

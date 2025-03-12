@@ -3,7 +3,7 @@ title: Flink CDC
 tags:
   - demo
   - flink
-  - Development
+  - cdc
 date: 2024-09-18
 draft: false
 ---

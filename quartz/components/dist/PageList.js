@@ -47,9 +47,7 @@ exports.PageList = function (_a) {
                         React.createElement("a", { href: path_1.resolveRelative(fileData.slug, page.slug), "class": "internal" }, title),
                         isTagPage && (React.createElement("span", { "class": "slug-pagelist desktop-only", title: "Slug" },
                             "\u27E1 ",
-                            trimmedSlug ? "/" + trimmedSlug + "/" : '/')))),
-                React.createElement("ul", { "class": "tags" }, tags.map(function (tag) { return (React.createElement("li", null,
-                    React.createElement("a", { "class": "internal tag-link", href: path_1.resolveRelative(fileData.slug, "tags/" + tag) }, tag))); })))));
+                            trimmedSlug ? "/" + trimmedSlug + "/" : '/')))))));
     })));
 };
 exports.PageList.css = "\n.section h3 {\n  margin: 0;\n}\n\n.section > .tags {\n  margin: 0;\n}\n";

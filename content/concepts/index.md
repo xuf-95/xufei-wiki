@@ -1,16 +1,36 @@
 ---
 title: Concepts
 tags:
-  - concepts
+  - index
 date: 2025-03-08
 ---
+
 > [!column]
->> [!objectif] Big Data Concepts
->>- [[CAP（CAP theorem）]]
->>- [[CDC（Change Data Capture）]]
->>- [[DFD（Data Flow Diagrams)]]
->>- [[MQ（Message Queue）]]
->>- [[RUP（Relation Unified Process）]]
->>- [[RPC（Remote Procedure Call）]]
+>>  [!forme]+  Data Architecture Concepts
 >> 
->> [***see more other big data concpets…***](https://xuf-95.github.io/xufei-wiki/concepts/BigData-Concepts)
+>> - [[Fan-out]]
+>> - [[Horizontal Scaling]]
+>> - [[Lambda Architecture]]
+>> - [[Semantic Layer]]
+>> - [[Vertical Scaling]]
+>
+>>  [!obsidian]+ Database Concepts
+>> 
+>> - [[CAP Theorem]]
+>> - [[Column-oriented Database]]
+>> - [[Hybrid Transactional Analytical Processing]]
+>> - [[Online Analytical Processing]]
+>> - [[Online Transaction Processing]]
+>> - [[Relational Database]]
+>> - [[Relational Database Management System]]
+>> - [[Timeseries Database]]
+>> - [[Data Architecture]]
+>> - [[Data Lake]]
+>
+>>  [!ev]+  Data Pipeline Concepts
+>> 
+>> - [[CDC（Change Data Capture）]]
+>> - [[Delta Load]]
+>> - [[Full Load]]
+>> - [[Stream Data Processing]]
+>> - [[Workflow Orchestration]]

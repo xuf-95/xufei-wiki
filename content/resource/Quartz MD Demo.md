@@ -4,7 +4,6 @@ aliases:
   - markdown
 tags:
   - demo
-draft: false
 ---
 
 > [!column|title-center]
@@ -112,8 +111,6 @@ draft: false
 > [!grid|masonry]
 > ![External Image 1](https://www.dmuth.org/wp-content/uploads/2021/03/obsidian-logo.png)
 > ![External Image 2](https://www.dmuth.org/wp-content/uploads/2021/03/obsidian-logo.png)
-> 
-> 
 > ![External Image 4](https://obsidian.md/images/obsidian-logo-gradient.svg)
 
 > [!obsidian|list] Big Data Knowledge
@@ -146,11 +143,9 @@ draft: false
 - [Apache Cassandra | Apache Cassandra Documentation](https://cassandra.apache.org/_/index.html)
 - 
 
-> [!caption]
-> 
-> 
-> ![[content/Big Data/02 Data Store/img/cassandra.png]]
-> 
+> [!caption|2]
+>
+> ![[cassandra.png]]
 > Image caption.
 
 

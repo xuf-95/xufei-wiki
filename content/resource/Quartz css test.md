@@ -1,9 +1,9 @@
 ---
 title: Quartz css test
-draft: false
 tags:
   - quartz
   - demo
+draft: false
 ---
 
 <section class="carousel-section">

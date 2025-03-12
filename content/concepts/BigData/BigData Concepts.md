@@ -3,8 +3,7 @@ title: BigData Concepts
 aliases:
   - 概念
 tags:
-  - home
-  - bigdata
+  - homepage
 publish: true
 date: 
 draft:

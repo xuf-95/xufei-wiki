@@ -5,7 +5,7 @@ tags:
   - data-warehouse
   - opensource
   - database
-  - OLAP
+  - olap
 date: 2022-03-11
 draft:
 ---

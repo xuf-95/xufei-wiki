@@ -1,8 +1,8 @@
 ---
 title: Redis
 tags:
-  - KV
-  - DB
+  - database
+  - kv
 date: 
 draft:
 ---

@@ -5,9 +5,9 @@ aliases:
   - Change Data Capture
   - 数据捕获
 tags:
-  - CDC
   - database
   - concepts
+  - cdc
 ---
 ### 定义
 

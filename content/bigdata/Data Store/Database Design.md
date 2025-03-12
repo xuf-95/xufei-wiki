@@ -2,7 +2,7 @@
 aliases:
   - 数据库设计
 tags:
-  - Databases
+  - database
 date: 2022-06-11
 draft: false
 ---

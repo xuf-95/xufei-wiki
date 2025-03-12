@@ -1,12 +1,11 @@
 ---
-title: 
 tags:
   - database
   - rule
   - theory
+date: 
 publish: true
 draft: false
-date:
 ---
 ### 定义
 

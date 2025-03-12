@@ -2,7 +2,6 @@
 title: PostgreSQL
 tags:
   - bigdata
-  - Databases
 draft: true
 date: 2023-07-11
 ---

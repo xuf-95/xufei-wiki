@@ -2,8 +2,8 @@
 title: Data Integration Homepage
 tags:
   - bigdata
-  - Sync
   - home
+  - sync
 draft: 
 date: 2022-01-21
 aliases:

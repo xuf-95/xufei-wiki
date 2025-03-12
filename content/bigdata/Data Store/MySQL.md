@@ -1,7 +1,7 @@
 ---
 title: MySQL
 tags:
-  - Databases
+  - database
 ---
 
 ## 架构

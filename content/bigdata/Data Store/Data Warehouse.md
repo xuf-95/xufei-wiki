@@ -2,7 +2,6 @@
 title: Data Warehouse
 tags:
   - database
-  - Databases
 ---
 > Data Warehouse : DW
 
