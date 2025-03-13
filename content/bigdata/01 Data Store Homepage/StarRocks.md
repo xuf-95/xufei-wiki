@@ -33,7 +33,6 @@ StarRocks 是 **新一代极速全场景 [[MMP（Massively Parallel Processing�
 - 实时数仓
 - 高并发查询
 
-
 ***
 ## Reference
 

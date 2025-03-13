@@ -106,7 +106,7 @@ C --> D
 ### [[Data Lake]]
 ### [[Data Mart]]
 ### [[Data Mesh]]
-### [[Data Warehouse]]
+### [[content/bigdata/01 Data Store Homepage/Data Warehouse]]
 
 
 ### 数据架构的评估

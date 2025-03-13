@@ -12,7 +12,84 @@ aliases:
   - DB
   - Data Store
 ---
-![[数据库类型全集 from 小红书.jpg]]
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wiki Contents</title>
+    <style>
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        th, td {
+            text-align: left;
+            padding: 5px;
+        }
+        caption {
+            caption-side: top; /* Caption position: top or bottom */
+            font-size: 18px; /* Adjust caption font size as needed */
+            font-weight: bold; /* Optional: makes the caption text bold */
+            padding: 5px; /* Optional: adds padding around the caption */
+        }
+    </style>
+</head>
+<body>
+
+<table border="1">
+  <caption>Big Data Area Contents</caption>
+  <colgroup>
+    <col style="width: 20%;">
+    <col style="width: 80%;">
+  </colgroup>
+  <tr>
+    <th>Area</th>
+    <th>Include</th>
+  </tr>
+   <tr>
+    <td>[[Relational Database Management System|RDBMS]]</td>
+    <td>[[MySQL]] | [[PostgreSQL]] | [[ClickHouse]] </td>
+  </tr>
+  <tr>
+    <td>[[Non-relational Database]]</td>
+    <td>[[Apache Cassandra]]</td>
+  </tr>
+   <tr>
+    <td>MMP Database</td>
+    <td>[[StarRocks]] </td>
+  </tr>
+  <tr>
+    <td>Column Database</td>
+    <td>[[Apache Hive]] ｜[[ClickHouse]] ｜[[Data Lake]] | [[Apache HBase|Hbase]] | [[Apache Doris]] </td>
+  </tr>
+   <tr>
+    <td>[[Key-Value Database]]</td>
+    <td>[[Redis]]</td>
+  </tr>
+ <tr>
+    <td>[[Document Database]]</td>
+    <td>[[MongoDB]]</td>
+  </tr>
+  <tr>
+    <td>[[Graph Database]]</td>
+    <td>[ ] Neo4j</td>
+  </tr>
+  <tr>
+    <td>[[Timeseries Database]]</td>
+    <td>[ ] InfluxDB</td>
+  </tr>
+    <tr>
+    <td>Vector Database</td>
+    <td> [ ] </td>
+  </tr>
+  
+</table>
+
+</body></html>
 
 ## 数据存储分类
 
@@ -20,71 +97,16 @@ aliases:
 
 - [TiDB](https://docs.pingcap.com/zh/tidb/stable/overview) 是 [PingCAP](https://pingcap.com/about-cn/) 公司自主设计、研发的开源分布式关系型数据库，是一款同时支持在线 HTAP 的融合型分布式数据库产品，具备水平扩容或者缩容、金融级高可用、实时 HTAP、云原生的分布式数据库、兼容 MySQL 协议和 MySQL 生态等重要特性
 -  [[ClickHouse]]
-### OLTP 
-
--  
-
 ### HATP
+
 >   Hybrid Transactional and Analytical Processing 
->   
 >   在线事务处理与在线分析处理 
 
-- [PingCAP](https://docs.pingcap.com/zh/)
-- Complete ranking
-- Key-value stores
-	- [Aerospike](http://www.aerospike.com/) - NoSQL flash-optimized, in-memory. Open source and "Server code in 'C' (not Java or Erlang) precisely tuned to avoid context switching and memory copies."
-	- [Redis](https://redis.io/) - in memory key value datastore.
-	- [TiKV](https://github.com/pingcap/tikv) - a distributed key-value database powered by Rust and inspired by Google Spanner and HBase.
-	- [Amazon DynamoDB](https://aws.amazon.com/dynamodb/) - distributed key/value store, implementation of Dynamo paper.
-	- [Badger](https://open.dgraph.io/post/badger/) - a fast, simple, efficient, and persistent key-value store written natively in Go.
-	- [Bolt](https://github.com/boltdb/bolt) - an embedded key-value database for Go.
-	- [BTDB](https://github.com/Bobris/BTDB) - Key Value Database in .Net with Object DB Layer, RPC, dynamic IL and much more
-
-- Document stores
-	- [Actian Versant](https://www.actian.com/data-management/ingres-sql-rdbms/) - commercial object-oriented database management systems .
-	- [MongoDB](https://www.mongodb.com/) - Document-oriented database system.
-	- [Crate Data](https://crate.io/) - is an open source massively scalable data store. It requires zero administration.
-	- [Facebook Apollo](http://www.infoq.com/news/2014/06/facebook-apollo) - Facebook’s Paxos-like NoSQL database.
-	- [jumboDB](http://comsysto.github.io/jumbodb/) - document oriented datastore over Hadoop.
-	- [LinkedIn Espresso](https://engineering.linkedin.com/data) - horizontally scalable document-oriented NoSQL data store.
-	- [MarkLogic](http://www.marklogic.com/) - Schema-agnostic Enterprise NoSQL database technology.
-	- [Microsoft Azure DocumentDB](https://azure.microsoft.com/en-us/services/cosmos-db/) - NoSQL cloud database service with protocol support for MongoDB
-	- [RavenDB](https://ravendb.net/) - A transactional, open-source Document Database.
-	- [RethinkDB](https://rethinkdb.com/) - document database that supports queries like table joins and group by.
-- RDF stores
-- Wide column stores
-- Event Stores
-- Content stores
-- Columnar
-- Search engines
-### DBMS
-
-- Relational DBMS
-	- [[MySQL]]
-	- [[PostgreSQL]]
-	- Oracle
-- Object oriented DBMS
-- Graph DBMS
-	- [Neo4j](https://neo4j.com/) - graph database written entirely in Java
-- Time Series DBMS
-	- [InfluxDB](https://www.influxdata.com/) - a time series database with optimised IO and queries, supports pgsql and influx wire protocols.
-	- [Druid](https://github.com/druid-io/druid/) Column oriented distributed data store ideal for powering interactive applications
-- Vector DBMS
-- Navigational DBMS
-- Multivalue DBMS
-- Spatial DBMS
-- Native XML DBMS
-
-
 ### Type
+
 - Data Process：OLAP ｜ OLTP｜HATP
 - Data Model： Relational ｜Key-value｜Time Series｜Graph｜Document｜Vector｜Columnar｜Search｜Object-oriented｜Spatial｜RDF｜Multivalue｜Multivalue｜Event Store
 - Deployment Model: Distributed | Centralized | Cloud-native 
-- View：
-- Index Type：
-- Compress
-
-## Open Source Dataset
 
 ## Product & Resource & Tools
 
@@ -93,6 +115,4 @@ aliases:
 
 - [teable](https://teable.io/) Super fast, Real-time, Professional, Developer-friendly, No-code database #product 
 	- > Built on PostgresQL, it offers seamless ecosystem integration with 2 single connection, making interfacing simple.  Easily expands with Bl, low-code, and ETL tools.
-	- [teable-en-quick-view](https://static.teable.io/teable-en-quick-view-01.mp4)
-- [SQL Father](http://sqlfather.yupi.icu/) SQL GUI #tools
 - [Hex](https://hex.tech/) is a modern, collaborative workspace for data science and analytics. #product #tools 

@@ -24,8 +24,11 @@ Apache Paimon (incubating) 是一项流式数据湖存储技术，可以为用�
 - 流式读取在 Lake Storage 上可用，Lake Storage 还可以与 Kafka 集成，以提供毫秒级流式读取。
 
 ### 文件布局
+
 一个paimon标的全部文件存储在一个基础目录里，文件以分层的方式组织。如下图是paimon的文件部署，从Snapshot文件开始，Paimon文件读取器可以递归地访问表中的所有数记录。
+
 ![[Apache Paimon.png]]
+
 - Schema:字段、主键定义、分区键定义和options。
 - Snapshot:在某个特定时间点提交的所有数据的入口。
 - Manifest list: 包含若干个manifest文件
