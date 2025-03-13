@@ -5,6 +5,7 @@ title: Wiki HomePage
 
 I'm xufei,  a data engineer from china. This is my wiki vault & [[Digital Garden HomePage|digital garden]], which mainly records the learning record of [[Big Data Homepage|Data Engineering Vault]], [[AI HomePage|AI]] and [[PKM HomePage|PKM]]. The wiki is based on the <a href = "https://quartz.jzhao.xyz/"> Quartz </a> build, by <a href = "https://obsidian.md/"> Obsidian </a> for document management. You can see through  <a href = "https://xufei.site/"> my blog website </a>to explore the various topics that interest me.
 
+#### Data Engineering
 
 <!DOCTYPE html>
 <html>
@@ -33,7 +34,7 @@ I'm xufei,  a data engineer from china. This is my wiki vault & [[Digital Garden
 <body>
 
 <table border="1">
-  <caption>Wiki Contents</caption>
+  <caption>Data Engineering ([[DCMM]])</caption>
   <colgroup>
     <col style="width: 20%;">
     <col style="width: 80%;">
@@ -68,7 +69,19 @@ I'm xufei,  a data engineer from china. This is my wiki vault & [[Digital Garden
 </body></html>
 
 
-### 
+### Main Page
+
+> [!column]
+>> [!objectif] [[Data Architecture]]
+>
+>> [!voc] [[Digital Garden HomePage|digital garden]]
+>
+>> [!conclusion] [[Big Data OpenSource Projects]]
+>
+>> [!discord] Demo
+
+
+### Digital Garden 
 
 > [!cards|4]
 > ![[worrydream.png]]
