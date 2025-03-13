@@ -16,11 +16,9 @@ draft:
 >- [[content/Concepts/bigdata/Data Warehouse]]
 >- [[Fan-out]]
 >- [[Horizontal Scaling]]
+>- [[Vertical Scaling]]
 >- [[Lambda Architecture]]
 >- [[Medallion Architecture]]
->- [[Metrics Layer]]
->- [[Semantic Layer]]
->- [[Vertical Scaling]]
 
 ***
 
@@ -30,7 +28,6 @@ draft:
 >- [[Column-oriented Database]]
 >- [[Document Database]]
 >- [[Graph Database]]
->- [[Hybrid Transactional Analytical Processing]]
 >- [[In-Memory Database]]
 >- [[Key-Value Database]]
 >- [[Non-relational Database]]
@@ -51,7 +48,5 @@ draft:
 >- [[Data Pipeline]]
 >- [[Data Unit Test]]
 >- [[Delta Load]]
->- [[Full Load]]
 >- [[Idempotence]]
 >- [[Stream Data Processing]]
->- [[Workflow Orchestration]]
