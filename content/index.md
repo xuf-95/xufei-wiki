@@ -95,3 +95,17 @@ I'm xufei,  a data engineer from china. This is my wiki vault & [[Digital Garden
 > 
 > ![[Rimwrld.png]]
 > **[RimWorld](https://rimworldwiki.com/wiki/Main_Page)**
+
+
+
+大数据框架
+
+- [[Data Warehouse]] 数据仓库
+- [[Data Lake]] 
+- [[Lake and Warehouse]] 
+- [[流批一体]]
+
+
+- [[Data Model]]
+- [[数据指标]]
+- 
