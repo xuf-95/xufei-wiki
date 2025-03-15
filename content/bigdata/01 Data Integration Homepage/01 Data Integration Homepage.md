@@ -1,17 +1,16 @@
 ---
 title: Data Integration Homepage
-tags:
-  - bigdata
-  - home
-  - sync
-draft: 
-date: 2022-01-21
 aliases:
   - 数据集成
   - 数据同步
   - Data Integration
+tags:
+  - homepage
+  - data-integration
+date: 2022-01-21
+draft:
 ---
-# MindMap
+# MindMap [[ ]]
 
 ```mermaid
 mindmap
@@ -110,7 +109,7 @@ graph LR
 
 ### 数据集成技术 - 消息队列
 
-| 比较项      | Kafka                                         | TubeMQ                             | Pulsar               |
+| 比较项      | [[Apache Kafka]]                              | TubeMQ                             | [[Apache Pulsar]]    |
 |----------|-----------------------------------------------|------------------------------------|----------------------|
 | 数据时延     | 非用1，1oms                                      | 比较低，250ms                          | 非常低，10ms             |
 | TPS      | 高，14W+/s                                      | 一般，10W+/s                          | 高，14W+/s（高性能场景）      |
@@ -128,6 +127,7 @@ graph LR
 - 离线数仓与数据同步
 - 离线数据开发与调度
 - 元数据、数据资产管理与治理
+
 *** 
 ## 07.数据集商业模式
 
@@ -157,9 +157,9 @@ graph LR
 | ---------------------- | --------------------------- | ------------------------------- |
 | 海量数据多<br>目标存储<br>时效性要求 | 数据源兼容<br>任务隔离容错<br>数据对账<br> | 异构数据源<br>丰富的数据格式<br>多阶段数据链路<br> |
 
-
 ***
 ## Reference
 
 - [Top 5 reasons to modernize your data integration](https://www.ibm.com/downloads/cas/QAZGP2PA) By IBM
-- [DataFun-专注于大数据与人工智能技术的应用分享与交流](https://www.datafuntalk.com/)
+- [DataFun](https://www.datafuntalk.com/) 
+

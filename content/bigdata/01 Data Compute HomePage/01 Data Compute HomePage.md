@@ -11,8 +11,6 @@ aliases:
   - 数据开发
 draft:
 ---
-### What is Data Compute？
-
 ## Data Compute  Architecture
 
 [[Apache Hadoop]] 
@@ -26,7 +24,5 @@ draft:
 [[Apache Spark]]
 
 [[Apache Flink]]
-
-
 
 

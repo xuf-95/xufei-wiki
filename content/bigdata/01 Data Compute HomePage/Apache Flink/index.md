@@ -1,4 +1,5 @@
 ---
 title: Apache Flink
-draft:
+tags:
+  - index
 ---

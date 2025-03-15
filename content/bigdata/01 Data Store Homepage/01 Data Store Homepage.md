@@ -1,4 +1,9 @@
 ---
+aliases:
+  - 数据存储
+  - 数据库
+  - DB
+  - Data Store
 title: Data Store Homepage
 tags:
   - store
@@ -6,11 +11,6 @@ tags:
   - home
 draft: 
 date: 2023-02-11
-aliases:
-  - 数据存储
-  - 数据库
-  - DB
-  - Data Store
 ---
 ## 数据存储分类
 

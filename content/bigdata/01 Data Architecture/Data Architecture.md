@@ -1,9 +1,10 @@
 ---
 aliases:
   - Architecture
+  - 数据架构
 tags:
-  - bigdata
-  - architecture
+  - homepage
+  - bd-architecture-sjjg
 date: 2024-03-29
 draft:
 ---
@@ -22,10 +23,10 @@ draft:
 - 数据模型
 - 数据架构（[[Data Architecture]]）
 - 数据分布
-- 数据集成与共享（[[01 Data Integration Homepage]]）
+- 数据集成与共享（[[01 Data Integration Homepage|Data Integration]]）
 - 元数据管理
-- 数据标准
-- 数据模型
+- 数据标准 
+- 数据模型 
 - 数据生存周期（[[Data Lifecycle]]）
 
 ## 传统数据处理系统的问题
@@ -45,7 +46,6 @@ draft:
 - 基于分布式文件系统 [[Apache Hadoop|Hadoop]] 
 - 使用 [[map 或 [[Apache Spark|Spark]] 数据处理技术
 - 使用 [[Apache Kafka|Kafka]] 数据传输消息队列及二进制格式
-
 
 ## 典型的大数据架构 
 
@@ -106,13 +106,11 @@ C --> D
 ### [[Data Lake]]
 ### [[Data Mart]]
 ### [[Data Mesh]]
-### [[content/bigdata/01 Data Store Homepage/Data Warehouse]]
-
+### [[01 Data Store Homepage|Data Store]]
 
 ### 数据架构的评估
 
 [Data Architecture](https://en.wikipedia.org/wiki/Data_architecture) describes how data is processed, stored, and utilized in an [information system](https://en.wikipedia.org/wiki/Information_system "Information system").
-
 
 ## Data Architecture Examples
 
@@ -122,6 +120,7 @@ C --> D
 
 ***
 ## Reference
-- [深入理解大数据架构之——Lambda架构 - Heriam - 博客园](https://www.cnblogs.com/cciejh/p/lambda-architecture.html)
-- [Lambda架构：一个用于亿级实时数据分析的架构-duidaima 堆代码](https://www.duidaima.com/Group/Topic/ArchitecturedDesign/14319)
+
+- [深入理解大数据架构之——Lambda架构](https://www.cnblogs.com/cciejh/p/lambda-architecture.html)
+- [Lambda架构：一个用于亿级实时数据分析的架构](https://www.duidaima.com/Group/Topic/ArchitecturedDesign/14319)
 - [Questioning the Lambda Architecture – O’Reilly](https://www.oreilly.com/radar/questioning-the-lambda-architecture/)
