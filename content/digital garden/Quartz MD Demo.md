@@ -10,7 +10,7 @@ tags:
 >
 >> [!infobox]
 >>
->> ![[CrossbellIPFS.png|xx]]
+>> ![[public/images/CrossbellIPFS.png|xx]]
 >>
 >> | Type | Name |
 >> | --- | --- |

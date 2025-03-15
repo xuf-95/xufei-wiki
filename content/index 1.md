@@ -4,7 +4,7 @@ tags:
   - demo
 draft: true
 ---
-![bg](images/nishaung.png)
+![bg](content/images/nishaung.png)
 
 <p>I’m Xufei, a Big Data Developer with over three years of hands-on experience in the ever-evolving world of data. This is a space where I store my work notes, ideas, insights, and connections I’ve made throughout my life. You can explore the various topics that interest me, learn from the content I’ve gathered, and see how everything is connected.</p>
 
