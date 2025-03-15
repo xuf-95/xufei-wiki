@@ -39,7 +39,7 @@ export default (() => {
               Blog</a> 
             ∞ */}
         </div>
-        {/* <hr></hr> */}
+        <hr></hr>
       </div>
     )
   }

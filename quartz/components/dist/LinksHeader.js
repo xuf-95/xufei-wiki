@@ -4,7 +4,8 @@ var linksHeader_scss_1 = require("./styles/linksHeader.scss");
 exports["default"] = (function () {
     function LinksHeader() {
         return (React.createElement("div", { id: "links-header-container" },
-            React.createElement("div", { id: "links-header" })));
+            React.createElement("div", { id: "links-header" }),
+            React.createElement("hr", null)));
     }
     LinksHeader.css = linksHeader_scss_1["default"];
     return LinksHeader;
