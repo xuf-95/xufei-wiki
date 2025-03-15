@@ -24,7 +24,7 @@ tags:
 > ![[jzhao.xyz.png]]
 > **[Quartz 4](https://quartz.jzhao.xyz)**
 > 
-> ![[the pond.png]]
+> ![[mwalton.png]]
 > **[The Pond](https://turntrout.com/welcome)**
 > 
 > ![[Gwern.png]]
@@ -39,7 +39,7 @@ tags:
 > ![[u.s.png]]
 > **[U.S Graphics Com.](https://usgraphics.com/)**
 > 
-> ![[mwalton.png]]
+> ![[the pond.png]]
 > **[The Pond](https://turntrout.com/welcome)**
 > 
 > ![[Rimwrld.png]]
@@ -76,7 +76,6 @@ tags:
 > - [Ewan](https://gassandrid.xyz/) a second year student , studying Computer Science and robotics.
 > - [Essays](https://gwern.net/index) write about AI, psychology, & statistics
 > - [Aaron's notes](https://aarnphm.xyz/)
-> - [mwalton.me](https://mwalton.me/)  
 > - [Evan Boehs](https://boehs.org/)   
 > - [Garden's Gate](https://www.pmcf.xyz/topo-da-mente/)
 > - [John Hays](https://jonhays.net/) 
