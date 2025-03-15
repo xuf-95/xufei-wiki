@@ -35,3 +35,9 @@ date: 2023-08-06
 	- 开源模型：[Chat2DB-GLM](https://github.com/CodePhiliaX/Chat2DB-GLM/blob/main/README_CN.md) 拥有7B参数，基于CodeLlama进行了精心微调。这一模型专为自然语言转SQL任务设计，支持多种SQL方言，并且具有高达16k的上下文长度处理能力。
 - [Databricks](https://www.databricks.com/) The Databricks  Data Intelligence Platform
 
+
+
+
+- [Big Data Benchmark](https://amplab.cs.berkeley.edu/benchmark/) - Benchmark of Redshift, Hive, Shark, Impala and Stiger/Tez.
+- [NoSQL Comparison](https://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis) - Cassandra vs MongoDB vs CouchDB vs Redis vs Riak vs HBase vs Couchbase vs Neo4j vs Hypertable vs ElasticSearch vs Accumulo vs VoltDB vs Scalaris comparison.
+- [Monitoring Kafka performance](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics?ref=awesome) - Guide to monitoring Apache Kafka, including native methods for metrics collection.

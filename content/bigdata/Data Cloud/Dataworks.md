@@ -12,7 +12,7 @@ date: 2023-01-31
 > DataWorks基于[[MaxCompute]]、Hologress、EMR、AnalyticDB、CDP等大数据引擎，为数据仓库、数据湖、湖仓一体等解决方案提供统一的全链路大数据开发治理平台。
 
 ### 产品架构
-![[content/bigdata/Cloud/image/Dataworks.png|aliyun]]
+![[content/bigdata/Data Cloud/image/Dataworks.png|aliyun]]
 
 ## 核心概念
 

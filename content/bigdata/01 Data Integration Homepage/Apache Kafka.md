@@ -181,4 +181,5 @@ Kafka拥有三个非常重要的角色特性
 - [What is Apache Kafka](https://bell-sw.com/blog/a-guide-to-event-streaming-with-apache-kafka/)
 - [Know Streaming](https://knowstreaming.com/) 运维管控、监控告警、资源治理、多活容灾等核心场景
 - [Apache Kafka — Overview. The terminology and the architecture. | by Vu Trinh | Data Engineer Things](https://medium.com/data-engineer-things/apache-kafka-overview-b04c4ab8ef49)
+- [Monitoring Kafka Performance Metrics | Datadog](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/)
 

@@ -1,5 +1,7 @@
 ---
 title: Resources
+tags:
+  - index
 ---
 
 

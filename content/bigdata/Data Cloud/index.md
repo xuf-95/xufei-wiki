@@ -1,8 +1,8 @@
 ---
-title: Big Data Cloud Product
-date: 2025-03-01
+title: Big Data Cloud
+tags:
+  - index
 ---
-[[ ]]
 
 > [!column]
 >> [!tabler] Aliyun Cloud

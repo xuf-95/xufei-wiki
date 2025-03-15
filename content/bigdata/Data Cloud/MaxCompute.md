@@ -26,10 +26,10 @@ draft:
 ![[MaxCompute 架构.png]]
 
 #### 分布式计算
-![[MaxCompute计算架构.png]]
+![[content/bigdata/Data Cloud/image/MaxCompute计算架构.png]]
 ### 原理 & 功能
 
-![[MaxCompute.png]]
+![[content/bigdata/Data Cloud/image/MaxCompute.png]]
 
 ### 应用场景
 

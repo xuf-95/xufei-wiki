@@ -6,9 +6,6 @@ tags:
   - to-trans
 draft: true
 ---
-
-
-
 In a column-oriented or columnar database, the data for each column in a datatable is stored together. Because of their characteristics, they are a popular option for building a [[content/Concepts/bigdata/Data Warehouse|data warehouse]].
 
 ## Column-oriented Database Example

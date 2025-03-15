@@ -1,6 +1,13 @@
 ---
 title: Bigdata Paper
+tags:
+  - bigdata
+  - resource
+date: 2023-02-15
+draft: 
+description: 大数据论文
 ---
+
 ### 2015 - 2016
 
 - [One Trillion Edges: Graph Processing at Facebook-Scale](http://www.vldb.org/pvldb/vol8/p1804-ching.pdf) By **Facebook** 2015 
@@ -59,4 +66,3 @@ title: Bigdata Paper
 ## Resource
 
 - https://github.com/lw-lin/streaming-readings?tab=readme-ov-file
-- 

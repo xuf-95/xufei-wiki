@@ -8,6 +8,7 @@ tags:
   - apache
   - comput
 ---
+![[Pasted image 20250315224848.png]]
 ### spark 概述
 
 #### 什么是spark？
@@ -177,3 +178,6 @@ SparkStreaming是以某一时间间隔的批量处理，它的实时性就比较
 - [Get Started with PySpark and Jupyter Notebook in 3 Minutes](https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f)
 - [Dataproc cluster with Datalab and the Google Python Client API](https://codelabs.developers.google.com/codelabs/cpb102-dataproc-with-gcp)
 - [Spark Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_Cheat_Sheet_Python.pdf)
+
+
+[GitHub - lw-lin/CoolplaySpark: 酷玩 Spark: Spark 源代码解析、Spark 类库等](https://github.com/lw-lin/CoolplaySpark/tree/master)
