@@ -37,7 +37,7 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >> - [[Big Data Team]] 
 >> - [[Big data Engineer]] 
 >> - [[Bigdata Product & Tools]] 
->> - [[Data Organization]] 
+>> - [[Data Build]] 
 >>
 >> [***see more other big data resources …***](https://xuf-95.github.io/xufei-wiki/bigdata/Big-Data-Homepage)
 >>
@@ -83,4 +83,32 @@ I welcome your feedback and encourage contributes to enhance the accuracy of my 
 >>  
 >>  
 >
+
+
+
+
+### Main Page
+
+> [!column]
+>> [!objectif] [[Data Architecture]]
+>
+>> [!voc] [[Digital Garden HomePage|digital garden]]
+>
+>> [!conclusion] [[Big Data OpenSource Projects]]
+>
+>> [!discord] Demo
+
+***
+
+#### Big Data Architecture
+
+- [[Data Warehouse]] 数据仓库
+- [[Real-time Data Warehouse]]
+- [[Data Lake]] 
+- [[Lake and Warehouse]] 
+- [[流批一体]]
+
+
+- [[Data Model]]
+- [[数据指标体系]]
 

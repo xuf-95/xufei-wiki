@@ -28,9 +28,9 @@ tags:
 - [Welcome - Obsidian-Excalidraw](https://excalidraw-obsidian.online/Welcome)
 - [The Pond](https://turntrout.com/welcome)
 - [U.S. Graphics Company](https://usgraphics.com/)
+- [Ewan](https://gassandrid.xyz/) : a second year student , studying Computer Science and robotics.
 - [Alexey Guzey](https://guzey.com/) 
 - [Welcome to the Gatekeeper Wiki](https://www.gatekeeper.wiki/) —Game Card Ciew
-- [Katherine Yang](https://kayserifserif.place/work/manifesto/)
 - [Essays](https://gwern.net/index)
 - [The Something Awful Forums](https://forums.somethingawful.com/)
 - [Aaron's notes](https://aarnphm.xyz/)

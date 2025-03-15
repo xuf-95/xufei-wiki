@@ -3,7 +3,7 @@ tags:
   - database
   - dataset
 ---
-
+> [BigData Guide Website](https://hao.199it.com/) All type of data tools
 ### Open Dataset
 
 - [Kaggle DataSet](https://www.kaggle.com/datasets) Explore, analyze, and share quality data. About Computer Science 、Education、Classification、Computer Vision、NLP、 Data Visualization、Pre-Trained Model
