@@ -1,28 +1,8 @@
 {
   "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
-  "private": true,
   "version": "4.3.1",
-  "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
-  "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
-  },
-  "scripts": {
-    "quartz": "./quartz/bootstrap-cli.mjs",
-    "docs": "npx quartz build --serve -d docs",
-    "check": "tsc --noEmit && npx prettier . --check",
-    "format": "npx prettier . --write",
-    "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
-  },
-  "engines": {
-    "npm": ">=9.3.1",
-    "node": "20 || >=22"
-  },
+  "private": true,
+  "description": "🌱 publish your digital garden and notes as a website",
   "keywords": [
     "site generator",
     "ssg",
@@ -31,8 +11,32 @@
     "blog",
     "quartz"
   ],
+  "homepage": "https://quartz.jzhao.xyz",
+  "bugs": {
+    "url": "https://github.com/jackyzha0/quartz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackyzha0/quartz.git"
+  },
+  "license": "MIT",
+  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "types": "./index.d.ts",
   "bin": {
-    "quartz": "./quartz/bootstrap-cli.mjs"
+    "quartz": "quartz/bootstrap-cli.mjs"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "quartz": "./quartz/bootstrap-cli.mjs",
+    "docs": "npx quartz build --serve -d docs",
+    "check": "tsc --noEmit && npx prettier . --check",
+    "format": "npx prettier . --write",
+    "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
+    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "dependencies": {
     "@clack/prompts": "^0.7.0",
@@ -83,7 +87,7 @@
     "rfdc": "^1.4.1",
     "rimraf": "^6.0.1",
     "serve-handler": "^6.1.5",
-    "shiki": "^1.12.1",
+    "shiki": "^1.29.2",
     "source-map-support": "^0.5.21",
     "to-vfile": "^8.0.0",
     "toml": "^3.0.0",
@@ -109,6 +113,10 @@
     "prettier": "^3.3.3",
     "tsx": "^4.19.0",
     "typescript": "^5.6.2"
+  },
+  "engines": {
+    "npm": ">=9.3.1",
+    "node": "20 || >=22"
   },
   "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a"
 }
