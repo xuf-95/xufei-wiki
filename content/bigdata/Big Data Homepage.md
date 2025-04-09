@@ -50,11 +50,11 @@ tags:
     <td>[[Apache Kafka]] | [[Apache Pulsar]] ｜[[Apache Airflow]] ｜ [[Apache DolphinScheduler]] | [[Apache Flume]] |</td>
   </tr>
   <tr>
-    <td>[[Data Store|Data Store]]</td>
+    <td>[[Data Store|01 Data Store Homepage]]</td>
     <td>[[Apache Hive]] ｜[[ClickHouse]] ｜[[Data Lake]] | [[Relational Database]] | [[Apache HBase|Hbase]] | [[Apache Doris]] | [[Apache Paimon]]</td>
   </tr>
   <tr>
-    <td>[[Data Compute]]</td>
+    <td>[[Data Compute|01 Data Compute HomePage]]</td>
     <td>[[Apache Flink]] | [[Apache Spark]] | [[Apache Hadoop]] | [[Apache Storm]]</td>
   </tr>
  <tr>
