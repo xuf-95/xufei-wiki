@@ -1,7 +1,7 @@
 ---
 aliases:
   - bigdata homepage
-title: Big Data Homepage
+title: Big Data
 tags:
   - index
   - homepage

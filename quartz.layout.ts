@@ -11,6 +11,7 @@ export const sharedPageComponents: SharedLayout = {
   ],
   afterBody: [ 
     // Component.LinksHeader(),
+    Component.Graph(),
   ],
   footer: Component.Footer({
     links: {
@@ -36,29 +37,22 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     // Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
+    
     // Component.Search(),
     // Component.Darkmode(),
-    // Component.RecentNotes({ showTags: false, title: "Recently Notes", showDates: false,}),
     // Component.DesktopOnly(Component.Explorer()),
-
     Component.Search(),
-    Component.ArticleTitle(),
-    // Component.ContentMeta({ showReadingTime: true }),
-    Component.Breadcrumbs(),
-    Component.TagList(),
+    Component.DesktopOnly(Component.Explorer()),
     // Component.Graph(),
     // Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
     // Component.RecentNotes({ showTags: false, title: "Recently Notes", showDates: false,}),
-
-
   ],
   right: [
-    // Component.Search(),
-    // Component.ArticleTitle(),
-    // Component.Breadcrumbs(),
-    // Component.TagList(),
-    Component.Graph(),
+    Component.ArticleTitle(),
+    Component.ContentMeta({ showReadingTime: true }),
+    Component.Breadcrumbs(),
+    Component.TagList(),
+    Component.Backlinks(),
     Component.DesktopOnly(Component.TableOfContents()),
     // Component.Backlinks(),
   ],
@@ -74,5 +68,12 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
   ],
-  right: [],
+  right: [
+    Component.ArticleTitle(),
+    Component.ContentMeta({ showReadingTime: true }),
+    Component.Breadcrumbs(),
+    Component.TagList(),
+    Component.Backlinks(),
+    Component.DesktopOnly(Component.TableOfContents()),
+  ],
 }
