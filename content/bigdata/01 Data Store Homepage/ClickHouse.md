@@ -9,7 +9,7 @@ tags:
 date: 2022-03-11
 draft:
 ---
-![[content/bigdata/01 Data Store Homepage/image/ClickHouse-1.png]]
+![[ClickHouse-1.png]]
 ## What‘s ClickHouse?
 
 > ClickHouse® is a `high-performance`, `column-oriented` SQL database management system (DBMS) for online analytical processing (OLAP). It is available as both an [open-source software](https://github.com/ClickHouse/ClickHouse) and a [cloud offering](https://clickhouse.com/cloud).

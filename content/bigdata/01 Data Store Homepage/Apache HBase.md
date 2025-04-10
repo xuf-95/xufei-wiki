@@ -45,10 +45,10 @@ date: 2023-06-08
 - 高并发（多核）：由于目前大部分使用Hbase的架构，都是采用的廉价PC，因此单个IO的延迟其实并不小，一般在几十到上百ms之间。这里说的高并发，主要是在并发的情况下，Hbase的单个IO延迟下降并不多。能获得高并发、低延迟的服务
 
 ### Hbase的内部原理
-![[content/bigdata/01 Data Store Homepage/image/hbase的内部原理.png]]
+![[hbase的内部原理.png]]
 
 ### Hbase的寻址机制
-![[content/bigdata/01 Data Store Homepage/image/hbase的寻址机制.png]]
+![[hbase的寻址机制.png]]
 
 ### HBase架构
 
