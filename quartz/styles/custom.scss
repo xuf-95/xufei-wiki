@@ -82,24 +82,24 @@
 }
 
 
-// hr {
-//   overflow: visible;
-//   padding: 0;
-//   margin: 4em auto;
-//   border: none;
-//   color: var(--gray);
-//   text-align: center;
-//   width: 40%;
-//   border-color: var(--gray);
-//   &:after {
-//     content: "* * *";
-//     display: inline-block;
-//     margin: -1em 0 0.5em;
-//     font-size: 1.5em;
-//     padding: 0.5em 1em;
-//     background: var(--light);
-//   }
-// }
+hr {
+  overflow: visible;
+  padding: 0;
+  margin: 4em auto;
+  border: none;
+  color: var(--gray);
+  text-align: center;
+  width: 40%;
+  border-color: var(--gray);
+  &:after {
+    content: "* * *";
+    display: inline-block;
+    margin: -1em 0 0.5em;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    background: var(--light);
+  }
+}
 // /* For Light Mode */
 // table {
 //   width: 100%;
@@ -130,42 +130,42 @@
 // }
 
 
-.blaze-slider {
-  /* default config */
-  --slides-to-show: 1;
-  --slide-gap: 20px;
-  /* force ltr - slider does not work in rtl mode */
-  direction: ltr;
-}
+// .blaze-slider {
+//   /* default config */
+//   --slides-to-show: 1;
+//   --slide-gap: 20px;
+//   /* force ltr - slider does not work in rtl mode */
+//   direction: ltr;
+// }
 
-.blaze-container {
-  position: relative;
-}
+// .blaze-container {
+//   position: relative;
+// }
 
-.blaze-track-container {
-  overflow: hidden;
-}
+// .blaze-track-container {
+//   overflow: hidden;
+// }
 
-.blaze-track {
-  will-change: transform;
-  touch-action: pan-y;
-  display: flex;
-  gap: var(--slide-gap);
-  --slide-width: calc(
-    (100% - (var(--slides-to-show) - 1) * var(--slide-gap)) /
-      var(--slides-to-show)
-  );
-}
+// .blaze-track {
+//   will-change: transform;
+//   touch-action: pan-y;
+//   display: flex;
+//   gap: var(--slide-gap);
+//   --slide-width: calc(
+//     (100% - (var(--slides-to-show) - 1) * var(--slide-gap)) /
+//       var(--slides-to-show)
+//   );
+// }
 
-.blaze-track,
-.blaze-track > * {
-  box-sizing: border-box;
-}
+// .blaze-track,
+// .blaze-track > * {
+//   box-sizing: border-box;
+// }
 
-.blaze-track > * {
-  width: var(--slide-width);
-  flex-shrink: 0;
-}
+// .blaze-track > * {
+//   width: var(--slide-width);
+//   flex-shrink: 0;
+// }
 
 
 
@@ -381,40 +381,41 @@
     }
 }
 
-/* Styles for Light Theme */
+/* ========================== Styles for Light Theme  =========================*/
 [saved-theme="light"] table {
-  /* Light theme table styles */
-  background-color: #ffffff; /* white background for light theme */
-  color: #000000; /* black text for light theme */
-  border-collapse: collapse;
-  width: 90%;
-  margin-left: auto; /* Centers the table horizontally by automatically adjusting the left margin */
-  margin-right: auto; /* Centers the table horizontally by automatically adjusting the right margin */
-  
-  td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #CFE4FF;
-  }
-  
-  tr:nth-child(even) td {
-    background-color: #f9f9f9;
-  }
-  
-  tr:hover td {
-    background-color: #f1f1f1;
-  }
-  
-  th {
+  table {
+    background-color: #3D3B63; /* dark gray background for dark theme */
+    color: #ffffff; /* white text for dark theme */
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    td {
+      padding: 8px;
+      text-align: center;
+      border-bottom: 1px solid #f4eeeadc;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #3A4764;
+    }
+
+    th {
     text-align: center; /* Center aligns the text in header cells */
     padding: 8px; /* Add padding for spacing */
     font-size: 16.5px;
   }
 
-  caption {
-    padding: 8px;
-    font-size: larger;
-    caption-side: top;
+    tr:hover td {
+      background-color: #193959;
+    }
+
+    caption {
+      padding: 8px;
+      font-size: larger;
+      caption-side: top;
+    }
   }
 }
 
@@ -459,25 +460,28 @@
 }
 
 
+
+
+
 // style for class body (I am leaving it in as a reference for when I want to make settings for a spefic class)
 /* Styles for Light Theme */
 [saved-theme="light"] .body {
-  /* Light theme table styles */
-  background-color: #ffffff; /* white background for light theme */
-  color: #000000; /* black text for light theme */
-  // ... Other light theme styles for table ...
-  td {
-    border-bottom: 1px solid #F6F4D6;
-  }
-  tr:nth-child(even) td {
-    background-color: #F6F5F5;
-  }
-  tr:hover td {
-    background-color: #f1f1f1;
-  }
-  caption {
-    /* Caption styles for light theme */
-  }
+ /* Dark theme table styles */
+ background-color: #333333; /* dark gray background for dark theme */
+ color: #ffffff; /* white text for dark theme */
+ // ... Other dark theme styles for table ...
+ td {
+   border-bottom: 1px solid #464D58; /* Darker border color for dark theme */
+ }
+ tr:nth-child(even) td {
+   background-color: #1a1a1a; /* Darker shade for even rows in dark theme */
+ }
+ tr:hover td {
+   background-color: #4F483E; /* Darker shade on hover in dark theme */
+ }
+ caption {
+   /* Caption styles for dark theme */
+ }
 }
 
 /* Styles for Dark Theme */

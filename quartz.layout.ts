@@ -7,7 +7,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-   Component.LinksHeader(),
+  //  Component.LinksHeader(),
   ],
   afterBody: [ 
     // Component.LinksHeader(),
@@ -62,6 +62,7 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [  ],// Component.ArticleTitle(),Component.Breadcrumbs(), Component.ContentMeta()
   left: [
+    Component.Search(),
     // Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     // Component.Search(),
@@ -70,7 +71,7 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [
     Component.ArticleTitle(),
-    Component.ContentMeta({ showReadingTime: true }),
+    // Component.ContentMeta({ showReadingTime: true }),
     Component.Breadcrumbs(),
     Component.TagList(),
     Component.Backlinks(),
