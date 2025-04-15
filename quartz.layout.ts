@@ -35,7 +35,7 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.TagList(),
   ],
   left: [
-    // Component.PageTitle(),
+    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     
     // Component.Search(),
@@ -49,12 +49,12 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.RecentNotes({ showTags: false, title: "Recently Notes", showDates: false,}),
   ],
   right: [
-    // Component.Graph(),
-    Component.ArticleTitle(),
+    Component.Graph(),
+    // Component.ArticleTitle(),
     // Component.ContentMeta({ showReadingTime: true }),
-    Component.Breadcrumbs(),
+    // Component.Breadcrumbs(),
     // Component.TagList(),
-    Component.Backlinks(),
+    // Component.Backlinks(),
     Component.DesktopOnly(Component.TableOfContents()),
     // Component.Backlinks(),
   ],
