@@ -7,11 +7,11 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
-  //  Component.LinksHeader(),
+   Component.LinksHeader(),
   ],
   afterBody: [ 
     // Component.LinksHeader(),
-    Component.Graph(),
+    // Component.Graph(),
   ],
   footer: Component.Footer({
     links: {
@@ -30,8 +30,8 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     // Component.Breadcrumbs(),
-    // Component.ArticleTitle(),
-    // Component.ContentMeta({ showReadingTime: true }),
+    Component.ArticleTitle(),
+    Component.ContentMeta({ showReadingTime: true }),
     // Component.TagList(),
   ],
   left: [
@@ -43,15 +43,17 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.DesktopOnly(Component.Explorer()),
     Component.Search(),
     Component.DesktopOnly(Component.Explorer()),
+    // Component.DesktopOnly(Component.TableOfContents()),
     // Component.Graph(),
     // Component.DesktopOnly(Component.TableOfContents()),
     // Component.RecentNotes({ showTags: false, title: "Recently Notes", showDates: false,}),
   ],
   right: [
+    // Component.Graph(),
     Component.ArticleTitle(),
-    Component.ContentMeta({ showReadingTime: true }),
+    // Component.ContentMeta({ showReadingTime: true }),
     Component.Breadcrumbs(),
-    Component.TagList(),
+    // Component.TagList(),
     Component.Backlinks(),
     Component.DesktopOnly(Component.TableOfContents()),
     // Component.Backlinks(),

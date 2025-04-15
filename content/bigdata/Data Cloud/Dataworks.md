@@ -140,8 +140,6 @@ date: 2023-01-31
     通常指的是与业务活动直接相关的日期，这个日期反映了业务数据的实际发生时间。这个概念在离线计算场景中尤为重要，例如在零售业务中，您需要统计20241010日的营业额，往往会在20241011日凌晨再开始计算，这时所计算出来的数据实际是20241010日的营业额，这个20241010，就是业务日期。
 
 
-
-***
 ## Reference
 
 - [DataWorks基本概念 - 大数据开发治理平台 DataWorks - 阿里云](https://www.alibabacloud.com/help/zh/dataworks/product-overview/terms?spm=a2c63.p38356.help-menu-72772.d_0_1_6.4372433eMl75kl)
