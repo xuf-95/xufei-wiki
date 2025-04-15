@@ -1,7 +1,7 @@
 ---
 aliases:
   - bigdata homepage
-title: Big Data
+title: Bigdata
 tags:
   - index
   - homepage
@@ -63,6 +63,10 @@ date: 2025-03-04
  <tr>
     <td>[[Data Visual]]</td>
     <td>[[Data Visual Product & Tools]] | [[Tableau]] | [[FineBI]] | [[Grafana]]</td>
+  </tr>
+  <tr>
+    <td>[[Data Resource]]</td>
+    <td>[[Data DataSet]] | [[Data Paper]] | [[Bigdata Product & Tools]] | [[Data Build]]</td>
   </tr>
   
 </table>

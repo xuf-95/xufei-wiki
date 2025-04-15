@@ -1,5 +1,5 @@
 ---
-title: Program
+title: Programing
 date: 2025-03-01
 ---
 
