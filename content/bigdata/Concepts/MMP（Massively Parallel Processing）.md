@@ -6,7 +6,7 @@ aliases:
 tags:
   - concepts
   - system
-date: 
+date: 2023-06-12
 draft:
 ---
 > [!obsidian]

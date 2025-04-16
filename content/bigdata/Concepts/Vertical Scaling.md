@@ -3,6 +3,8 @@ aliases:
   - 垂直扩展
 tags:
   - architecture
+date: 2023-02-05
+draft: true
 ---
 
 Vertical scaling is when you increase the capacity of a system by increasing the compute size.
