@@ -66,22 +66,9 @@ date: 2025-03-04
   </tr>
   <tr>
     <td>[[Data Resource]]</td>
-    <td>[[Data DataSet]] | [[Data Paper]] | [[Bigdata Product & Tools]] | [[Data Build]]</td>
+    <td>[[DataSets]] | [[Bigdata Paper]] | [[Bigdata Product & Tools]] | [[Data Build]]</td>
   </tr>
   
 </table>
 
 </body></html>
-
-```mermaid
-mindmap
-  root((Big Data))
-    Data Architecture
-    Data Compute
-    Data Integration
-    Data Store
-    Data Visual
-    Data Maintenance
-    Data Lifecycle
-    Data Safe
-```
