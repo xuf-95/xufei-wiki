@@ -6,7 +6,8 @@ tags:
   - architecture
   - apache
   - opensource
-draft:
+date: 2023-09-24
+draft: false
 ---
 [![](https://zookeeper.apache.org/images/zookeeper_small.gif)Apache ZooKeeper™](https://zookeeper.apache.org/index.html) is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
 

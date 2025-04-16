@@ -3,6 +3,7 @@ title: Apache Nifi
 tags:
   - data-integration
 draft: true
+date: 2022-07-24
 ---
 # An **easy to use**, **powerful**, and **reliable** system to process and distribute data
 

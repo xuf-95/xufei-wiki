@@ -1,5 +1,6 @@
 ---
 aliases: 
+date: 2023-09-08
 tags:
   - architecture
 publish: true

@@ -1,9 +1,9 @@
 ---
 title: DataX
-tags: 
-draft: true
-date: 2023-06-11
+draft: false
+date: 2022-07-19
 ---
+
 单机模式
 
 数据架构 

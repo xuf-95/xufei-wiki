@@ -35,7 +35,7 @@ date: 2025-03-04
 <body>
 
 <table border="1">
-  <caption>Big Data Area Contents</caption>
+  <caption>Wiki Contents</caption>
   <colgroup>
     <col style="width: 20%;">
     <col style="width: 80%;">
@@ -44,26 +44,32 @@ date: 2025-03-04
     <th>Area</th>
     <th>Include</th>
   </tr>
-   <tr>
+  
+  <tr>
     <td>[[Data Architecture]]</td>
     <td>[[Lambda Architecture]] | [[Kappa Architecture]] | [[ZooKeeper]]</td>
   </tr>
+  
   <tr>
     <td>[[Data Integration|Data Integration]]</td>
     <td>[[Apache Kafka]] | [[Apache Pulsar]] ｜[[Apache Airflow]] ｜ [[Apache DolphinScheduler]] | [[Apache Flume]] |</td>
   </tr>
+  
   <tr>
-    <td>[[Data Store|Data Store]]</td>
+    <td>[[01 Data Store Homepage|Data Store]]</td>
     <td>[[Apache Hive]] ｜[[ClickHouse]] ｜[[Data Lake]] | [[Relational Database]] | [[Apache HBase|Hbase]] | [[Apache Doris]] | [[Apache Paimon]]</td>
   </tr>
+  
   <tr>
-    <td>[[Data Compute]]</td>
+    <td>[[01 Data Compute HomePage|Data Compute]]</td>
     <td>[[Apache Flink]] | [[Apache Spark]] | [[Apache Hadoop]] | [[Apache Storm]]</td>
   </tr>
- <tr>
+  
+  <tr>
     <td>[[Data Visual]]</td>
     <td>[[Data Visual Product & Tools]] | [[Tableau]] | [[FineBI]] | [[Grafana]]</td>
   </tr>
+  
   <tr>
     <td>[[Resources]]</td>
     <td>[[DataSets]] | [[Bigdata Paper]] | [[Bigdata Product & Tools]] | [[Data Build]]</td>

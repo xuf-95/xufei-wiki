@@ -6,7 +6,7 @@ tags:
   - homepage
   - bd-architecture-sjjg
 date: 2024-03-29
-draft:
+draft: false
 ---
 ### 数据架构的定义
 

@@ -28,8 +28,8 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // Component.ContentMeta({ showReadingTime: true }),
-    // Component.TagList(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
   ],
   left: [
     Component.PageTitle(),
@@ -61,8 +61,6 @@ export const defaultContentPageLayout: PageLayout = {
 
   ],
   right: [
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
     Component.Graph({
       localGraph: {
         showTags: false,

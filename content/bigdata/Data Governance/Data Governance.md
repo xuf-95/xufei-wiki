@@ -4,7 +4,7 @@ aliases:
 tags:
   - home
   - governance
-date: 
+date: 2023-09-11
 draft: false
 ---
 ###  What is Data Governance?
