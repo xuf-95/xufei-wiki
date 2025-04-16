@@ -7,7 +7,6 @@ tags:
   - homepage
 date: 2025-03-04
 ---
-
 <!DOCTYPE html>
 <html>
 <head>

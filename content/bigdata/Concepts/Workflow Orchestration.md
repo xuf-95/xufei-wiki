@@ -5,6 +5,7 @@ aliases:
 tags:
   - incubating
   - to-trans
+date: 2022-11-12
 ---
 
 In the context of Data Engineering, workflow orchestration refers to the process of scheduling and arranging tasks that form your [[Data Pipeline|data pipeline]]. A workflow orchestration tool allows you to schedule, run, and observe the entire process.
