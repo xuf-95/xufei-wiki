@@ -1,9 +1,9 @@
 ---
-aliases: 
+title: Data Quality SQl DDL
 tags:
   - bigdata
-date: 
-draft:
+date: 2022-03-01
+draft: false
 ---
 
 

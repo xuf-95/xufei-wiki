@@ -4,7 +4,7 @@ aliases:
 tags:
   - bigdata
 date: 
-draft:
+draft: true
 ---
 
 ## 概述

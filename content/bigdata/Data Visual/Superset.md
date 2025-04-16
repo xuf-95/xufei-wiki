@@ -1,9 +1,10 @@
 ---
+title: Superset
 aliases: 
 tags:
-  - bigdata
-date: 
-draft:
+  - data-visual
+date: 2024-05-01
+draft: false
 ---
 
 ## 概述
@@ -13,7 +14,6 @@ draft:
 ![[content/bigdata/Data Visual/Superset.png]]
 
 ### Key features
-
 
 - **40+ pre-installed visualizations**
 - **Data caching** for the faster load time of charts and dashboards
@@ -25,10 +25,8 @@ draft:
 
 ## Supported Databases
 
-- 
-
-
 ***
+
 ## Reference
 
 - [Superset](https://superset.apache.org/)

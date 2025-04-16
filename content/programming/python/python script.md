@@ -1,10 +1,9 @@
 ---
-title: 
-aliases: 
+title: python script
 tags:
   - script
-date: 
-draft:
+date: 2022-08-01
+draft: false
 ---
 ### 斐波那契 
 
@@ -21,9 +20,4 @@ while True: if (counter > n):
 f = fibonacci(10) # f 是一个迭代器，由生成器返回生成 while True: try: print (next(f), end=" ") except StopIteration: sys.exit()
 ```
 
-
-
-
-***
-## Reference
 

@@ -3,8 +3,8 @@ aliases:
 tags:
   - AI
   - prompts
-date: 
-draft: true
+date: 2023-01-03
+draft: false
 ---
 ## Prompt 打分器
 ```shell

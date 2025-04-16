@@ -1,9 +1,9 @@
 ---
-aliases: 
+title: Meta Data SQL DDL
 tags:
   - bigdata
-date: 
-draft:
+date: 2023-06-03
+draft: false
 ---
 
 ### 元数据血缘明细表

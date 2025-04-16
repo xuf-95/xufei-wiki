@@ -4,6 +4,6 @@ aliases:
   - Data Concepts
 tags:
   - homepage
-date: 
+date: 2020-01-02
 draft: true
 ---

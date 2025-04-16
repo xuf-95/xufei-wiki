@@ -1,13 +1,13 @@
 ---
+title: Grafana
 aliases: 
 tags:
-  - bigdata
   - BI
-  - tools
-date: 
-draft:
+date: 2023-08-04
+draft: false
 ---
 ![[content/bigdata/Data Visual/Grafana.png]]
+
 ## 概述
 
 ### 定义
