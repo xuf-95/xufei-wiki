@@ -70,8 +70,8 @@ I'm xufei,  a data engineer from china. This is my wiki vault & [[Digital Garden
   </tr>
   
   <tr>
-    <td>[[Data Resource]]</td>
-    <td>[[Data DataSet]] | [[Data Paper]] | [[Bigdata Product & Tools]] | [[Data Build]]</td>
+    <td>[[Resources]]</td>
+    <td>[[DataSets]] | [[Bigdata Paper]] | [[Bigdata Product & Tools]] | [[Data Build]]</td>
   </tr>
   
 </table>

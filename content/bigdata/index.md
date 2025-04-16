@@ -65,7 +65,7 @@ date: 2025-03-04
     <td>[[Data Visual Product & Tools]] | [[Tableau]] | [[FineBI]] | [[Grafana]]</td>
   </tr>
   <tr>
-    <td>[[Data Resource]]</td>
+    <td>[[Resources]]</td>
     <td>[[DataSets]] | [[Bigdata Paper]] | [[Bigdata Product & Tools]] | [[Data Build]]</td>
   </tr>
   

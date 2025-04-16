@@ -88,15 +88,9 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    // Component.DesktopOnly(Component.Explorer()),
     Component.MobileOnly(Component.Spacer()),
   ],
   right: [
-    // Component.Backlinks(),
-    // Component.DesktopOnly(Component.TableOfContents()),
-    // Component.ArticleTitle(),
-    // Component.ContentMeta({ showReadingTime: true }),
-    // Component.Breadcrumbs(),
-    // Component.TagList(),
   ],
 }
