@@ -93,4 +93,5 @@ date: 2025-03-04
 
 - [Indeed](https://cn.indeed.com/jobs?q=Hadoop%E5%BC%80%E5%8F%91&l&vjk=e961c757f7cc3e56)
 - [Read CV](https://read.cv/open-roles)
+- [Altair China](https://altair.com/altair-china)
 

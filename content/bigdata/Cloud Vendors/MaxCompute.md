@@ -7,11 +7,10 @@ tags:
 date: 2023-03-11
 draft:
 ---
-## 概述
 
-### 定义
+### 概述
 
-> 全托管的Serverless在线服务，资源弹性扩展。提供离线和实时的数据接入，支持大规模数据计算及查询加速能力，为您提供面向多种计算场景的数据仓库解决方案及分析建模服务。适用于大型互联网企业的数据仓库和BI分析、网站的日志分析、电子商务网站的交易分析、用户特征和兴趣挖掘等
+MaxCompute（原名ODPS，Open Data Processing Service）是阿里云提供的企业级云原生大数据计算服务，定位于PB/EB级数据仓库解决方案，采用Serverless架构，资源弹性扩展，提供全托管、高扩展的分布式存储与计算能力。同时还提供离线和实时的数据接入，支持大规模数据计算及查询加速能力，为您提供面向多种计算场景的数据仓库解决方案及分析建模服务。
 
 ### 特性
 
@@ -22,19 +21,11 @@ draft:
 - 列式存储：存储引擎主要采用列压缩存储格式，通常情况下可达到5倍压缩比
 
 ### 架构
-
 ![[MaxCompute 架构.png]]
 
 #### 分布式计算
-![[content/bigdata/Data Cloud/image/MaxCompute计算架构.png]]
+![[MaxCompute计算架构.png]]
+
 ### 原理 & 功能
-
-![[content/bigdata/Data Cloud/image/MaxCompute.png]]
-
-### 应用场景
-
-
-***
-## Reference
-
+![[MaxCompute.png]]
 

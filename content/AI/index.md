@@ -1,4 +1,5 @@
 ---
+title: AI
 aliases:
   - Ai
 tags:
