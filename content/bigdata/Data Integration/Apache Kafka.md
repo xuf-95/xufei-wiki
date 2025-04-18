@@ -91,15 +91,15 @@ Kafka拥有三个非常重要的角色特性
 - 2019-05-17 [快手万亿级别Kafka集群应用实践与技术演进之路](https://www.infoq.cn/article/Q0o*QzLQiay31MWiOBJH)
 	- 快手 Kafka 使用场景
 	- Kafka 的 5 点重要改进：平滑扩容、Mirror 集群化、资源隔离、cache 改造以及消费智能限速
-
 ### Reference
-
-- [Kafka入门实战教程（1）基础概念与术语 - EdisonZhou - 博客园](https://www.cnblogs.com/edisonchou/p/kafka_study_notes_part1.html)
+- [The Log](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying) : What every software engineer should know about real-time data's unifying abstraction - By Jay PKreps 201311
+- [Bufstream](https://medium.com/data-engineer-things/bufstream-stream-kafka-messages-to-iceberg-tables-in-minutes-6c60c470e67f) 几分钟内将 Kafka 消息传输到 Iceberg
+- [Monitoring Kafka Performance Metrics | Datadog](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/)
+- [Kafka入门实战教程（1）基础概念与术语 ](https://www.cnblogs.com/edisonchou/p/kafka_study_notes_part1.html)
 - [Kafka 快速入门 | BIGDATA-TUTORIAL](https://dunwu.github.io/bigdata-tutorial/kafka/Kafka%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html#_1-1-kafka-%E7%9A%84%E5%8A%9F%E8%83%BD)
 - [Apache Kafka](https://kafka.apache.org/books-and-papers) include Books and Papers
 - [What is Apache Kafka](https://bell-sw.com/blog/a-guide-to-event-streaming-with-apache-kafka/)
 - [Know Streaming](https://knowstreaming.com/) Kafka实时流运行平台，提供运维管控、监控告警、资源治理、多活容灾等核心场景
-- [Apache Kafka — Overview. The terminology and the architecture. | by Vu Trinh | Data Engineer Things](https://medium.com/data-engineer-things/apache-kafka-overview-b04c4ab8ef49)
-- [Monitoring Kafka Performance Metrics | Datadog](https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/)
+- [Apache Kafka ](https://medium.com/data-engineer-things/apache-kafka-overview-b04c4ab8ef49) Overview. The terminology and the architecture. | by Vu Trinh | Data Engineer Things
 - [源码的一些介绍](http://www.heartthinkdo.com/?p=2006#12)
 
