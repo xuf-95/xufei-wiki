@@ -157,9 +157,12 @@ hr {
 
 
 
+// ==============================================================================================
+// Table Theme
+// from 
+// ==============================================================================================
 
-/* ========================== Styles for Light Theme  =========================*/
-[saved-theme="light"] table {
+[saved-theme="light"], [saved-theme="dark"] {
   table {
     background-color: #3D3B63; /* dark gray background for dark theme */
     color: #ffffff; /* white text for dark theme */
@@ -195,47 +198,6 @@ hr {
     }
   }
 }
-
-
-
-/* Styles for Dark Theme */
-[saved-theme="light"] {
-  table {
-    background-color: #3D3B63; /* dark gray background for dark theme */
-    color: #ffffff; /* white text for dark theme */
-    border-collapse: collapse;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-
-    td {
-      padding: 8px;
-      text-align: center;
-      border-bottom: 1px solid #f4eeeadc;
-    }
-
-    tr:nth-child(even) td {
-      background-color: #3A4764;
-    }
-
-    th {
-    text-align: center; /* Center aligns the text in header cells */
-    padding: 8px; /* Add padding for spacing */
-    font-size: 16.5px;
-  }
-
-    tr:hover td {
-      background-color: #193959;
-    }
-
-    caption {
-      padding: 8px;
-      font-size: larger;
-      caption-side: top;
-    }
-  }
-}
-
 
 .columns {
   column-count: 5;

@@ -16,7 +16,8 @@ Flume是一个分布式的. 可靠的. 可用的服务，用于高效地收集. 
 Flume 是 "Cloudera" 提供的一个高可用的，高可靠的，分布式的海量日志采集. 聚合和传输的系统。由 "JAVA" 编写， 基于流式架构，灵活简单，侧重点是 "日志数据"
 
 ### Data flow model
-![[content/Big Data/01 Data Integration/img/flume.png]]
+
+![[flume.png]]
 
 Agent : 是一个JVM进程，它以事件的形式将数据从源头送至目的。
 
