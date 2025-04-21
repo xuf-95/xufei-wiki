@@ -1,16 +1,17 @@
 ---
+title: HTAP（Hybrid Transactional Analytical Processing）
 aliases:
   - HTAP
 tags:
-  - seedling
-  - to-trans
+  - seed
+  - todo
 date: 2023-05-05
-draft: 
+draft: true
 ---
 
 Brief description of the concept.
 
-## Hybrid Transactional Analytical Processing Advantages
+## Advantages
 
-## Hybrid Transactional Analytical Processing Disadvantages
+## Disadvantages
 

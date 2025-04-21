@@ -1,5 +1,5 @@
 ---
-title: 函数依赖（Functional Dependency）
+title: FD（Functional Dependency）
 aliases:
   - Functional Dependency
   - 函数依赖
