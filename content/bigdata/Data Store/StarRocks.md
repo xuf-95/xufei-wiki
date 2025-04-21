@@ -6,15 +6,17 @@ tags:
 date: 
 draft: false
 ---
-## 概述
 
-### 定义
+![[starrocks-banner.png]]
 
-  StarRocks 是 **新一代极速全场景 [[MMP（Massively Parallel Processing）]] 数据库**
+## What's StarRocks
 
-  StarRocks 是Linux 基金会项目，采用 Apache 2.0 许可证
+> StarRocks is a **next-gen**, high-performance analytical data warehouse that enables real-time, multi-dimensional, and highly concurrent data analysis. StarRocks has an MPP architecture and is equipped with a fully vectorized execution engine, a columnar storage engine that supports real-time updates, and is powered by a rich set of features including a fully-customized cost-based optimizer (CBO), intelligent materialized view and more. StarRocks supports real-time and batch data ingestion from a variety of data sources. It also allows you to directly analyze data stored in data lakes with zero data migration.
+
+  StarRocks 是 **新一代极速全场景 [[MMP（Massively Parallel Processing）]] 数据库**，兼容 MySQL 协议。采用了全面向量化引擎架构，并配备全新设计的 CBO (Cost Based Optimizer) 优化器、支持智能化物化视图
+
   
-### 架构
+## StarRocks Architecture
 
 > 前端( **FE**) + 后端(**BE** 和 **CN**<计算节点>)
 
@@ -31,20 +33,34 @@ draft: false
 
 ## StarRocks 特性
 
+- SR 采用 [[MMP（Massively Parallel Processing）]] 分布式执行框架。在 MPP 执行框架中，一条查询请求会被拆分成多个物理计算单元，在多机并行执行。每个执行节点拥有独享的资源（CPU、内存）。MPP 执行框架能够使得单个查询请求可以充分利用所有执行节点的资源，所以单个查询的性能可以随着集群的水平扩展而不断提升。
+
 ![StarRocks MPP](<StarRocks MPP.png>)
 
-SR 采用 [[MMP（Massively Parallel Processing）]] 分布式执行框架。在 MPP 执行框架中，一条查询请求会被拆分成多个物理计算单元，在多机并行执行。每个执行节点拥有独享的资源（CPU、内存）。MPP 执行框架能够使得单个查询请求可以充分利用所有执行节点的资源，所以单个查询的性能可以随着集群的水平扩展而不断提升。
+- 全面向量化执行引擎
+
+  - 使用全面向量化引擎按照列式的方式组织和处理数据
+  - 通过向量化算法充分的利用 CPU 提供的 SIMD（Single Instruction Multiple Data）指令，将执行算子的性能，整体提升 3~10 倍
+  - 实现了 Operation on Encoded Data 的技术，针对复杂算子的计算，极大的降低了SQL在执行过程中的负责度。此优化将查询速度提升了2倍
+
+- 3.0版本实现的存算分离架构模式
+
+- CBO 优化器
+
+- 可实时更新的列式存储引擎
+
+- 智能的物化视图
 
 
-### 应用场景
+## 应用场景
 
-- [[Online Analytical Processing|OLAP]] 
-- 实时数仓
-- 高并发查询
+- [[Online Analytical Processing|OLAP]] 多维数据分析：用户行为分析、用户画像、跨主题业务分析、系统监控分析
+- 针对数据仓库、数据湖分析进行实时数据分析：电商大促分析、直播质量分析、广告投放、智能驾驶舱
+- Ad-hoc 高并发查询：广告主报表分析、零售行业渠道分析、Dashboard 多页面分析
 
 ***
 
-## 表
+## 表设计
 
 |                     | 主键表 (Primary Key table)                                                      | 明细表 (Duplicate Key table)                                                     | 聚合表 (Aggregate table)                                                                        | 更新表 (Unique Key table)                                                                    |
 | ------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
@@ -56,3 +72,4 @@ SR 采用 [[MMP（Massively Parallel Processing）]] 分布式执行框架。在
 
 - [StarRocks - 新一代极速全场景MPP数据库](https://starrocks.io/zh/blog)
 
+## FAQ

@@ -16,6 +16,7 @@ description: 大数据数据集
 - [Tianchi Datasets](https://tianchi.aliyun.com/dataset/)
 - [和鲸社区 - Heywhale.com](https://www.heywhale.com/home/dataset)
 - [NYCtaxidata](https://uofi.app.box.com/v/NYCtaxidata) ：[纽约市出租车与豪华礼车管理局(New York City Taxi & Limousine Commission)](http://www.nyc.gov/html/tlc/html/home/home.shtml)公开的数据集
+- [Clickhouse](https://clickhouse.com/docs/zh/getting-started/example-datasets) Criteo 点击日志 (Terabyte)、食谱数据集、NOAA 全球历史气候网络、GitHub 事件数据集、亚马逊客户评论、星型模式基准 (SSB, 2009)、准时性数据、YouTube 不喜欢数据集、环境传感器数据
 - The [UK Property Price Paid dataset](https://clickhouse.com/docs/en/getting-started/example-datasets/uk-price-paid) is a good starting point with some interesting SQL queries
 - The [New York Taxi Data](https://clickhouse.com/docs/en/getting-started/example-datasets/nyc-taxi) has an example of how to insert data from S3 into ClickHouse
 - The [Cell Towers dataset](https://clickhouse.com/docs/en/getting-started/example-datasets/cell-towers) imports a CSV into ClickHouse
