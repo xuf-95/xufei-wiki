@@ -36,30 +36,29 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    // Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer()),
     // Component.PageTitle(),
     // Component.MobileOnly(Component.Spacer()),
     // Component.Search(),
     // // Component.Darkmode(),
     Component.DesktopOnly(
       Component.RecentNotes({
-        title: "Recent Writing",
+        title: "Recent Posts",
         limit: 4,
         filter: (f) =>
           f.slug!.startsWith("bigdata/") && f.slug! !== "bigdata/index" && !f.frontmatter?.noindex,
         linkToMore: "bigdata/" as SimpleSlug,
       }),
     ),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 2,
-        filter: (f) => f.slug!.startsWith("thoughts/"),
-        linkToMore: "thoughts/" as SimpleSlug,
-      }),
-    ),
-    Component.DesktopOnly(Component.TableOfContents()),
-
+    // Component.DesktopOnly(
+    //   Component.RecentNotes({
+    //     title: "Recent Notes",
+    //     limit: 2,
+    //     filter: (f) => f.slug!.startsWith("thoughts/"),
+    //     linkToMore: "thoughts/" as SimpleSlug,
+    //   }),
+    // ),
+   
   ],
   right: [
     Component.Graph({
@@ -71,6 +70,8 @@ export const defaultContentPageLayout: PageLayout = {
       },
     }),
     Component.Backlinks(),
+    Component.DesktopOnly(Component.TableOfContents()),
+
     // Component.DesktopOnly(Component.TableOfContents()),
     // Component.ArticleTitle(),
     // Component.ContentMeta({ showReadingTime: true }),
@@ -84,7 +85,7 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [ ],//Component.Breadcrumbs(),
   left: [
-    // Component.PageTitle(),
+    Component.PageTitle(),
     Component.Search(),
     Component.Darkmode(),
     // Component.DesktopOnly(Component.Explorer()),

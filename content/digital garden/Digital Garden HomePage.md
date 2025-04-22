@@ -68,16 +68,17 @@ tags:
 
 - [Data Engineering Wiki](https://dataengineering.wiki/Index)
 - [Data Glossary 🧠](https://glossary.airbyte.com/)
+- [Simon Späti](https://www.ssp.sh/) a data engineer, technical writer, and lifelong learner.
 
-> [!example] 
-> - [digital garden](https://indieweb.org/digital_garden)
-> - [8cat & me](https://8cat.life/)
-> - [Obsidian-Excalidraw](https://excalidraw-obsidian.online/Welcome)
-> - [Ewan](https://gassandrid.xyz/) a second year student , studying Computer Science and robotics.
-> - [Essays](https://gwern.net/index) write about AI, psychology, & statistics
-> - [Aaron's notes](https://aarnphm.xyz/)
-> - [Evan Boehs](https://boehs.org/)   
-> - [Garden's Gate](https://www.pmcf.xyz/topo-da-mente/)
-> - [John Hays](https://jonhays.net/) 
-> - [ Rob Haisfield, Joel Chan](https://scalingsynthesis.com/)
+### Other
+- [digital garden](https://indieweb.org/digital_garden)
+- [8cat & me](https://8cat.life/)
+- [Obsidian-Excalidraw](https://excalidraw-obsidian.online/Welcome)
+- [Ewan](https://gassandrid.xyz/) a second year student , studying Computer Science and robotics.
+- [Essays](https://gwern.net/index) write about AI, psychology, & statistics
+- [Aaron's notes](https://aarnphm.xyz/)
+- [Evan Boehs](https://boehs.org/)   
+- [Garden's Gate](https://www.pmcf.xyz/topo-da-mente/)
+- [John Hays](https://jonhays.net/) 
+- [ Rob Haisfield, Joel Chan](https://scalingsynthesis.com/)
 

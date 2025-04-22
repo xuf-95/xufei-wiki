@@ -52,6 +52,9 @@ tags:
 
 - [mysql 8.0 document ](https://dev.mysql.com/doc/)
 - [HeatWave Getting Started](https://docs.oracle.com/en-us/iaas/mysql-database/doc/getting-started.html)
+- [awesome-mysql](https://github.com/jobbole/awesome-mysql-cn?tab=readme-ov-file) MySQL 资源大全中文版，分析工具、备份、性能测试、配置、部署、GUI 等
+- [mycli](https://www.mycli.net/) is a command line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting
+
 
 
 ### Article

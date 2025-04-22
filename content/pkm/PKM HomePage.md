@@ -7,3 +7,5 @@ tags:
   - homepage
 ---
 
+
+https://www.swyx.io/learn-in-public
