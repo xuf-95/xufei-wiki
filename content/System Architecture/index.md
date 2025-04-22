@@ -2,6 +2,8 @@
 tags:
   - system
   - comput
+draft: true
+public: false
 ---
 
 ```mermaid
