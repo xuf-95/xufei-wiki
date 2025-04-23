@@ -4,7 +4,7 @@ date: 2023-06-20
 tags:
   - index
 ---
-
+<!-- 
 >[!column]
 >
 >> [!tabler] [[Relational Database]] 
@@ -36,4 +36,4 @@ tags:
 >> - Aliyun
 >> - AWS
 >> - JD 
-
+ -->

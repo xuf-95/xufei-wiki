@@ -1,6 +1,6 @@
 ---
 title: Cloud Vendors
-date: 2024-11-19
+date: 2025-4-19
 tags:
   - index
 draft: false

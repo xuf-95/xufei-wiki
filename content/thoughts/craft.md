@@ -6,4 +6,7 @@ date: 2025-02-14
 draft: false
 ---
 
-soon
+
+
+![[english++.png]]_**English++ Project_**
+

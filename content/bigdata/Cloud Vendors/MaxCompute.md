@@ -3,9 +3,10 @@ aliases:
   - ODPS
   - MaxCompute
 tags:
+  - cloud
   - aliyun
 date: 2023-03-11
-draft:
+draft: false
 ---
 
 ### 概述

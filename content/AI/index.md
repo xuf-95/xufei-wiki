@@ -1,5 +1,5 @@
 ---
-title: AI
+title: AIGC
 aliases:
   - Ai
 tags:

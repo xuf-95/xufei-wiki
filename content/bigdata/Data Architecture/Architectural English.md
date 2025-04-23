@@ -1,4 +1,10 @@
-
+---
+aliases: 
+tags:
+  - architecture
+date: 2021-09-04
+publish: true
+---
 ### Architectural Style
 
 An architectural style defines as a family of such systems in terms of a pattern of structural organization. More specifically，an architectural style defines a vocabulary of components and connector types，and a set of constraints on how they can be combined. For many styles there may also exist one or more semantic models that specify how to determine a system’s overall properties from the properties of its parts. Many of architectural styles have been developed over the years. The best-known examples of pipe-and-filter architectures are programs written in the UNIX shell.
