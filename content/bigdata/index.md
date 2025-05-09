@@ -37,11 +37,11 @@ date: 2025-03-04
 >
 >> [!discord] > [[01 Data Compute HomePage|Data Compute]]
 >> Catalog 
->> - [[Apache Paimon]]
 >> - [[Apache Flink]]
 >> - [[Apache Spark]]
 >> - [[Apache Hadoop]]
 >> - [[Apache Storm]]
+
 
 ***
 > [!column]
@@ -52,10 +52,11 @@ date: 2025-03-04
 >> - [[FineBI]]
 >> - [[Grafana]]
 >
->> [!objectif] > [[Cloud Vendors]] Products & IDE & 解决方案
->> - [[MaxCompute]] #aliyun 
->> - [[Dataworks]]  #aliyun 
->> - [[ProtonBase]]
+>> [!objectif] > [[Cloud Vendors]] Products & 解决方案
+>> - [[MaxCompute]] @aliyuun
+>> - [[Dataworks]]  @aliyuun
+>> - [[ProtonBase]] @aliyuun
+>> - [[JMR]] @JD Cloud
 ***
 > [!column]
 >> [!forme] > [[Resources]] Products & Tools & Paper 
