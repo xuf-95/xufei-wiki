@@ -2,7 +2,7 @@
 title: Faker
 tags:
   - python
-  - library
+  - package 
 date: 2022-02-09
 draft: false
 ---

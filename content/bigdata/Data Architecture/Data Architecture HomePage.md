@@ -31,6 +31,17 @@ draft: false
 
 架构现状分析、架构实体分、数据主题域划分、数据概念模型及数据分布规划
 
+
+#### 数据架构类型
+
+- 集中式数据架构
+- 分布式数据架构
+
+#### 数据架构框架
+
+- DAMA-DMBOK（数据管理知识体系）框架概述了整个生命周期内有效数据管理的最佳实践、原则和流程
+- Zachman 框架
+
 ## 传统数据处理系统的问题
 
 传统应用的数据系统架构设计时，应用直接访问数据库系统。当用户访问量增加时，数据库无法支撑日益增长的用户请求的负载，从而导致数据库服务器无法及时响应用户请求，出现超时的错误。关于这个问题的常用解决方法如下： 
@@ -125,3 +136,5 @@ C --> D
 - [深入理解大数据架构之——Lambda架构](https://www.cnblogs.com/cciejh/p/lambda-architecture.html)
 - [Lambda架构：一个用于亿级实时数据分析的架构](https://www.duidaima.com/Group/Topic/ArchitecturedDesign/14319)
 - [Questioning the Lambda Architecture – O’Reilly](https://www.oreilly.com/radar/questioning-the-lambda-architecture/)
+- [aws](https://aws.amazon.com/cn/what-is/data-architecture/) what's architecture?
+- [企业架构设计方法与实践](https://tonydeng.github.io/EA-practices/tech-arch/index.html)

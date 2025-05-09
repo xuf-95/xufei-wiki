@@ -28,6 +28,11 @@ draft: true
 - 包管理：[uv](https://docs.astral.sh/uv/)
 - 数据校验： [Pydantic](https://docs.pydantic.dev/latest/)
 
+
+## Package
+
+- [NetworkX](https://networkx.org/documentation/stable/auto_examples/index.html) is a Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+
 ## Resource
 
 - [GitHub - gto76/python-cheatsheet  Comprehensive Python Cheatsheet](https //github.com/gto76/python-cheatsheet)

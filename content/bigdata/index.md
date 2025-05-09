@@ -8,8 +8,73 @@ tags:
 date: 2025-03-04
 ---
 
-<!-- 
-<!DOCTYPE html>
+***
+> [!column]
+>> [!obsidian] > [[Data Architecture]]
+>> Catalog 
+>> - [[Lambda Architecture]]
+>> - [[Kappa Architecture]] 
+>> - [[ZooKeeper]]
+>
+>> [!voc] > [[Data Integration|Data Integration]]
+>> Catalog 
+>> - [[Apache Kafka]]
+>> - [[Apache Pulsar]]
+>> - [[Apache Airflow]]
+>> - [[Apache DolphinScheduler]]
+>> - [[Apache Flume]]
+***
+> [!column]
+>> [!ex] > [[01 Data Store Homepage|Data Store]]
+>> Catalog 
+>> - [[Apache Hive]]
+>> - [[ClickHouse]]
+>> - [[Data Lake]]
+>> - [[Relational Database]]
+>> - [[Apache HBase|Hbase]]
+>> - [[Apache Doris]]
+>> - [[Apache Paimon]]
+>
+>> [!discord] > [[01 Data Compute HomePage|Data Compute]]
+>> Catalog 
+>> - [[Apache Paimon]]
+>> - [[Apache Flink]]
+>> - [[Apache Spark]]
+>> - [[Apache Hadoop]]
+>> - [[Apache Storm]]
+
+***
+> [!column]
+>> [!conclusion] > [[Data Visual]]
+>> Catalog 
+>> - [[Data Visual Product & Tools]]
+>> - [[Tableau]]
+>> - [[FineBI]]
+>> - [[Grafana]]
+>
+>> [!objectif] > [[Cloud Vendors]] Products & IDE & 解决方案
+>> - [[MaxCompute]] #aliyun 
+>> - [[Dataworks]]  #aliyun 
+>> - [[ProtonBase]]
+***
+> [!column]
+>> [!forme] > [[Resources]] Products & Tools & Paper 
+>> Catalog 
+>> - [[DataSets]]
+>> - [[Bigdata Paper]]
+>> - [[Bigdata Product & Tools]]
+>> - [[Data Build]]
+>
+>> [!forme] > [[Big Data Concepts]] 
+>> Catalog 
+>> - [[CDC（Change-Data-Capture）]]
+>> - [[MMP（Massively-Parallel-Processing）]]
+>> - [[DCMM]]
+
+***
+
+
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <title>Wiki Contents</title>
@@ -78,4 +143,5 @@ date: 2025-03-04
   
 </table>
 
-</body></html> -->
+</body></html> 
+ -->
