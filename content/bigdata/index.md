@@ -45,21 +45,14 @@ date: 2025-03-04
 
 ***
 > [!column]
->> [!conclusion] > [[Data Visual]]
+>> [!obsidian] > [[Data Visual]]
 >> Catalog 
 >> - [[Data Visual Product & Tools]]
 >> - [[Tableau]]
 >> - [[FineBI]]
 >> - [[Grafana]]
 >
->> [!objectif] > [[Cloud Vendors]] Products & 解决方案
->> - [[MaxCompute]] @aliyuun
->> - [[Dataworks]]  @aliyuun
->> - [[ProtonBase]] @aliyuun
->> - [[JMR]] @JD Cloud
-***
-> [!column]
->> [!forme] > [[Resources]] Products & Tools & Paper 
+>> [!discord] > [[Resources]] Products & Tools & Paper 
 >> Catalog 
 >> - [[DataSets]]
 >> - [[Bigdata Paper]]
