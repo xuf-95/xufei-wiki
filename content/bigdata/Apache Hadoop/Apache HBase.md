@@ -7,9 +7,14 @@ tags:
   - apache
 date: 2023-06-08
 ---
-## Apache HBase 概述
 
-> Hbase是基于hdfs进行数据的存储，具有高可靠. 高性能. 列存储. 可伸缩. 实时读写的nosql数据库。它可以存储海量数据，并且后期查询性能很多，可以实现上亿条数据的秒级返回。
+![[apache-hbase-logo.png]]
+
+## What is HBase?
+
+>[!info] HBase is a non-relational, distributed database modeled after Google's Bigtable. It provides random, real-time read/write access to large datasets - billions of rows with millions of columns - atop clusters of commodity hardware. Unlike traditional relational databases, HBase is designed for wide tables and prioritizes scalability over features like SQL support, typed columns, or advanced query languages.
+
+> Hbase（Hadoop on database）是基于hdfs进行数据的存储，具有高可靠. 高性能. 列存储. 可伸缩. 实时读写的nosql数据库。它可以存储海量数据，并且后期查询性能很多，可以实现上亿条数据的秒级返回。
 
 **Hbase历史**：  
 - 2006年Google发表BigTable白皮书  
@@ -51,38 +56,30 @@ date: 2023-06-08
 ![[hbase的寻址机制.png]]
 
 ### HBase架构
-
 ![[Apache HBase-1.png]]
 
 ![[hbase2 1.png]]
 
-Hbase是由Client、Zookeeper、Master、HRegionServer、HDFS等几个组件组成，几个组件的相关功能：  
+Hbase是由Client、[[Zookeeper]]、Master、HRegionServer、[[HDFS]]等几个组件组成，几个组件的相关功能：  
 - Client
 	- Client包含了访问Hbase的接口，另外Client还维护了对应的cache来加速Hbase的访问，比如cache的.META.元数据的信息。  
 - Zookeeper  
 	- HBase通过Zookeeper来做master的高可用、RegionServer的监控、元数据的入口以及集群配置的维护等工作。具体工作如下：通过Zoopkeeper来保证集群中只有1个master在运行，如果master异常，会通过竞争机制产生新的master提供服务、通过Zoopkeeper来监控RegionServer的状态，当RegionSevrer有异常的时候，通过回调的形式通知Master RegionServer上下线的信息、通过Zoopkeeper存储元数据的统一入口地址。  
-- Hmaster（NameNode）  
-	- master节点的主要职责如下: 为RegionServer分配Region、维护整个集群的负载均衡、维护集群的元数据信息、发现失效的Region，并将失效的Region分配到正常的RegionServer上、当RegionSever失效的时候，协调对应Hlog的拆分。  
-- HregionServer(DataNode)  
-	- HregionServer直接对接用户的读写请求，是真正的“干活”的节点。它的功能概括如下：  管理master为其分配的Region、处理来自客户端的读写请求、负责和底层HDFS的交互，存储数据到HDFS、负责Region变大以后的拆分、负责Storefile的合并工作。  
-- HDFS  
-	- HDFS为Hbase提供最终的底层数据存储服务，同时为HBase提供高可用（Hlog存储在HDFS）的支持，具体功能概括如下：提供元数据和表数据的底层分布式存储服务、数据多副本，保证的高可靠和高可用性。 
+- Hmaster（NameNode） 节点的主要职责如下: 为RegionServer分配Region、维护整个集群的负载均衡、维护集群的元数据信息、发现失效的Region，并将失效的Region分配到正常的RegionServer上、当RegionSever失效的时候，协调对应Hlog的拆分。  
+- HregionServer(DataNode) ：直接对接用户的读写请求，是真正的“干活”的节点。它的功能概括如下：  管理master为其分配的Region、处理来自客户端的读写请求、负责和底层HDFS的交互，存储数据到HDFS、负责Region变大以后的拆分、负责Storefile的合并工作。  
+- HDFS：为Hbase提供最终的底层数据存储服务，同时为HBase提供高可用（Hlog存储在HDFS）的支持，具体功能概括如下：提供元数据和表数据的底层分布式存储服务、数据多副本，保证的高可靠和高可用性。 
 - 其他组件
-	- Write-Ahead logs
-		- HBase的修改记录，当对HBase读写数据的时候，数据不是直接写进磁盘，它会在内存中保留一段时间（时间以及数据量阈值可以设定）。但把数据保存在内存中可能有更高的概率引起数据丢失，为了解决这个问题，数据会先写在一个叫做Write-Ahead logfile的文件中，然后再写入内存中。所以在系统出现故障的时候，数据可以通过这个日志文件重建
-	- Region 
-		- Hbase表的分片，HBase表会根据RowKey值被切分成不同的region存储在RegionServer中，在一个RegionServer中可以有多个不同的region。  
-	- Store  
-		- HFile存储在Store中，一个Store对应HBase表中的一个列族(列簇， Column Family)。  
-	- MemStore 
-		- 顾名思义，就是内存存储，位于内存中，用来保存当前的数据操作，所以当数据保存在WAL中之后，RegsionServer会在内存中存储键值对。  
-	- HFile
-		- 这是在磁盘上保存原始数据的实际的物理文件，是实际的存储文件。StoreFile是以Hfile的形式存储在HDFS的。  
+
+    ![[hbase-wal.png]]
+
+	- Write-Ahead logs: HBase的修改记录，当对HBase读写数据的时候，数据不是直接写进磁盘，它会在内存中保留一段时间（时间以及数据量阈值可以设定）。但把数据保存在内存中可能有更高的概率引起数据丢失，为了解决这个问题，数据会先写在一个叫做Write-Ahead logfile的文件中，然后再写入内存中。所以在系统出现故障的时候，数据可以通过这个日志文件重建
+    - Region：Hbase表的分片，HBase表会根据RowKey值被切分成不同的region存储在RegionServer中，在一个RegionServer中可以有多个不同的region。  
+    - Store：HFile存储在Store中，一个Store对应HBase表中的一个列族(列簇， Column Family)。  
+    - MemStore：顾名思义，就是内存存储，位于内存中，用来保存当前的数据操作，所以当数据保存在WAL中之后，RegsionServer会在内存中存储键值对。  
+    - HFile：这是在磁盘上保存原始数据的实际的物理文件，是实际的存储文件。StoreFile是以Hfile的形式存储在HDFS的。  
 
 # HBase原理
 ### HBase读流程
-
-![[Apache HBase Read.png]]
 
 - Client先访问zookeeper，从meta表读取region的位置，然后读取meta表中的数据。meta中又存储了用户表的region信息
 - 根据namespace、表名和rowkey在meta表中找到对应的region信息
@@ -93,8 +90,6 @@ Hbase是由Client、Zookeeper、Master、HRegionServer、HDFS等几个组件组�
 - 如果是从StoreFile里面读取的数据，不是直接返回给客户端，而是先写入BlockCache，再返回给客户端  
 
 ### HBase写流程
-
-![[Apache HBase Write.png]]
 
 - Client向HregionServer发送写请求 
 - HregionServer将数据写到HLog（write ahead log）。为了数据的持久化和恢复  
@@ -124,7 +119,7 @@ Hbase是由Client、Zookeeper、Master、HRegionServer、HDFS等几个组件组�
 1、启动命令	# /usr/lib/hbase/bin
 	hbase shell
 	
-😊 #################################  表空间	namespace 
+#################################  表空间	namespace 
 2、查看当前Hbase中所有的namespace
 	list_namespace
 	
@@ -143,10 +138,9 @@ Hbase是由Client、Zookeeper、Master、HRegionServer、HDFS等几个组件组�
 	
 6、删除 namespace
 	drop_namespace "test01" # 要删除的namespace必须是空的，其下没有表
-	
-😊 #################################  表 table [ 表空间:表名 ] [ namespace:table ]
+	#################################  表 table [ 表空间:表名 ] [ namespace:table ]
 
-DDL 👇
+DDL 
 0、查看表空间有哪些表
 	list # 显示所有表
 	list_namespace_tables 'test' # 显示指定表空间里的表
@@ -171,7 +165,7 @@ DDL 👇
 	describe 'test:student' # 查看表信息  简写 : desc
 	
 		
-DML 👇
+DML 
 1、向表添加数据 # put '表空间:表','rowkey','列族:列名','value'    rowkey 会自动排序
     put 'student','1001','info:sex','male' # 列族下的列名sex
     put 'student','1001','info:age','18'
