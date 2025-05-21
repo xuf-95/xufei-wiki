@@ -11,7 +11,7 @@ draft: false
 
 > Apache Superset™ is an open-source modern data exploration and visualization platform.
 
-![[content/bigdata/Data Visual/Superset.png]]
+![[Superset.png]]
 
 ### Key features
 

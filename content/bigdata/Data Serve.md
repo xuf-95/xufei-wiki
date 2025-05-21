@@ -1,14 +1,15 @@
 ---
-title: 分布式集群启动脚本
+title: Data Serve
 aliases:
   - Server Script
 tags:
   - bigdata
   - script
+  - shell
 date: 2023-04-11
 draft: false
 ---
-
+## Cluster Start Snippets
 ### 启动zookeeper服务
 
 ```shell

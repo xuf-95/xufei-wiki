@@ -11,8 +11,6 @@ date: 2023-06-07
 draft:
 ---
 
-![[Apache Flink-5.png]]
-
 ## 简介
 
 Apache Flink 是一个开源的流处理框架，具有强大的流处理和批处理功能
@@ -100,7 +98,7 @@ Apache Flink是一个框架和分布式处理引擎，用于在无界和有界�
 
 ### Flink 运行时的组件
 
-![flink-architecture](content/bigdata/01%20Data%20Compute%20HomePage/Apache%20Flink/image/flink-architecture.png)
+![[flink-architecture.png]]
 
 1. 作业管理器 JobManager
 2. 资源管理器 ResourceManager
@@ -119,10 +117,7 @@ Apache Flink是一个框架和分布式处理引擎，用于在无界和有界�
 2. akka
 3. netty
 
-#### 典型的Master-Slave 架构
-
-![[Pasted image 20241007221952.png]]
-
+### 典型的Master-Slave 架构
 #### 任务提交流程
 
 ![[Pasted image 20241007222013.png]]
@@ -269,101 +264,58 @@ class flatMap_rich extends RichFlatMapFunction<In,Out>{
 
 ## Wartermark
 
-在Flink中，水位线（watermark）是一种'衡量Event Time进展'的机制，用来'处理实时数据中的乱序'问题的，通常是'水位线'和'窗口'结合使用来实现。 # 由于网络. 分布式等原因，会导致乱序数据的产生
+在Flink中，水位线（watermark）是一种'衡量Event Time进展'的机制，用来'处理实时数据中的乱序'问题的，通常是'水位线'和'窗口'结合使用来实现
 
-    1. 水位线是一种逻辑时钟
-    2. 水位线由程序员编程插入到数据流中
-    3. 水位线是一种特殊的事件
-    4. 在事件时间的世界里，水位线就是时间
-    5. 水位线 = 观察到的最大时间戳 - 最大延迟时间 - 1 毫秒
-    6. 水位线超过窗口结束时间，窗口闭合，默认情况下，迟到元素被抛弃
-    7. Flink 会在流的最开始插入一个时间戳为负无穷大的水位线
-    8. Flink 会在流的最末尾插入一个时间戳为正无穷大的水位线
+  - 水位线是一种逻辑时钟
+  - 水位线由程序员编程插入到数据流中
+  - 水位线是一种特殊的事件
+  - 在事件时间的世界里，水位线就是时间
+  - 水位线 = 观察到的最大时间戳 - 最大延迟时间 - 1 毫秒
+  - 水位线超过窗口结束时间，窗口闭合，默认情况下，迟到元素被抛弃
+  - Flink 会在流的最开始插入一个时间戳为负无穷大的水位线
+  - Flink 会在流的最末尾插入一个时间戳为正无穷大的水位线
     
 1. Event Time（事件时间）：事件创建的时间（必须包含在数据源中的元素里面）
 2. Ingestion Time（摄入时间）：数据进入Flink 的source 算子的时间，与机器相关
 3. Processing Time（处理时间）：执行操作算子的本地系统时间，与机器相关
     
 迟到数据处理的原因 ： 由于网络. 分布式等原因，会导致乱序数据的产生
+
 	1. 直接抛弃迟到的元素
 	2. 将迟到的元素发送到另一条流中去
 	3. 可以更新窗口已经计算完的结果，并发出计算结果
 
-- **时间定义**
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406154428961.png)
-
-- 事件时间更重要
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220404170327102.png)
-
-- 水位线特点
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220404172743400.png)
-
-- [Flink详解系列之五--水位线（watermark） - 简书 (jianshu.com)](https://www.jianshu.com/p/c52ad3f284ee)
 
 ## 状态管理
 
-```
 Flink 中的状态 # 类似本地变量
-	1. 算子状态 Operatior State # 算子状态的作用范围限定为算子任务
-		1. 列表状态 List state
-		2. 联合列表状态 Union list state
-		3. 广播状态 Broadcast state
-	2. 键控状态 Keyed State # 根据输入数据流中定义的键（ key ）来维护和 访问
-		1. 值状态（ValueState）：将状态表示为单个的值
-        2. 列表状态（List State）：将状态表示为一组数据的列表
-        3. 字典状态（MapState）：将状态表示为一组Key-Value 对
-        4. 聚合状态：将状态表示为一个用于聚合操作的列表
-	3. 状态后端 State Backends # 状态的存储 . 访问以及维护
-```
+- 算子状态 Operatior State # 算子状态的作用范围限定为算子任务
+  - 列表状态 List state
+  - 联合列表状态 Union list state
+  - 广播状态 Broadcast state
+	- 键控状态 Keyed State # 根据输入数据流中定义的键（ key ）来维护和 访问
+-	值状态（ValueState）：将状态表示为单个的值
+  - 列表状态（List State）：将状态表示为一组数据的列表
+  - 字典状态（MapState）：将状态表示为一组Key-Value 对
+  - 聚合状态：将状态表示为一个用于聚合操作的列表
+	- 状态后端 State Backends # 状态的存储 . 访问以及维护
 
-- 状态流
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406160217475.png)
-
-- Flink 的状态
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406160054122.png)
-
-- 算子状态
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406160334115.png)
-
-- 键控状态
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406160359475.png)
 
 ## 容错机制
 
-```
-1. Flink 故障恢复机制的核心 : 应用状态的一致性检查点
-2. 应用状态的一致性检查点 : 所有任务的状态，在某个时间点的一份的快照 ( 时间点 ： 是所有任务都恰好处理完一个相同的输入数据的时候)
-
-3. 从检查点恢复状态
-	1. 重启应用
-	2. 从 checkpoint 中读取状态，将状态重置
-	3. 开始消费并处理检查点到发生故障之间的所有数据 # 精确一次
+- Flink 故障恢复机制的核心 : 应用状态的一致性检查点
+- 应用状态的一致性检查点 : 所有任务的状态，在某个时间点的一份的快照 ( 时间点 ： 是所有任务都恰好处理完一个相同的输入数据的时候)
+- 从检查点恢复状态
+	- 重启应用
+	- 从 checkpoint 中读取状态，将状态重置
+	- 开始消费并处理检查点到发生故障之间的所有数据 # 精确一次
 	
-保存点
-```
-
-- 一致性检查点 Checkpoints
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406161530008.png)
-
 ## 状态一致性
 
-```
 状态一致性分类
-1. AT-MOST-ONCE（最多一次）
-	当任务故障时，最简单的做法是什么都不干，既不恢复丢失的状态，也不重播丢失的数据。At-most-once 语义的含义是最多处理一次事件。例如：UDP，不提供任何一致性保障
-2. AT-LEAST-ONCE（至少一次）
-	在大多数的真实应用场景，我们希望不丢失事件。这种类型的保障称为at-least-once，意思是所有的事件都得到了处理，而一些事件还可能被处理多次。
-3. EXACTLY-ONCE（精确一次）
-	恰好处理一次是最严格的保证，也是最难实现的。恰好处理一次语义不仅仅意味着没有事件丢失，还意味着针对每一个数据，内部状态仅仅更新一次。
-
+- **AT-MOST-ONCE（最多一次）** - 当任务故障时，最简单的做法是什么都不干，既不恢复丢失的状态，也不重播丢失的数据。At-most-once 语义的含义是最多处理一次事件。例如：UDP，不提供任何一致性保障
+- **AT-LEAST-ONCE（至少一次）** - 在大多数的真实应用场景，我们希望不丢失事件。这种类型的保障称为at-least-once，意思是所有的事件都得到了处理，而一些事件还可能被处理多次。
+- **EXACTLY-ONCE（精确一次）** - 恰好处理一次是最严格的保证，也是最难实现的。恰好处理一次语义不仅仅意味着没有事件丢失，还意味着针对每一个数据，内部状态仅仅更新一次。
 
 端到端 exactly once
     1. 内部保证——checkpoint（分布式异步快照算法）
@@ -375,46 +327,9 @@ Flink 中的状态 # 类似本地变量
 1. 幂等写入 ： 是说一个操作，可以重复执行很多次，但只导致一次结果更改，也就是说，后面再重复执行就不起作用了 
 2. 事务写入 ： 应用程序中一系列严密的操作，所有操作必须成功完成，否则在每个操作中所作的所有更改都会被撤消（ACID）；具有原子性：一个事务中的一系列的操作要么全部成功，要么一个都不做
 	实现： 1. 预写日志	2. 两阶段提交
-```
-
-- Flink 与 Kafka  端到端状态一致性的保证
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406163826892.png)
 
 
-# Flink CEP
+## Reference
 
-```
-复杂事件处理 Complex Event Processing CEP
-    
-Pattern API # 处理事件的规则，被叫做“模式” Pattern
-	1. 个体模式 Individual Patterns # 单例. 循环
-	2. 组合模式 Combining Patterns ，也叫模式序列
-	3. 模式组 Groups of patterns
-
-模式序列
-	1. 严格近邻 Strict Contiguity
-	2. 宽松近邻 Relaxed Contiguity
-	3. 非确定性宽松近邻 Non Deterministic Relaxed Contiguity
-	
-步骤
-	1. 定义pattern
-	2. 将pattern应用到流上
-	3. 从流中提取数据
-```
-
-- CEP 特点
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406172902379.png)
-
-- 模式序列
-
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406173023769.png)
-![](https://homjay.oss-cn-shanghai.aliyuncs.com/image-20220406202605911.png)
-
-
-
-## Refer
-
-- [本地模式安装 | Apache Flink](https://nightlies.apache.org/flink/flink-docs-master/zh/docs/try-flink/local_installation/)
+- [本地模式安装|Apache Flink](https://nightlies.apache.org/flink/flink-docs-master/zh/docs/try-flink/local_installation/)
 - [Apache Flink Documentation | Apache Flink](https://flink.apache.org/zh/)

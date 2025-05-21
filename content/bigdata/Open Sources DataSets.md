@@ -1,11 +1,10 @@
 ---
-title: DataSets
-tags:
-  - database
-  - dataset
-date: 2024-07-05
-draft: 
+title: Open Sources DataSets
 description: 大数据数据集
+tags:
+  - datasets
+date: 2024-07-05
+draft: false
 ---
 > [BigData Guide Website](https://hao.199it.com/) All type of data tools
 ### Open Dataset

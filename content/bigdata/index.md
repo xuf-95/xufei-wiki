@@ -18,10 +18,10 @@ date: 2025-03-04
 >
 >> [!voc] > [[Data Integration|Data Integration]]
 >> Catalog 
+>> - [[Flink CDC]]
 >> - [[Apache Kafka]]
 >> - [[Apache Pulsar]]
 >> - [[Apache Airflow]]
->> - [[Apache DolphinScheduler]]
 >> - [[Apache Flume]]
 ***
 > [!column]
@@ -58,15 +58,13 @@ date: 2025-03-04
 >> - [[Bigdata Paper]]
 >> - [[Bigdata Product & Tools]]
 >> - [[Data Build]]
->
+
+***
 >> [!forme] > [[Big Data Concepts]] 
 >> Catalog 
 >> - [[CDC（Change-Data-Capture）]]
 >> - [[MMP（Massively-Parallel-Processing）]]
 >> - [[DCMM]]
-
-***
-
 
 <!-- <!DOCTYPE html>
 <html>

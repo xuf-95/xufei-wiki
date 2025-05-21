@@ -3,13 +3,14 @@ title: Data Visual
 tags:
   - Visual
   - BI
-draft:
+date: 2023-10-23
 ---
 ![[数据分析价值链全景图 小红书.jpg]]
 
 > “Data visualization is the creation and study of the visual representation of data”  -- wikipedia
 
 ### Data Visual of People
+
 - [Visual Cinnamon](https://www.visualcinnamon.com/portfolio/) # Bringing Your Data to Life
 - [Geekplux](https://geekplux.com/) a software engineer and data visualization enthusiast
 

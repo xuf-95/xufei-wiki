@@ -36,20 +36,21 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
+    Component.DesktopOnly(Component.TableOfContents()),
     Component.DesktopOnly(Component.Explorer()),
     // Component.PageTitle(),
     // Component.MobileOnly(Component.Spacer()),
     // Component.Search(),
     // // Component.Darkmode(),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Posts",
-        limit: 4,
-        filter: (f) =>
-          f.slug!.startsWith("bigdata/") && f.slug! !== "bigdata/index" && !f.frontmatter?.noindex,
-        linkToMore: "bigdata/" as SimpleSlug,
-      }),
-    ),
+    // Component.DesktopOnly(
+    //   Component.RecentNotes({
+    //     title: "Recent Posts",
+    //     limit: 4,
+    //     filter: (f) =>
+    //       f.slug!.startsWith("bigdata/") && f.slug! !== "bigdata/index" && !f.frontmatter?.noindex,
+    //     linkToMore: "bigdata/" as SimpleSlug,
+    //   }),
+    // ),
     // Component.DesktopOnly(
     //   Component.RecentNotes({
     //     title: "Recent Notes",
@@ -70,7 +71,7 @@ export const defaultContentPageLayout: PageLayout = {
       },
     }),
     Component.Backlinks(),
-    Component.DesktopOnly(Component.TableOfContents()),
+
 
     // Component.DesktopOnly(Component.TableOfContents()),
     // Component.ArticleTitle(),
@@ -90,6 +91,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     // Component.DesktopOnly(Component.Explorer()),
     Component.MobileOnly(Component.Spacer()),
+    
   ],
   right: [
   ],

@@ -7,8 +7,10 @@ tags:
 date: 
 draft:
 ---
+***
 > [!info] **Apache Flink** is a framework and distributed processing engine for stateful computations over _unbounded_ and _bounded_ data streams. Flink has been designed to run in _all common cluster environments_, perform computations at _in-memory_ speed and at _any scale_.
-## RoadMap
+
+<!-- ## RoadMap
 
 1. [[Apache Flink 介绍]]
 2. [[Flink 编程模型]]
@@ -19,11 +21,24 @@ draft:
 7. [[Flink DataSet API]]
 8. [[Flink Table API &SQL]]
 9. [[Flink 部署与应用]]
-10. [[Flink 运维 & 监控与性能优化]]
+10. [[Flink 运维 & 监控与性能优化]] -->
 
 ## Release Version
 
-[Flink 1.20](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.20/)， [Flink 1.19](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.19/)， [Flink 1.18](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.18/)， [Flink 1.17](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.17/)， [Flink 1.16](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.16/)， [Flink 1.15](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.15/)， [Flink 1.14](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.14/)， [Flink 1.13](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.13/)， [Flink 1.12](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.12/)， [Flink 1.11](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.11/)， [Flink 1.10](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.10/)， [Flink 1.9](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.9/)， [Flink 1.8](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.8/)，或者 [Flink 1.7](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.7/)
+- [Flink 1.20](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.20/)
+- [Flink 1.19](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.19/)
+- [Flink 1.18](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.18/) 
+- [Flink 1.17](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.17/)
+- [Flink 1.16](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.16/)
+- [Flink 1.15](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.15/)
+- [Flink 1.14](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.14/)
+- [Flink 1.13](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.13/)
+- [Flink 1.12](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.12/)
+- [Flink 1.11](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.11/)
+- [Flink 1.10](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.10/)
+- [Flink 1.9](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.9/)
+- [Flink 1.8](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.8/)
+- [Flink 1.7](https://nightlies.apache.org/flink/flink-docs-release-1.20/zh/release-notes/flink-1.7/)
 
 ## Resources
 
@@ -38,7 +53,7 @@ draft:
 - [GitHub - zhp8341/flink-streaming-platform-web: 基于flink的实时流计算web平台](https://github.com/zhp8341/flink-streaming-platform-web)
 - [GitHub - apache/flink-training: Apache Flink Training Excercises](https://github.com/apache/flink-training)
 - [GitHub - apache/flink-playgrounds: Apache Flink Playgrounds](https://github.com/apache/flink-playgrounds)
-- [GitHub - ververica/sql-training](https://github.com/ververica/sql-training) : <Public archive on Nov 27, 2021>  ** This repository provides a training for Flink's SQL API.**
+- [GitHub - ververica/sql-training](https://github.com/ververica/sql-training) : <Public archive on Nov 27, 2021>  _**This repository provides a training for Flink's SQL API.**_
 
 ### Flink Glossary
 

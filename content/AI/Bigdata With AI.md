@@ -28,7 +28,7 @@ Databases with AI capabilities combine traditional storage and querying function
 
 ![[vanna.png]]
 
--[supersonic](https://github.com/tencentmusic/supersonic) is the next-generation AI+BI platform that unifies Chat BI (powered by LLM) and Headless BI (powered by semantic layer) paradigms. This unification ensures that Chat BI has access to the same curated and governed semantic data models as traditional BI. Furthermore, the implementation of both paradigms benefit from each other:
+- [supersonic](https://github.com/tencentmusic/supersonic) is the next-generation AI+BI platform that unifies Chat BI (powered by LLM) and Headless BI (powered by semantic layer) paradigms. This unification ensures that Chat BI has access to the same curated and governed semantic data models as traditional BI. Furthermore, the implementation of both paradigms benefit from each other:
 
   - Chat BI's Text2SQL gets augmented with context-retrieval from semantic models.
   - Headless BI's query interface gets extended with natural language API.
