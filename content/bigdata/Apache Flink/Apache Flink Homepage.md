@@ -4,8 +4,8 @@ aliases:
 tags:
   - bigdata
   - flink
-date: 
-draft:
+date: 2023-02-10
+draft: true
 ---
 ***
 > [!info] **Apache Flink** is a framework and distributed processing engine for stateful computations over _unbounded_ and _bounded_ data streams. Flink has been designed to run in _all common cluster environments_, perform computations at _in-memory_ speed and at _any scale_.
